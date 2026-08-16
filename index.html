@@ -118,6 +118,9 @@ nav.solid .brand{color:#fff}
 }
 nav.solid .nav-links a{color:rgba(247,244,236,0.9)}
 .nav-links a:hover{border-bottom-color:var(--brass);color:var(--brass)}
+/* the section you are currently reading */
+.nav-links a.current{border-bottom-color:var(--brass);color:var(--brass)}
+nav.solid .nav-links a.current{color:var(--brass)}
 
 /* language */
 .lang{position:relative}
@@ -1301,8 +1304,10 @@ document.addEventListener('click',e=>{
 });
 
 const FLAGS={en:'🇬🇧',ar:'🇦🇪',pt:'🇧🇷',fr:'🇫🇷',tr:'🇹🇷',hi:'🇮🇳',zh:'🇨🇳'};
+let cur='en';
 function setLang(code){
  const t=T[code];if(!t)return;
+ cur=code;
  document.querySelectorAll('[data-i18n]').forEach(el=>{
   const k=el.getAttribute('data-i18n');
   if(t[k]!==undefined)el.innerHTML=t[k];
@@ -1322,12 +1327,48 @@ function setLang(code){
  lw.classList.remove('open');
  lw.querySelector('.lang-btn').setAttribute('aria-expanded','false');
  saveLang(code);
+ applyTitle();
 }
 
 const nav=document.getElementById('nav');
 const onScroll=()=>nav.classList.toggle('solid',window.scrollY>60);
 window.addEventListener('scroll',onScroll,{passive:true});
 onScroll();
+
+/* ---- Tab title follows the section you are reading ----
+   At the top it shows the full site title. Once you reach a section
+   it becomes "Origin | Olga Mae", and it follows the chosen language. */
+const SECTIONS=[['about','n_about'],['region','n_region'],['sourcing','n_sourcing'],
+                ['process','n_process'],['gallery','n_gallery'],['contact','n_contact']];
+const FULL_TITLE='Olga Mae | Brazilian Arabica Coffee Sourcing · Sul de Minas, Minas Gerais';
+let activeSection=null;
+
+function applyTitle(){
+ const t=T[cur]||T.en;
+ if(!activeSection){document.title=FULL_TITLE;return}
+ const pair=SECTIONS.find(s=>s[0]===activeSection);
+ const name=pair&&t[pair[1]]?t[pair[1]].replace(/<[^>]*>/g,''):'';
+ document.title=name?name+' | Olga Mae':FULL_TITLE;
+ document.querySelectorAll('.nav-links a').forEach(a=>
+  a.classList.toggle('current',a.getAttribute('href')==='#'+activeSection));
+}
+
+function initSectionTitles(){
+ if(!('IntersectionObserver' in window))return;
+ const seen=new Map();
+ const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>seen.set(e.target.id,e.intersectionRatio));
+  let best=null,bestRatio=0;
+  seen.forEach((ratio,id)=>{if(ratio>bestRatio){bestRatio=ratio;best=id}});
+  const next=(window.scrollY<200)?null:(bestRatio>0.25?best:activeSection);
+  if(next!==activeSection){activeSection=next;applyTitle()}
+ },{threshold:[0,0.25,0.5,0.75,1]});
+ SECTIONS.forEach(([id])=>{const el=document.getElementById(id);if(el)io.observe(el)});
+ window.addEventListener('scroll',()=>{
+  if(window.scrollY<200&&activeSection!==null){activeSection=null;applyTitle()}
+ },{passive:true});
+}
+initSectionTitles();
 
 /* Remember the visitor's language across refreshes and navigation.
    First visit falls back to the browser's own language, then English. */
