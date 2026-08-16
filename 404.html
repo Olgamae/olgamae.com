@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Page not found | Olga Mae</title>
+<meta name="robots" content="noindex,follow"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&family=Inter:wght@300;400&display=swap" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&family=Inter:wght@300;400&display=swap"/></noscript>
+<style>
+:root{
+ --forest:#2f3b2e;--cream:#f7f4ec;--brass:#bd9f6e;
+ --serif:'Cormorant Garamond',Georgia,serif;
+ --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+body{
+ font-family:var(--sans);font-weight:300;line-height:1.75;
+ color:var(--cream);min-height:100vh;
+ display:flex;align-items:center;justify-content:center;text-align:center;
+ padding:40px 22px;
+ background:linear-gradient(rgba(28,32,26,0.84),rgba(22,26,21,0.90)),
+            url("/drying-patio.jpg") center/cover no-repeat fixed;
+ -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:560px}
+.brand{
+ font-family:var(--serif);font-size:1.5rem;font-weight:700;
+ letter-spacing:0.035em;color:#fff;margin-bottom:48px;
+ display:inline-block;text-decoration:none;
+}
+.brand em{font-style:italic;font-weight:700}
+.code{
+ font-family:var(--serif);font-size:clamp(3.4rem,9vw,5.4rem);
+ font-weight:300;color:var(--brass);line-height:1;margin-bottom:14px;
+}
+h1{
+ font-family:var(--serif);font-weight:300;line-height:1.16;
+ font-size:clamp(1.8rem,3.8vw,2.6rem);margin-bottom:18px;
+}
+p{color:rgba(247,244,236,0.75);max-width:44ch;margin:0 auto}
+.actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:38px}
+.btn{
+ display:inline-block;padding:14px 30px;font-size:0.76rem;
+ letter-spacing:0.13em;text-transform:uppercase;text-decoration:none;
+ border:1px solid transparent;border-radius:2px;transition:.32s;
+}
+.btn-solid{background:var(--brass);color:#26301f;border-color:var(--brass)}
+.btn-solid:hover{background:transparent;color:var(--brass)}
+.btn-line{border-color:rgba(247,244,236,0.42);color:var(--cream)}
+.btn-line:hover{border-color:var(--cream);background:rgba(247,244,236,0.08)}
+@media(prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}body{background-attachment:scroll}}
+@media(max-width:760px){body{background-attachment:scroll}}
+</style>
+</head>
+<body>
+ <div class="wrap">
+  <a href="/" class="brand"><em>Olga</em> Mae</a>
+  <div class="code">404</div>
+  <h1>This page does not exist.</h1>
+  <p>The link may be out of date. Everything about our sourcing and coffees is on the main page.</p>
+  <div class="actions">
+   <a href="/" class="btn btn-solid">Back to Site</a>
+   <a href="/#contact" class="btn btn-line">Contact Us</a>
+  </div>
+ </div>
+</body>
+</html>
