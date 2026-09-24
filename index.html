@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Olga Mae | Brazilian Arabica Coffee Sourcing · Sul de Minas, Minas Gerais</title>
-<meta name="description" content="Olga Mae is a Brazilian coffee sourcing company based in Minas Gerais. We help international buyers source Arabica coffee from Sul de Minas. Commercial to specialty, with professional export execution."/>
+<meta name="description" content="Coffee producers and sourcing partners in Sul de Minas, Minas Gerais. We farm our own Arabica and source from partner producers for international buyers."/>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
 <link rel="canonical" href="https://olgamae.com/"/>
 <!-- All seven languages are served from this one URL via the switcher -->
@@ -22,20 +22,20 @@
 <meta property="og:url" content="https://olgamae.com/"/>
 <meta property="og:site_name" content="Olga Mae"/>
 <meta property="og:title" content="Olga Mae | Brazilian Arabica Coffee Sourcing"/>
-<meta property="og:description" content="We help international buyers source Arabica coffee from Sul de Minas, Minas Gerais. Commercial to specialty, with professional export execution."/>
+<meta property="og:description" content="Coffee producers and sourcing partners in Sul de Minas, Minas Gerais. We farm and we source, for international buyers. Commercial to specialty, FOB Santos."/>
 <meta property="og:image" content="https://olgamae.com/share-card.jpg"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:locale" content="en_GB"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Olga Mae | Brazilian Arabica Coffee Sourcing"/>
-<meta name="twitter:description" content="Arabica from Sul de Minas, Minas Gerais. Commercial to specialty, with professional export execution."/>
+<meta name="twitter:description" content="Coffee producers and sourcing partners, Sul de Minas, Minas Gerais. Commercial to specialty, FOB Santos."/>
 <meta name="twitter:image" content="https://olgamae.com/share-card.jpg"/>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Olga Mae",
 "url":"https://olgamae.com/","logo":"https://olgamae.com/favicon.svg",
 "image":"https://olgamae.com/share-card.jpg",
-"description":"Brazilian coffee sourcing company based in Minas Gerais, helping international buyers source Arabica from Sul de Minas.",
+"description":"Coffee producers and sourcing partners based in Sul de Minas, Minas Gerais. We farm our own Arabica and source from partner producers for international buyers.",
 "email":"info@olgamae.com","telephone":"+5535992120259",
 "address":{"@type":"PostalAddress","addressRegion":"Minas Gerais","addressCountry":"BR"},
 "areaServed":["AE","SA","QA","OM","KW","BH","PL","DE","IT","US","CN","IN","TR"]}
@@ -485,7 +485,7 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
 
 <!-- NAV -->
 <nav id="nav">
- <a href="#" class="brand"><em>Olga</em> Mae</a>
+ <a href="/" class="brand" id="brandLink"><em>Olga</em> Mae</a>
  <div class="nav-right">
   <ul class="nav-links" id="navLinks">
    <li><a href="#about" data-i18n="n_about" onclick="closeMenu()">About</a></li>
@@ -751,6 +751,19 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
 <script>
 /* Always open at the hero on reload; #hash deep links still work. */
 if('scrollRestoration' in history){history.scrollRestoration='manual';}
+/* Tidy URL: drop a bare "#" left over from an old logo click. */
+if(location.hash==='' && location.href.endsWith('#')){
+  history.replaceState(null,'',location.pathname+location.search);
+}
+/* Logo scrolls to the top instead of navigating, and keeps the URL clean. */
+document.addEventListener('DOMContentLoaded',function(){
+  var bl=document.getElementById('brandLink');
+  if(bl){bl.addEventListener('click',function(e){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    history.replaceState(null,'',location.pathname+location.search);
+  });}
+});
 const T = {
  en:{code:'EN',rtl:false,
   n_about:'About',n_region:'Origin',n_sourcing:'Sourcing',n_process:'Process',n_gallery:'Gallery',n_contact:'Contact',
