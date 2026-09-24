@@ -749,6 +749,8 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
 </section>
 
 <script>
+/* Always open at the hero on reload; #hash deep links still work. */
+if('scrollRestoration' in history){history.scrollRestoration='manual';}
 const T = {
  en:{code:'EN',rtl:false,
   n_about:'About',n_region:'Origin',n_sourcing:'Sourcing',n_process:'Process',n_gallery:'Gallery',n_contact:'Contact',
