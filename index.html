@@ -452,7 +452,10 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
   gap:26px;padding:60px 34px;transition:right .4s cubic-bezier(.4,0,.2,1);
  }
  .nav-links.open{right:0}
- .nav-links a,nav.solid .nav-links a{color:var(--cream);font-size:1.05rem;padding:8px 0}
+ .nav-links a,nav.solid .nav-links a{color:var(--cream);font-size:1.05rem;padding:12px 0}
+ /* iOS zooms the page when an input font is under 16px */
+ .field input,.field textarea{font-size:16px;padding:13px 14px}
+ .form .btn{padding:16px 30px}
  .nav-right{gap:14px}
  .cards{grid-template-columns:1fr}
  .form-grid{grid-template-columns:1fr}
@@ -477,6 +480,13 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
 /* iOS and Android ignore background-attachment:fixed, so fall back to scroll */
 @media(hover:none),(max-width:900px){
  .about-bg,.band,.sun-dark,.contact{background-attachment:scroll}
+}
+/* Touch targets: Apple and WCAG both ask for 44px minimum. */
+@media(hover:none){
+ .lang-opt{padding:13px 16px}
+ .lang-btn{padding:10px 14px}
+ .nav-links a{padding-top:10px;padding-bottom:10px}
+ .field input,.field textarea{font-size:16px;padding:13px 14px}
 }
 </style>
 </head>
