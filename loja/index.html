@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<!-- PAUSA: remova a linha abaixo quando o site for ao ar / remove the line below when going live -->
+<meta name="robots" content="noindex,nofollow"/>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Olga Mae | Café de qualidade com origem rastreável</title>
 <meta name="description" content="Cafés selecionados de produtores da nossa região para consumidores e empresas. Qualidade, consistência e rastreabilidade da origem à xícara.">
@@ -98,6 +100,24 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;max-w
 .fl input:focus{outline:none;border-color:var(--clay);background:#fff}
 .fl input.bad{border-color:#b4442c;background:#fdf4f2}
 .coerr{font-size:.82rem;color:#b4442c;margin:4px 0 10px;min-height:1em}
+
+.soon{position:fixed;inset:0;z-index:9999;background:var(--bone);
+ display:grid;place-items:center;padding:30px;text-align:center;overflow:auto}
+.soon[hidden]{display:none}
+.soon-in{max-width:460px}
+.soon-mark{width:58px;height:58px;margin:0 auto 20px;border:1px solid var(--clay);border-radius:50%;
+ display:grid;place-items:center;font-family:var(--serif);font-size:1.04rem;letter-spacing:.06em;color:var(--clay)}
+.soon-brand{font-family:var(--serif);font-size:1.34rem;letter-spacing:.24em;color:var(--espresso)}
+.soon-rule{width:52px;height:1px;background:var(--clay);margin:20px auto 26px}
+.soon-h{font-family:var(--serif);font-weight:300;font-size:clamp(2.1rem,6vw,3rem);
+ color:var(--espresso);margin:0 0 18px;line-height:1.1}
+.soon-p{font-size:.97rem;color:var(--muted);line-height:1.7;margin:0 auto 12px;max-width:40ch}
+.soon-en{font-size:.88rem;opacity:.78}
+.soon-btn{display:inline-block;margin-top:24px;padding:14px 30px;background:var(--espresso);color:var(--bone);
+ text-decoration:none;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;border-radius:2px;transition:.3s}
+.soon-btn:hover{background:var(--clay)}
+.soon-foot{margin-top:38px;font-size:.78rem;color:var(--muted);line-height:1.8}
+.soon-foot a{color:var(--clay);text-decoration:none}
 .ostrip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
 .ostrip figure{margin:0;aspect-ratio:1/1;overflow:hidden;border:1px solid var(--line)}
 .ostrip img{width:100%;height:100%;object-fit:cover;display:block}
@@ -261,6 +281,25 @@ footer{background:var(--espresso);color:#9E8F7B;padding:50px 0 28px;font-size:13
 </style>
 </head>
 <body>
+<!-- ===================== TELA DE "EM BREVE" =====================
+     Para colocar a loja no ar: mude LIVE para true (no script, logo abaixo
+     de FREE_SHIPPING) e remova a meta robots noindex lá em cima.
+     To launch: set LIVE to true and remove the noindex meta tag above.
+============================================================== -->
+<div id="soon" class="soon" hidden>
+  <div class="soon-in">
+    <div class="soon-mark">OM</div>
+    <div class="soon-brand">OLGA MAE</div>
+    <div class="soon-rule"></div>
+    <h1 class="soon-h">Em breve</h1>
+    <p class="soon-p">Estamos preparando nossa loja: café do Sul de Minas, torrado sob encomenda e enviado direto para você.</p>
+    <p class="soon-p soon-en">Our shop is on its way: coffee from Sul de Minas, roasted to order and sent straight to you.</p>
+    <a class="soon-btn" href="https://wa.me/5535992120259?text=Ol%C3%A1%2C%20Olga%20Mae!%20Quero%20saber%20quando%20a%20loja%20abrir." target="_blank" rel="noopener">Avise-me quando abrir</a>
+    <div class="soon-foot">Sul de Minas, Minas Gerais · Brasil<br/>
+      <a href="https://olgamae.com">olgamae.com</a> · info@olgamae.com</div>
+  </div>
+</div>
+
 
 <div class="announce" data-t="announce"></div>
 
@@ -541,6 +580,12 @@ footer{background:var(--espresso);color:#9E8F7B;padding:50px 0 28px;font-size:13
 
 <script>
 /* ============ EDITE AQUI / EDIT HERE ============ */
+/* ======== LIGA/DESLIGA A LOJA ========
+   false = mostra a tela "Em breve"   |   true = loja no ar
+   false = shows the "coming soon" screen |  true = shop is live
+   ===================================== */
+const LIVE = false;
+
 const FREE_SHIPPING = 0;   /* 0 = desativado. Defina o valor (ex. 180) quando souber o custo real do frete. */
 const WHATSAPP = '5535992120259';
 
@@ -740,6 +785,10 @@ function setLang(l){
   document.getElementById('btPT').className = l === 'pt' ? 'on' : '';
   document.getElementById('btEN').className = l === 'en' ? 'on' : '';
   document.querySelectorAll('[data-t]').forEach(el => { el.innerHTML = t(el.dataset.t); });
+  if(!LIVE){
+    var soon = document.getElementById('soon');
+    if(soon){ soon.hidden = false; document.body.style.overflow = 'hidden'; }
+  }
   loadCart();
   renderProducts(); renderCart();
   try{ localStorage.setItem('om_lang', l); }catch(e){}
