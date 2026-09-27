@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Olga Mae | Café de qualidade com origem rastreável</title>
+<meta name="description" content="Cafés selecionados de produtores da nossa região para consumidores e empresas. Qualidade, consistência e rastreabilidade da origem à xícara.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<link rel="canonical" href="https://olgamae.com/loja/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://olgamae.com/loja/"/>
+<meta property="og:site_name" content="Olga Mae"/>
+<meta property="og:image" content="https://olgamae.com/loja/share-loja.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta property="og:locale:alternate" content="en_GB"/>
+<meta name="twitter:title" content="Olga Mae | Café de qualidade com origem rastreável"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://olgamae.com/loja/share-loja.jpg"/>
+
+<meta property="og:title" content="Olga Mae | Café de qualidade com origem rastreável">
+<meta property="og:description" content="Cafés selecionados de produtores da nossa região para consumidores e empresas. Qualidade, consistência e rastreabilidade da origem à xícara.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bone:#FBF7F0; --paper:#FFFDF9; --sand:#F0E8DA; --line:#E0D5C2;
+  --espresso:#2A1D15; --bark:#4A3626; --clay:#A65B3A; --terra:#C4703F;
+  --moss:#5E7355; --sage:#8DA37F; --gold:#B8873B; --gold-l:#D4A855;
+  --muted:#8A7A68;
+  --serif:'Fraunces',Georgia,serif; --sans:'Karla',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bone);color:var(--espresso);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:400}
+img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 26px}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.28;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E")}
+main,header,footer{position:relative;z-index:2}
+.om{display:grid;place-items:center;border-radius:50%;border:1.5px solid currentColor;font-family:var(--serif);letter-spacing:.02em;line-height:1;flex-shrink:0}
+
+.announce{background:var(--espresso);color:#E8DCC8;font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;text-align:center;padding:9px 16px}
+.announce b{color:var(--gold-l);font-weight:600}
+
+header{position:sticky;top:0;z-index:60;background:rgba(251,247,240,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1200px;margin:0 auto;padding:13px 26px}
+.brand{text-decoration:none;display:flex;align-items:center;gap:12px;color:var(--espresso)}
+.brand .om{width:40px;height:40px;font-size:15px;color:var(--clay)}
+.brand .bn{font-family:var(--serif);font-size:21px;letter-spacing:.2em;font-weight:500;line-height:1.1}
+.brand .bs{font-size:8.5px;letter-spacing:.28em;color:var(--muted);text-transform:uppercase;margin-top:3px}
+.navlinks{display:flex;gap:24px}
+.navlinks a{color:var(--bark);text-decoration:none;font-size:13.5px;letter-spacing:.04em;position:relative;padding:3px 0;white-space:nowrap}
+.navlinks a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1.5px;background:var(--clay);transition:.25s}
+.navlinks a:hover::after{width:100%}
+.navlinks a.biz{color:var(--clay);font-weight:600}
+.navright{display:flex;align-items:center;gap:12px}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{border:0;background:transparent;padding:7px 12px;font:600 11.5px var(--sans);letter-spacing:.1em;color:var(--muted);cursor:pointer}
+.lang button.on{background:var(--espresso);color:var(--bone)}
+.cartbtn{background:none;border:1.5px solid var(--espresso);color:var(--espresso);border-radius:999px;padding:9px 18px;font:600 13px var(--sans);letter-spacing:.06em;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.cartbtn:hover{background:var(--espresso);color:var(--bone)}
+.cartbtn b{background:var(--clay);color:#fff;border-radius:999px;min-width:20px;height:20px;display:grid;place-items:center;font-size:11.5px}
+@media(max-width:1150px){.navlinks{display:none}}
+
+.hero{background:var(--paper);border-bottom:1px solid var(--line);overflow:hidden}
+.hero-in{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;max-width:1200px;margin:0 auto;padding:76px 26px 84px}
+.kicker{display:flex;align-items:center;gap:12px;font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--clay);margin-bottom:24px}
+.kicker::before{content:"";width:38px;height:1px;background:var(--clay)}
+.hero h1{font-size:clamp(38px,5.1vw,64px);line-height:1.05;font-weight:300;letter-spacing:-.015em}
+.hero h1 em{font-style:italic;color:var(--clay)}
+.hero .sub{font-size:17px;color:var(--bark);max-width:490px;margin-top:24px;font-weight:300}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:15px 30px;border-radius:2px;text-decoration:none;font:600 13.5px var(--sans);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;border:1.5px solid transparent;transition:.22s}
+.btn-dark{background:var(--espresso);color:var(--bone)} .btn-dark:hover{background:var(--bark)}
+.btn-out{border-color:var(--espresso);color:var(--espresso)} .btn-out:hover{background:var(--espresso);color:var(--bone)}
+.btn-clay{background:var(--clay);color:#fff} .btn-clay:hover{background:var(--terra)}
+.btn-lightout{border-color:rgba(255,255,255,.5);color:#fff} .btn-lightout:hover{background:#fff;color:var(--espresso)}
+.hero-art{position:relative;aspect-ratio:1/1.06;max-width:460px;margin-left:auto;width:100%}
+@media(max-width:940px){.hero-in{grid-template-columns:1fr;padding:54px 26px 62px}.hero-art{max-width:360px;margin:0 auto}}
+
+
+.co{position:fixed;z-index:60;left:50%;top:50%;transform:translate(-50%,-48%) scale(.98);
+ width:min(430px,92vw);background:var(--paper);border:1px solid var(--line);padding:26px;
+ opacity:0;visibility:hidden;transition:.24s;max-height:90vh;overflow:auto}
+.co.on{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}
+.coh{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.coh h3{font-family:var(--serif);font-weight:500;margin:0;font-size:1.22rem}
+.cop{margin:0 0 18px;font-size:.88rem;color:var(--muted);line-height:1.6}
+.fl{display:block;margin-bottom:13px}
+.fl span{display:block;font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.fl input{width:100%;font-family:var(--sans);font-size:16px;padding:12px 13px;
+ border:1px solid var(--line);background:var(--bone);color:var(--espresso);border-radius:2px}
+.fl input:focus{outline:none;border-color:var(--clay);background:#fff}
+.fl input.bad{border-color:#b4442c;background:#fdf4f2}
+.coerr{font-size:.82rem;color:#b4442c;margin:4px 0 10px;min-height:1em}
+.ostrip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.ostrip figure{margin:0;aspect-ratio:1/1;overflow:hidden;border:1px solid var(--line)}
+.ostrip img{width:100%;height:100%;object-fit:cover;display:block}
+.ostrip-cap{margin-top:14px;font-size:.8rem;font-style:italic;color:var(--muted)}
+.fresh{margin-top:14px;font-size:.74rem;letter-spacing:.09em;text-transform:uppercase;color:var(--clay)}
+.deliv{background:var(--sand);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:46px 0}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.dcard h4{font-family:var(--serif);font-weight:500;margin:0 0 7px;font-size:1.02rem}
+.dcard p{margin:0;font-size:.9rem;color:var(--muted);line-height:1.6}
+@media(max-width:760px){.ostrip,.dgrid{grid-template-columns:1fr}}
+.shot{margin:0;position:relative;overflow:hidden;border:1px solid var(--line);background:var(--sand)}
+.shot img{width:100%;height:100%;object-fit:cover;display:block}
+.shot figcaption{position:absolute;left:0;right:0;bottom:0;padding:10px 14px;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bone);background:linear-gradient(transparent,rgba(42,29,21,.72))}
+.slot{position:relative;background:repeating-linear-gradient(45deg,rgba(166,91,58,.045) 0 12px,transparent 12px 24px),var(--sand);border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:26px}
+.slot span{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--muted);max-width:230px;line-height:1.5}
+.slot::after{content:"";position:absolute;inset:9px;border:1px solid rgba(166,91,58,.16);pointer-events:none}
+
+.trust{background:var(--espresso);color:#DFD3BF}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:30px 26px}
+.tcell{padding:0 14px;border-right:1px solid rgba(255,255,255,.12)}
+.tcell:last-child{border:0}
+.tcell b{display:block;font-family:var(--serif);font-size:17px;color:var(--gold-l);font-weight:400;margin-bottom:5px}
+.tcell span{font-size:13px;opacity:.85;font-weight:300;line-height:1.5}
+@media(max-width:860px){.trust .wrap{grid-template-columns:repeat(2,1fr);gap:24px}.tcell{border-right:0}}
+
+section{padding:90px 0}
+.shead{max-width:660px;margin-bottom:48px}
+.tag{display:flex;align-items:center;gap:11px;font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--clay);margin-bottom:15px}
+.tag::before{content:"";width:30px;height:1px;background:var(--clay)}
+h2{font-size:clamp(29px,3.9vw,45px);line-height:1.11;font-weight:300;letter-spacing:-.01em}
+h2 em{font-style:italic;color:var(--clay)}
+.lead{color:var(--bark);font-size:16.5px;margin-top:18px;font-weight:300}
+
+.story{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.story-in{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+.frame{padding:14px;background:var(--sand);border:1px solid var(--line)}
+.frame .slot{aspect-ratio:4/5}
+.frame .cap{text-align:center;font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);padding-top:12px}
+.pull{font-family:var(--serif);font-style:italic;font-size:clamp(19px,2.3vw,25px);line-height:1.42;color:var(--bark);margin:26px 0;padding-left:24px;border-left:2px solid var(--gold)}
+.story p{color:var(--bark);font-weight:300;font-size:16px;margin-bottom:15px}
+.sign{font-family:var(--serif);font-style:italic;font-size:18px;color:var(--clay);margin-top:22px}
+@media(max-width:940px){.story-in{grid-template-columns:1fr;gap:36px}}
+
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(292px,1fr));gap:30px}
+.pcard{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;transition:.25s}
+.pcard:hover{border-color:var(--clay);box-shadow:0 16px 44px rgba(42,29,21,.09);transform:translateY(-3px)}
+.pshot{width:100%;height:100%;object-fit:contain;display:block;mix-blend-mode:multiply}
+.pimg{position:relative;aspect-ratio:1/1.02;background:linear-gradient(160deg,#F4ECDD,#E7DBC6);display:grid;place-items:center;border-bottom:1px solid var(--line);overflow:hidden;padding:20px}
+.flag{position:absolute;top:0;left:0;background:var(--clay);color:#fff;font:700 9.5px var(--sans);letter-spacing:.16em;text-transform:uppercase;padding:7px 13px;z-index:3}
+.label{width:76%;max-width:225px;aspect-ratio:1/1.42;background:var(--paper);box-shadow:0 18px 40px rgba(42,29,21,.22);border:1px solid rgba(42,29,21,.08);display:flex;flex-direction:column;align-items:center;padding:15px 13px;text-align:center;position:relative}
+.label::before{content:"";position:absolute;inset:7px;border:1px solid rgba(184,135,59,.4);pointer-events:none}
+.label .lom{width:36px;height:36px;font-size:13px;color:var(--clay);margin-top:3px}
+.label .lwm{font-family:var(--serif);font-size:12.5px;letter-spacing:.28em;color:var(--espresso);margin-top:8px;font-weight:500}
+.label .lsub{font-size:6.6px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;margin-top:3px}
+.label .lhr{width:32px;height:1px;background:var(--gold);margin:8px 0}
+.label .lname{font-family:var(--serif);font-size:18px;line-height:1.12;color:var(--espresso)}
+.label .lorg{font-size:7.4px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:6px;padding:0 4px;line-height:1.5}
+.label .lnotes{font-family:var(--serif);font-style:italic;font-size:10.5px;color:var(--clay);margin-top:8px;line-height:1.35;padding:0 4px}
+.label .lspecs{display:flex;gap:5px;margin-top:auto;padding-top:8px;width:100%;justify-content:center;flex-wrap:wrap}
+.label .lspecs span{font-size:6.4px;letter-spacing:.1em;text-transform:uppercase;color:var(--bark);background:rgba(184,135,59,.13);padding:3px 6px;border-radius:2px}
+.label .lfoot{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin-top:8px;padding-top:7px;border-top:1px solid rgba(42,29,21,.1)}
+.label .lw{font-family:var(--serif);font-size:13.5px;color:var(--espresso)}
+.label .ld{font-size:6.2px;letter-spacing:.09em;color:var(--muted);text-transform:uppercase;text-align:right;line-height:1.5}
+.pricetag{position:absolute;right:15px;bottom:15px;background:var(--espresso);color:var(--bone);font-family:var(--serif);font-size:18px;padding:7px 14px;box-shadow:0 8px 20px rgba(42,29,21,.28);z-index:3}
+.pbody{padding:24px;display:flex;flex-direction:column;gap:11px;flex:1}
+.pbody h3{font-size:21.5px;line-height:1.15}
+.pnotes{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--clay)}
+.pdesc{font-size:14.5px;color:var(--bark);font-weight:300;flex:1}
+.specs{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:11px 0;display:grid;gap:4px}
+.spec{display:flex;justify-content:space-between;gap:14px;font-size:12.5px}
+.spec dt{color:var(--muted);letter-spacing:.04em;white-space:nowrap}
+.spec dd{color:var(--bark);font-weight:500;text-align:right}
+.opts{display:flex;gap:8px;flex-wrap:wrap}
+.opt{font:500 12.5px var(--sans);border:1px solid var(--line);background:transparent;border-radius:2px;padding:8px 13px;cursor:pointer;color:var(--bark);transition:.18s}
+.opt.on{border-color:var(--espresso);background:var(--espresso);color:var(--bone)}
+.prow{display:flex;align-items:baseline;justify-content:space-between;margin-top:2px}
+.price{font-family:var(--serif);font-size:27px;color:var(--espresso)}
+.per{font-size:12.5px;color:var(--muted)}
+.add{background:var(--espresso);color:var(--bone);border:0;padding:15px;font:600 12.5px var(--sans);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:.2s}
+.add:hover{background:var(--clay)}
+
+/* B2B */
+.biz{background:var(--espresso);color:var(--bone)}
+.biz h2{color:var(--bone)} .biz h2 em{color:var(--gold-l)}
+.biz .lead{color:#D6C9B4}
+.bizgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:44px}
+.bizcard{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);padding:28px}
+.bizcard .ic{width:34px;height:34px;color:var(--gold-l);margin-bottom:14px}
+.bizcard h4{font-size:19px;color:var(--gold-l);margin-bottom:8px}
+.bizcard p{font-size:14.5px;color:#D6C9B4;font-weight:300}
+.bizfoot{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:38px;padding-top:32px;border-top:1px solid rgba(255,255,255,.14)}
+.bizfoot p{color:#D6C9B4;font-weight:300;font-size:15.5px;max-width:560px;margin:0}
+
+.origin{background:var(--paper);border-top:1px solid var(--line)}
+.ogrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px;margin-top:44px}
+.ocard{padding:28px;background:var(--bone);border:1px solid var(--line)}
+.ocard .ic{width:36px;height:36px;margin-bottom:14px;color:var(--clay)}
+.ocard h4{font-size:18.5px;margin-bottom:8px}
+.ocard p{font-size:14.5px;color:var(--bark);font-weight:300}
+
+.club{background:var(--sand);border-top:1px solid var(--line)}
+.club-in{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}
+.club p{color:var(--bark);font-weight:300;font-size:16px;margin-top:15px}
+.perks{display:grid;gap:11px;margin-top:24px}
+.perk{display:flex;gap:12px;font-size:14.5px;color:var(--bark);font-weight:300}
+.perk b{color:var(--clay);font-family:var(--serif);font-size:17px}
+.club .slot{aspect-ratio:4/3;background:var(--paper)}
+@media(max-width:940px){.club-in{grid-template-columns:1fr;gap:34px}}
+
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:21px 0}
+summary{cursor:pointer;font-family:var(--serif);font-size:18.5px;color:var(--espresso);list-style:none;display:flex;justify-content:space-between;gap:20px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--clay);font-size:23px;font-family:var(--sans);font-weight:300}
+details[open] summary::after{content:"–"}
+details p{color:var(--bark);font-size:15px;font-weight:300;margin-top:13px;max-width:680px}
+
+.contact{background:var(--bone);border-top:1px solid var(--line);text-align:center}
+.contact .shead{margin:0 auto 36px;text-align:center}
+.contact .tag{justify-content:center} .contact .tag::before{display:none}
+.cbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+footer{background:var(--espresso);color:#9E8F7B;padding:50px 0 28px;font-size:13.5px}
+.fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:38px;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,.1)}
+.fgrid h5{font-family:var(--serif);color:var(--bone);font-size:16px;margin-bottom:13px;font-weight:400}
+.fgrid a{color:#B4A691;text-decoration:none;display:block;margin-bottom:8px}
+.fgrid a:hover{color:var(--gold-l)}
+.fbrand{display:flex;gap:13px;align-items:flex-start}
+.fbrand .om{width:44px;height:44px;font-size:16px;color:var(--gold-l)}
+.fbrand .bn{font-family:var(--serif);font-size:20px;letter-spacing:.2em;color:var(--bone)}
+.fbot{padding-top:20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr;gap:26px}}
+
+.ov{position:fixed;inset:0;background:rgba(42,29,21,.5);opacity:0;pointer-events:none;transition:.28s;z-index:80}
+.ov.on{opacity:1;pointer-events:auto}
+.drw{position:fixed;top:0;right:0;height:100%;width:420px;max-width:93vw;background:var(--bone);z-index:90;transform:translateX(103%);transition:.3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;box-shadow:-16px 0 50px rgba(42,29,21,.22)}
+.drw.on{transform:none}
+.dh{background:var(--espresso);color:var(--bone);padding:21px 24px;display:flex;justify-content:space-between;align-items:center}
+.dh h3{font-size:19px}
+.x{background:none;border:0;color:var(--bone);font-size:27px;cursor:pointer;line-height:1}
+.di{flex:1;overflow-y:auto;padding:20px 24px}
+.ci{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid var(--line)}
+.cthumb{width:48px;height:62px;background:var(--paper);border:1px solid var(--line);flex-shrink:0;display:grid;place-items:center}
+.cthumb .om{width:26px;height:26px;font-size:9px;color:var(--clay)}
+.ci .nm{font-family:var(--serif);font-size:15.5px;color:var(--espresso)}
+.ci .vr{font-size:12.5px;color:var(--muted)}
+.qty{display:flex;align-items:center;gap:10px;margin-top:8px}
+.qty button{width:26px;height:26px;border:1px solid var(--line);background:var(--paper);cursor:pointer;color:var(--bark);font-size:15px}
+.qty button:hover{border-color:var(--clay);color:var(--clay)}
+.ci .pr{margin-left:auto;font-family:var(--serif);font-size:15.5px;color:var(--espresso);white-space:nowrap}
+.mt{text-align:center;padding:58px 20px;color:var(--muted)}
+.mt .big{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--bark);margin-bottom:7px}
+.df{border-top:1px solid var(--line);padding:21px 24px;background:var(--paper)}
+.rw{display:flex;justify-content:space-between;font-size:14px;color:var(--bark);margin-bottom:7px}
+.rw.tt{font-family:var(--serif);font-size:21px;color:var(--espresso);margin:13px 0 5px}
+.shipn{font-size:12.5px;color:var(--clay);margin-bottom:15px}
+.wabtn{display:block;width:100%;background:var(--espresso);color:var(--bone);padding:16px;border:0;font:600 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.wabtn:hover{background:var(--clay)}
+.pnote{font-size:12px;color:var(--muted);text-align:center;margin-top:11px}
+.float{position:fixed;right:22px;bottom:22px;z-index:70;background:#25D366;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.22);text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="announce" data-t="announce"></div>
+
+<header>
+  <nav>
+    <a class="brand" href="#">
+      <div class="om">OM</div>
+      <div>
+        <div class="bn">OLGA MAE</div>
+        <div class="bs" data-t="brandSub"></div>
+      </div>
+    </a>
+    <div class="navlinks">
+      <a href="#historia" data-t="navStory"></a>
+      <a href="#loja" data-t="navShop"></a>
+      <a href="#empresas" class="biz" data-t="navBiz"></a>
+      <a href="#origem" data-t="navOrigin"></a>
+      <a href="#contato" data-t="navContact"></a>
+    </div>
+    <div class="navright">
+      <div class="lang">
+        <button id="btPT" onclick="setLang('pt')">PT</button>
+        <button id="btEN" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="cartbtn" onclick="openCart()"><span data-t="cart"></span> <b id="cartCount">0</b></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="hero">
+  <div class="hero-in">
+    <div>
+      <div class="kicker" data-t="heroKicker"></div>
+      <h1 data-t="heroH1"></h1>
+      <p class="sub" data-t="heroSub"></p>
+      <div class="hero-btns">
+        <a class="btn btn-dark" href="#loja" data-t="btnBuy"></a>
+        <a class="btn btn-out" href="#empresas" data-t="btnBiz"></a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 460 490" style="width:100%;height:100%">
+        <defs><clipPath id="rnd"><rect width="460" height="490" rx="3"/></clipPath>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F3E9D8"/><stop offset="100%" stop-color="#E7D9C1"/></linearGradient></defs>
+        <g clip-path="url(#rnd)">
+          <rect width="460" height="490" fill="url(#sky)"/>
+          <circle cx="330" cy="118" r="46" fill="#D9A855" opacity=".55"/>
+          <path d="M0 330 C70 268 118 300 172 258 C228 214 268 250 322 216 C372 186 420 208 460 190 L460 490 L0 490Z" fill="#8DA37F" opacity=".55"/>
+          <path d="M0 372 C64 322 122 348 180 310 C240 270 290 300 344 268 C392 240 428 254 460 240 L460 490 L0 490Z" fill="#5E7355" opacity=".75"/>
+          <path d="M0 424 C70 388 130 404 190 372 C252 340 300 362 356 336 C404 314 434 322 460 312 L460 490 L0 490Z" fill="#4A3626"/>
+          <g opacity=".9">
+            <path d="M243 470 C243 400 243 350 246 300" stroke="#3A2A1C" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M245 356 C214 340 196 316 190 288" stroke="#3A2A1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <path d="M245 320 C276 306 292 282 296 256" stroke="#3A2A1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <path d="M190 288 c-26 -6 -40 -22 -42 -40 22 -4 40 8 42 40Z" fill="#5E7355"/>
+            <path d="M296 256 c26 -8 38 -26 38 -44 -22 -2 -40 12 -38 44Z" fill="#5E7355"/>
+            <path d="M246 300 c-24 -12 -34 -32 -32 -52 22 2 36 18 32 52Z" fill="#6E8564"/>
+            <circle cx="216" cy="330" r="12" fill="#A63A2C"/><circle cx="212" cy="326" r="3.4" fill="#C6614F" opacity=".8"/>
+            <circle cx="272" cy="296" r="11" fill="#B7452F"/><circle cx="268" cy="292" r="3" fill="#CE6C55" opacity=".8"/>
+            <circle cx="238" cy="268" r="10" fill="#A63A2C"/><circle cx="235" cy="265" r="2.8" fill="#C6614F" opacity=".8"/>
+            <circle cx="285" cy="336" r="9" fill="#C0522F"/>
+            <circle cx="203" cy="380" r="10.5" fill="#A63A2C"/><circle cx="200" cy="376" r="3" fill="#C6614F" opacity=".8"/>
+          </g>
+        </g>
+        <rect x="1" y="1" width="458" height="488" rx="3" fill="none" stroke="#D8C9AE" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="trust"><div class="wrap">
+  <div class="tcell"><b data-t="p1t"></b><span data-t="p1d"></span></div>
+  <div class="tcell"><b data-t="p2t"></b><span data-t="p2d"></span></div>
+  <div class="tcell"><b data-t="p3t"></b><span data-t="p3d"></span></div>
+  <div class="tcell"><b data-t="p4t"></b><span data-t="p4d"></span></div>
+</div></div>
+
+<section class="story" id="historia">
+  <div class="wrap story-in">
+    <div class="frame">
+      <figure class="shot"><img src="producer.jpg" alt="Produtor de café no Sul de Minas, Minas Gerais" width="1300" height="867" loading="lazy"/><figcaption data-t="photoCap"></figcaption></figure>
+      <div class="cap" data-t="photoCap"></div>
+    </div>
+    <div>
+      <div class="tag" data-t="storyTag"></div>
+      <h2 data-t="storyH2"></h2>
+      <p data-t="storyP1"></p>
+      <p data-t="storyP2"></p>
+      <div class="pull" data-t="storyPull"></div>
+      <div class="sign">— Gabriella &amp; Timmy Prado</div>
+    </div>
+  </div>
+</section>
+
+<section id="loja">
+  <div class="wrap">
+    <div class="shead">
+      <div class="tag" data-t="shopTag"></div>
+      <h2 data-t="shopH2"></h2>
+      <p class="lead" data-t="shopLead"></p>
+    </div>
+    <div class="pgrid" id="products"></div>
+  </div>
+</section>
+
+<!-- B2B -->
+<section class="biz" id="empresas">
+  <div class="wrap">
+    <div class="shead">
+      <div class="tag" style="color:var(--gold-l)" data-t="bizTag"></div>
+      <h2 data-t="bizH2"></h2>
+      <p class="lead" data-t="bizLead"></p>
+    </div>
+    <div class="bizgrid">
+      <div class="bizcard">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 19h13a4 4 0 0 0 0-8h-1"/><path d="M4 11h12v8"/><path d="M7 3v3M11 3v3M15 3v3"/></svg>
+        <h4 data-t="b1h"></h4><p data-t="b1p"></p>
+      </div>
+      <div class="bizcard">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="4" y="7" width="16" height="13" rx="1.5"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/><path d="M9 12h6"/></svg>
+        <h4 data-t="b2h"></h4><p data-t="b2p"></p>
+      </div>
+      <div class="bizcard">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 9h18l-1.5 11h-15L3 9z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+        <h4 data-t="b3h"></h4><p data-t="b3p"></p>
+      </div>
+      <div class="bizcard">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 3v18M5 8h14M5 16h14"/><circle cx="12" cy="12" r="9"/></svg>
+        <h4 data-t="b4h"></h4><p data-t="b4p"></p>
+      </div>
+    </div>
+    <div class="bizfoot">
+      <a class="btn btn-clay" href="https://wa.me/5535992120259?text=Ol%C3%A1%2C%20Olga%20Mae!%20Gostaria%20de%20falar%20sobre%20caf%C3%A9%20para%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" data-t="btnTalkBiz"></a>
+    </div>
+  </div>
+</section>
+
+<section class="origin" id="origem">
+  <div class="wrap">
+    <div class="shead">
+      <div class="tag" data-t="origTag"></div>
+      <h2 data-t="origH2"></h2>
+      <p class="lead" data-t="origLead"></p>
+    </div>
+    <div class="ogrid">
+      <div class="ocard"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M20 6 9 17l-5-5"/></svg><h4 data-t="o1h"></h4><p data-t="o1p"></p></div>
+      <div class="ocard"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.3-4.3"/></svg><h4 data-t="o2h"></h4><p data-t="o2p"></p></div>
+      <div class="ocard"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 19h13a4 4 0 0 0 0-8h-1"/><path d="M4 11h12v8"/><path d="M7 3v3M11 3v3M15 3v3"/></svg><h4 data-t="o3h"></h4><p data-t="o3p"></p></div>
+      <div class="ocard"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M3 11h18M8 7V4h8v3"/></svg><h4 data-t="o4h"></h4><p data-t="o4p"></p></div>
+    </div>
+   <div class="ostrip">
+    <figure><img src="cherries.jpg" alt="Cerejas de café maduras no pé, Sul de Minas" width="1125" height="1500" loading="lazy"/></figure>
+    <figure><img src="blossom.jpg" alt="Cafezal em floração, Sul de Minas" width="1200" height="1200" loading="lazy"/></figure>
+    <figure><img src="sunset.jpg" alt="Fim de tarde na região produtora, Sul de Minas" width="1300" height="858" loading="lazy"/></figure>
+   </div>
+   <p class="ostrip-cap" data-t="origCap"></p>
+
+  </div>
+</section>
+
+<section class="club" id="clube">
+  <div class="wrap club-in">
+    <div>
+      <div class="tag" data-t="clubTag"></div>
+      <h2 data-t="clubH2"></h2>
+      <p data-t="clubP"></p>
+      <div class="perks">
+        <div class="perk"><b>·</b><span data-t="perk1"></span></div>
+        <div class="perk"><b>·</b><span data-t="perk2"></span></div>
+        <div class="perk"><b>·</b><span data-t="perk3"></span></div>
+      </div>
+      <div class="hero-btns"><a class="btn btn-clay" href="#loja" data-t="btnClub"></a></div>
+    </div>
+    <figure class="shot"><img src="drying-patio.jpg" alt="Terreiro de secagem de café, Sul de Minas" width="1200" height="1024" loading="lazy"/></figure>
+  </div>
+</section>
+
+<section style="background:var(--paper);border-top:1px solid var(--line)">
+  <div class="wrap faq">
+    <div class="shead"><div class="tag" data-t="faqTag"></div><h2 data-t="faqH2"></h2></div>
+    <details open><summary data-t="q1"></summary><p data-t="a1"></p></details>
+    <details><summary data-t="q2"></summary><p data-t="a2"></p></details>
+    <details><summary data-t="q3"></summary><p data-t="a3"></p></details>
+    <details><summary data-t="q4"></summary><p data-t="a4"></p></details>
+    <details><summary data-t="q5"></summary><p data-t="a5"></p></details>
+    <details><summary data-t="q6"></summary><p data-t="a6"></p></details>
+  </div>
+</section>
+
+
+<section class="deliv">
+ <div class="wrap dgrid">
+  <div class="dcard"><h4 data-t="d1h"></h4><p data-t="d1p"></p></div>
+  <div class="dcard"><h4 data-t="d2h"></h4><p data-t="d2p"></p></div>
+  <div class="dcard"><h4 data-t="d3h"></h4><p data-t="d3p"></p></div>
+ </div>
+</section>
+<section class="contact" id="contato">
+  <div class="wrap">
+    <div class="shead">
+      <div class="tag" data-t="contTag"></div>
+      <h2 data-t="contH2"></h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto" data-t="contLead"></p>
+    </div>
+    <div class="cbtns">
+      <a class="btn btn-dark" href="https://wa.me/5535992120259" target="_blank" rel="noopener">WhatsApp · 35 99212-0259</a>
+      <a class="btn btn-out" href="mailto:info@olgamae.com">info@olgamae.com</a>
+    <a class="btn btn-out" href="politicas.html" data-t="polLink"></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="fbrand">
+          <div class="om">OM</div>
+          <div><div class="bn">OLGA MAE</div>
+          <p style="margin-top:10px;max-width:300px;font-weight:300" data-t="footAbout"></p></div>
+        </div>
+      </div>
+      <div>
+        <h5 data-t="footNav"></h5>
+        <a href="#historia" data-t="navStory"></a><a href="#loja" data-t="navShop"></a><a href="#empresas" data-t="navBiz"></a><a href="#origem" data-t="navOrigin"></a>
+      </div>
+      <div>
+        <h5 data-t="navContact"></h5>
+        <a href="https://wa.me/5535992120259">WhatsApp · 35 99212-0259</a>
+        <a href="mailto:info@olgamae.com">info@olgamae.com</a>
+        <a href="https://olgamae.com" target="_blank" rel="noopener" data-t="footIntl"></a>
+      </div>
+    </div>
+    <div class="fbot">
+      <div>© <span id="yr"></span> Olga Mae · Sul de Minas, Minas Gerais, Brasil</div>
+      <div data-t="footPay"></div>
+    </div>
+  </div>
+</footer>
+
+<a class="float" href="https://wa.me/5535992120259" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5v-.5c-.1-.2-.7-1.6-.9-2.2-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.4 1.9.8 2.6.9 3.5.7.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg>
+</a>
+
+<div class="ov" id="ov" onclick="closeCart()"></div>
+<aside class="drw" id="drw">
+  <div class="dh"><h3 data-t="cartTitle"></h3><button class="x" onclick="closeCart()">×</button></div>
+  <div class="di" id="ditems"></div>
+  <div class="df">
+    <div class="rw"><span data-t="subtotal"></span><span id="sub">R$ 0,00</span></div>
+    <div class="rw"><span data-t="shipping"></span><span id="frete"></span></div>
+    <div class="rw tt"><span data-t="total"></span><span id="tot">R$ 0,00</span></div>
+    <div class="shipn" id="shipnote"></div>
+    <button class="wabtn" onclick="checkout()" data-t="checkout"></button>
+    <div class="pnote" data-t="payNote"></div>
+  </div>
+</aside>
+<div class="ov" id="ovCo" onclick="closeCo()"></div>
+<div class="co" id="co" role="dialog" aria-modal="true" aria-labelledby="coTitle">
+  <div class="coh"><h3 id="coTitle" data-t="coTitle"></h3><button class="x" onclick="closeCo()">&times;</button></div>
+  <p class="cop" data-t="coLead"></p>
+  <form id="coForm" onsubmit="return submitOrder(event)" novalidate>
+    <label class="fl"><span data-t="fName"></span>
+      <input name="nome" id="coName" type="text" required autocomplete="name"/></label>
+    <label class="fl"><span data-t="fEmail"></span>
+      <input name="email" id="coEmail" type="email" required autocomplete="email"/></label>
+    <label class="fl"><span data-t="fCep"></span>
+      <input name="cep" id="coCep" type="text" inputmode="numeric" required autocomplete="postal-code" placeholder="00000-000"/></label>
+    <div class="coerr" id="coErr"></div>
+    <button class="wabtn" type="submit" data-t="coSend"></button>
+    <div class="pnote" data-t="coNote"></div>
+    <div class="pnote" data-t="coPol" style="margin-top:6px"></div>
+  </form>
+</div>
+
+
+<script>
+/* ============ EDITE AQUI / EDIT HERE ============ */
+const FREE_SHIPPING = 0;   /* 0 = desativado. Defina o valor (ex. 180) quando souber o custo real do frete. */
+const WHATSAPP = '5535992120259';
+
+const PRODUCTS = [
+  { id:'classico500', price:79.00, weight:'500 g', shot:'product-classico-500.jpg',
+    pt:{ name:'Clássico', badge:'Mais vendido', notes:'Chocolate · Castanha · Caramelo',
+      origin:'Produtores selecionados<br>Sul de Minas',
+      desc:'Nosso café do dia a dia: equilibrado, doce e consistente. Selecionado para agradar em qualquer método de preparo em casa.',
+      chips:['Torra média','Doce','Equilibrado'],
+      specs:{'Origem':'Produtores da região','Perfil':'Doce e equilibrado','Torra':'Média','Formato':'Grãos ou moído'},
+      variants:['Moído','Em grãos'], roastLine:'Torrado na semana do seu pedido' },
+    en:{ name:'Clássico', badge:'Best seller', notes:'Chocolate · Nuts · Caramel',
+      origin:'Selected producers<br>Sul de Minas',
+      desc:'Our everyday coffee: balanced, sweet and consistent. Selected to work well with any brewing method at home.',
+      chips:['Medium roast','Sweet','Balanced'],
+      specs:{'Origin':'Regional producers','Profile':'Sweet & balanced','Roast':'Medium','Format':'Whole bean or ground'},
+      variants:['Ground','Whole bean'], roastLine:'Roasted the week of your order' } },
+
+  { id:'clube500', shot:'product-classico-500.jpg', price:69.00, weight:'500 g / mês',
+    pt:{ name:'Clube Olga Mae', badge:'Assinatura', notes:'Cafés diferentes a cada envio',
+      origin:'Seleção mensal<br>da nossa região',
+      desc:'Café torrado e enviado todo mês, com desconto e frete reduzido. Sem fidelidade — cancele quando quiser.',
+      chips:['Mensal','Até 15% off','Sem fidelidade'],
+      specs:{'Envio':'Mensal','Fidelidade':'Nenhuma','Desconto':'até 15%','Frete':'Reduzido'},
+      variants:['Moído','Em grãos'], roastLine:'Torra da semana<br>todo mês' },
+    en:{ name:'Olga Mae Club', badge:'Subscription', notes:'A different coffee each delivery',
+      origin:'Monthly selection<br>from our region',
+      desc:'Coffee roasted and shipped every month, at a discount with reduced shipping. No commitment — cancel any time.',
+      chips:['Monthly','Up to 15% off','No commitment'],
+      specs:{'Delivery':'Monthly','Commitment':'None','Discount':'up to 15%','Shipping':'Reduced'},
+      variants:['Ground','Whole bean'], roastLine:'Roasted weekly<br>every month' } },
+];
+
+const T = {
+pt:{
+  announce:'Café do Sul de Minas · <b>Torra sob encomenda</b> · Pedidos pelo WhatsApp',
+  shipQuote:'Frete calculado pelo seu CEP e confirmado no WhatsApp.',
+  polLink:'Privacidade, trocas e entrega',
+  coPol:'Ao enviar, você concorda com a nossa <a href="politicas.html" target="_blank">política de privacidade</a>.',
+  coTitle:'Finalizar pedido', coSend:'Enviar pedido no WhatsApp',
+  coLead:'Só precisamos de três informações para calcular o frete e preparar seu pedido.',
+  fName:'Nome', fEmail:'E-mail', fCep:'CEP',
+  coErr:'Confira os campos destacados.',
+  coNote:'Ao enviar, abrimos o WhatsApp com seu pedido pronto. O pagamento é combinado na conversa, por Pix.',
+  origCap:'Fotografias da nossa região, feitas por nós ao longo da safra.',
+  d1h:'Envio', d1p:'Torramos sob encomenda e postamos assim que o café está pronto. Enviamos para todo o Brasil.',
+  d2h:'Frete', d2p:'Calculamos pelo seu CEP e confirmamos no WhatsApp antes de você pagar. Sem surpresa no fechamento.',
+  d3h:'Pedido pelo WhatsApp', d3p:'Você monta o carrinho aqui e finaliza a conversa no WhatsApp. Pagamento por Pix ou combinado direto conosco.',
+  brandSub:'Café com origem · Sul de Minas',
+  navStory:'Nossa História', navShop:'Nossos Cafés', navBiz:'Para Empresas',
+  navOrigin:'Origem & Rastreabilidade', navContact:'Contato', cart:'Carrinho',
+  heroKicker:'Sul de Minas Gerais · Casa & Negócios',
+  heroH1:'Café de qualidade, <em>direto de quem produz.</em>',
+  heroSub:'Somos produtores no Sul de Minas e também selecionamos cafés de produtores vizinhos, com foco em qualidade, consistência e rastreabilidade — para sua casa ou para o seu negócio.',
+  btnBuy:'Ver nossos cafés', btnBiz:'Para empresas',
+  p1t:'Qualidade selecionada', p1d:'Cafés escolhidos pelo perfil e consistência.',
+  p2t:'Origem rastreável', p2d:'Transparência sobre a procedência de cada café.',
+  p3t:'Produtores locais', p3d:'Cafés provenientes de diferentes produtores da nossa região.',
+  p4t:'Casa & Negócios', p4d:'Soluções para consumidores e estabelecimentos.',
+  photoOlga:'Fotografia de Olga Mae — substituir por imagem real', photoCap:'Olga Mae · Sul de Minas',
+  storyTag:'Nossa História', storyH2:'Por que <em>Olga Mae?</em>',
+  storyP1:'Olga Mae faz parte da história da nossa família e da nossa ligação com o café. Foi dessa história, construída em uma região onde o café faz parte da vida de tantas famílias, que nasceu o nome da nossa marca.',
+  storyP2:'Essa conexão continua: plantamos café no Sul de Minas e conhecemos o trabalho de perto. Mas a Olga Mae foi criada para ir além de uma única propriedade — hoje também selecionamos lotes de produtores vizinhos, aproximando consumidores e empresas de origens e perfis escolhidos com critério.',
+  storyPull:'Sítio Olga Mae — onde a nossa história e o nosso café começam.',
+  shopTag:'Nossos Cafés', shopH2:'Diferentes origens. Diferentes perfis. <em>A mesma atenção à qualidade.</em>',
+  shopLead:'Selecionamos cafés de diferentes produtores da nossa região para oferecer opções adequadas a diferentes paladares, métodos de preparo e necessidades.',
+  bizTag:'Para Empresas', bizH2:'Café para o <em>seu negócio.</em>',
+  bizLead:'Cafeterias, restaurantes, hotéis, escritórios, lojas e revendedores. Trabalhamos com diferentes perfis e formatos de café para atender às necessidades de cada operação, seja para servir aos clientes, utilizar no dia a dia ou revender.',
+  b1h:'Food Service', b1p:'Cafeterias, restaurantes e hotéis: perfis consistentes, formatos de 1 kg e reposição programada.',
+  b2h:'Escritórios', b2p:'Café para o dia a dia da equipe, com entrega recorrente e formatos adequados ao consumo interno.',
+  b3h:'Revenda', b3p:'Lojas, mercados e empórios: condições comerciais para revenda com origem identificada.',
+  b4h:'Marca Própria', b4p:'Café selecionado, torrado e embalado com a identidade da sua empresa.',
+  btnTalkBiz:'Fale com a gente sobre seu negócio',
+  origTag:'Origem & Rastreabilidade', origH2:'Da origem <em>até você.</em>',
+  origLead:'Como trabalhamos, do pé de café à xícara — com clareza sobre o que estamos vendendo.',
+  o1h:'Produção e seleção', o1p:'Produzimos café no Sul de Minas e selecionamos lotes de produtores vizinhos, sempre por qualidade, perfil e consistência.',
+  o2h:'Rastreabilidade', o2p:'Buscamos manter clara a procedência de cada café e sua conexão com a origem.',
+  o3h:'Torra', o3p:'Cada café pode receber uma torra adequada ao seu perfil e à forma como será consumido.',
+  o4h:'Formatos', o4p:'Oferecemos formatos para consumo em casa, food service, revenda e outras necessidades comerciais.',
+  clubTag:'Clube Olga Mae', clubH2:'Café novo na sua casa, <em>todo mês.</em>',
+  clubP:'Você escolhe o tamanho e a moagem; nós torramos e enviamos sempre na mesma semana do mês.',
+  perk1:'Até 15% de desconto em relação à compra avulsa', perk2:'Frete reduzido em todos os envios',
+  perk3:'Cafés diferentes a cada envio, conforme a seleção da safra',
+  btnClub:'Assinar o clube', photoClub:'Fotografia: a caixa do clube aberta, com o café',
+  faqTag:'Perguntas', faqH2:'Dúvidas <em>comuns.</em>',
+  q1:'De onde vêm os cafés da Olga Mae?', a1:'Selecionamos cafés de produtores da nossa região, no Sul de Minas — incluindo o Sítio Olga Mae e outras propriedades parceiras. Cada café tem a sua procedência identificada, e ela pode variar de lote para lote.',
+  q2:'Qual moagem devo escolher?', a2:'Se você usa coador de papel ou pano, escolha "moído" — é o certo para a maioria das casas. Se tem moedor, prefira "em grãos": o café mantém o frescor por muito mais tempo.',
+  q3:'Por que a data da torra importa?', a3:'Porque café não é conserva. O de supermercado costuma ser torrado meses antes de chegar à prateleira. O nosso é torrado poucos dias antes do envio — e essa diferença qualquer pessoa sente no primeiro gole.',
+  q4:'Como funciona o frete?', a4:'Enviamos pelos Correios com rastreio para todo o Brasil; o valor é calculado pelo CEP no fechamento do pedido. Acima de R$ 180 o frete é por nossa conta. Em Poços de Caldas, Varginha e Pouso Alegre combinamos entrega local.',
+  q5:'Formas de pagamento?', a5:'Pix, cartão de crédito ou boleto. Enviamos a chave ou o link no fechamento do pedido pelo WhatsApp.',
+  q6:'Atendem empresas e revendedores?', a6:'Sim. Trabalhamos com food service, escritórios, revenda e projetos de marca própria, com formatos e condições próprias. Fale com a gente pelo WhatsApp.',
+  contTag:'Contato', contH2:'Fale direto <em>com a gente.</em>',
+  contLead:'Aqui não tem robô nem call center: quem responde é quem escolhe e prova cada lote. Pedidos, empresas, revenda ou só um bate-papo sobre café.',
+  footAbout:'Cafés selecionados de produtores do Sul de Minas Gerais, para consumidores e empresas. Qualidade, consistência e rastreabilidade da origem à xícara.',
+  footNav:'Navegar', footIntl:'Sourcing internacional →', footPay:'Pix · Cartão · Boleto',
+  cartTitle:'Seu pedido', subtotal:'Subtotal', shipping:'Frete', total:'Total',
+  freteCalc:'calculado no fechamento', freteFree:'grátis',
+  shipFree:'✓ Frete grátis conquistado', shipMiss:'Faltam {x} para o frete grátis', shipAbove:'Frete grátis acima de {x}',
+  checkout:'Finalizar no WhatsApp', payNote:'Confirmamos tudo pelo WhatsApp · Pix, cartão ou boleto',
+  emptyBig:'Seu carrinho está vazio', emptySm:'Escolha um café e volte aqui.',
+  addBtn:'Adicionar ao carrinho', alertEmpty:'Seu carrinho está vazio.',
+  waHi:'Olá, Olga Mae! Gostaria de fazer um pedido:', waSub:'Subtotal', waShip:'Frete', waFree:'grátis', waTbd:'a combinar',
+  waName:'Nome:', waAddr:'Endereço e CEP:', waPay:'Pagamento (Pix / cartão / boleto):'
+},
+en:{
+  announce:'Coffee from Sul de Minas · <b>Roasted to order</b> · Orders on WhatsApp',
+  shipQuote:'Shipping worked out from your postcode and confirmed on WhatsApp.',
+  polLink:'Privacy, returns & delivery',
+  coPol:'By sending, you agree to our <a href="politicas.html" target="_blank">privacy policy</a>.',
+  coTitle:'Complete your order', coSend:'Send order on WhatsApp',
+  coLead:'We just need three details to work out shipping and get your order ready.',
+  fName:'Name', fEmail:'Email', fCep:'Postcode',
+  coErr:'Please check the highlighted fields.',
+  coNote:'We will open WhatsApp with your order ready. Payment is arranged in the conversation, by Pix.',
+  origCap:'Photographs from our region, taken by us through the season.',
+  d1h:'Shipping', d1p:'We roast to order and post as soon as the coffee is ready. We ship throughout Brazil.',
+  d2h:'Shipping cost', d2p:'We work it out from your postcode and confirm it on WhatsApp before you pay. No surprises at the end.',
+  d3h:'Order on WhatsApp', d3p:'Build your basket here and finish the conversation on WhatsApp. Payment by Pix or arranged directly with us.',
+  brandSub:'Coffee with origin · Sul de Minas',
+  navStory:'Our Story', navShop:'Our Coffees', navBiz:'For Business',
+  navOrigin:'Origin & Traceability', navContact:'Contact', cart:'Cart',
+  heroKicker:'Sul de Minas, Brazil · Home & Business',
+  heroH1:'Quality coffee, <em>directly from those who produce it.</em>',
+  heroSub:'We are growers in Sul de Minas and we also select coffees from neighbouring producers, focusing on quality, consistency and traceability — for your home or your business.',
+  btnBuy:'See our coffees', btnBiz:'For business',
+  p1t:'Selected Quality', p1d:'Coffees chosen for their profile and consistency.',
+  p2t:'Traceable Origin', p2d:'Transparency about where each coffee comes from.',
+  p3t:'Local Producers', p3d:'Coffees from different producers in our region.',
+  p4t:'Home & Business', p4d:'Solutions for consumers and businesses.',
+  photoOlga:'Photograph of Olga Mae — replace with the real portrait', photoCap:'Olga Mae · Sul de Minas',
+  storyTag:'Our Story', storyH2:'Why <em>Olga Mae?</em>',
+  storyP1:'Olga Mae is part of our family’s story and our connection to coffee. It was from this history, built in a region where coffee has shaped the lives of generations of families, that our brand was born.',
+  storyP2:'That connection continues: we grow coffee in Sul de Minas and know the work first hand. But Olga Mae was created to go beyond a single farm — today we also select lots from neighbouring producers, bringing consumers and businesses closer to origins and profiles chosen with care.',
+  storyPull:'Sítio Olga Mae — where our story and our coffee begin.',
+  shopTag:'Our Coffees', shopH2:'Different origins. Different profiles. <em>The same attention to quality.</em>',
+  shopLead:'We select coffees from different producers in our region to offer options suited to different tastes, brewing methods and needs.',
+  bizTag:'For Business', bizH2:'Coffee for <em>your business.</em>',
+  bizLead:'Cafés, restaurants, hotels, offices, retailers and resellers. We work with different coffee profiles and formats to meet the needs of each operation, whether for serving customers, workplace consumption or resale.',
+  b1h:'Food Service', b1p:'Cafés, restaurants and hotels: consistent profiles, 1 kg formats and scheduled resupply.',
+  b2h:'Offices', b2p:'Everyday coffee for your team, with recurring delivery and formats suited to internal consumption.',
+  b3h:'Resale', b3p:'Shops, markets and delis: commercial terms for resale with identified origin.',
+  b4h:'Private Label', b4p:'Coffee selected, roasted and packaged under your own company’s identity.',
+  btnTalkBiz:'Talk to us about your business',
+  origTag:'Origin & Traceability', origH2:'From origin <em>to you.</em>',
+  origLead:'How we work, from the coffee tree to the cup — with clarity about what we are selling.',
+  o1h:'Growing & selection', o1p:'We grow coffee in Sul de Minas and select lots from neighbouring producers, always on quality, profile and consistency.',
+  o2h:'Traceability', o2p:'We aim to keep the provenance of each coffee clear and connected to its origin.',
+  o3h:'Roasting', o3p:'Each coffee can be roasted according to its profile and intended use.',
+  o4h:'Formats', o4p:'We offer formats for home consumption, food service, resale and other business needs.',
+  clubTag:'Olga Mae Club', clubH2:'A new coffee at your door, <em>every month.</em>',
+  clubP:'You choose the size and the grind; we roast and ship in the same week each month.',
+  perk1:'Up to 15% off compared with single purchases', perk2:'Reduced shipping on every delivery',
+  perk3:'A different coffee each delivery, following the season’s selection',
+  btnClub:'Join the club', photoClub:'Photograph: the club box open, with the coffee',
+  faqTag:'Questions', faqH2:'Common <em>questions.</em>',
+  q1:'Where do Olga Mae coffees come from?', a1:'We select coffees from producers in our region of Sul de Minas — including Sítio Olga Mae and other partner farms. Each coffee has its provenance identified, and it can vary from lot to lot.',
+  q2:'Which grind should I choose?', a2:'If you use a paper or cloth filter, choose "ground" — right for most homes. If you own a grinder, choose "whole bean": the coffee keeps its freshness far longer.',
+  q3:'Why does the roast date matter?', a3:'Because coffee is not a preserve. Supermarket coffee is usually roasted months before it reaches the shelf. Ours is roasted days before it ships — and anyone can taste that difference in the first sip.',
+  q4:'How does shipping work?', a4:'We ship tracked across Brazil; the cost is calculated by postcode at checkout. Over R$ 180 shipping is on us. In Poços de Caldas, Varginha and Pouso Alegre we arrange local delivery.',
+  q5:'Payment methods?', a5:'Pix, credit card or boleto. We send the key or payment link when confirming your order on WhatsApp.',
+  q6:'Do you supply businesses and resellers?', a6:'Yes. We work with food service, offices, resale and private-label projects, with dedicated formats and terms. Message us on WhatsApp.',
+  contTag:'Contact', contH2:'Talk to us <em>directly.</em>',
+  contLead:'No bots, no call centre — the person who answers is the one who chooses and tastes every lot. Orders, business, resale, or just a chat about coffee.',
+  footAbout:'Selected coffees from producers in Sul de Minas Gerais, for consumers and businesses. Quality, consistency and traceability from origin to cup.',
+  footNav:'Navigate', footIntl:'International sourcing →', footPay:'Pix · Card · Boleto',
+  cartTitle:'Your order', subtotal:'Subtotal', shipping:'Shipping', total:'Total',
+  freteCalc:'calculated at checkout', freteFree:'free',
+  shipFree:'✓ Free shipping unlocked', shipMiss:'{x} away from free shipping', shipAbove:'Free shipping over {x}',
+  checkout:'Check out on WhatsApp', payNote:'We confirm everything on WhatsApp · Pix, card or boleto',
+  emptyBig:'Your cart is empty', emptySm:'Choose a coffee and come back.',
+  addBtn:'Add to cart', alertEmpty:'Your cart is empty.',
+  waHi:'Hello Olga Mae! I would like to place an order:', waSub:'Subtotal', waShip:'Shipping', waFree:'free', waTbd:'to be confirmed',
+  waName:'Name:', waAddr:'Address and postcode:', waPay:'Payment (Pix / card / boleto):'
+}};
+
+const META = {
+  pt:{ title:'Olga Mae | Café de qualidade com origem rastreável',
+       desc:'Cafés selecionados de produtores da nossa região para consumidores e empresas. Qualidade, consistência e rastreabilidade da origem à xícara.' },
+  en:{ title:'Olga Mae | Quality Coffee with Traceable Origin',
+       desc:'Selected coffees from producers in our region for consumers and businesses. Quality, consistency and traceability from origin to cup.' }
+};
+/* ================================================ */
+
+let LANG = 'pt';
+const S = { variant:{}, cart:[] };
+const t = k => T[LANG][k] || '';
+const brl = v => 'R$ ' + v.toFixed(2).replace('.', ',');
+const weightOf = p => LANG === 'en' ? p.weight.replace(' / mês',' / month') : p.weight;
+
+function setLang(l){
+  LANG = l;
+  document.documentElement.lang = l === 'pt' ? 'pt-BR' : 'en';
+  document.title = META[l].title;
+  const md = document.querySelector('meta[name="description"]'); if(md) md.setAttribute('content', META[l].desc);
+  const ot = document.querySelector('meta[property="og:title"]'); if(ot) ot.setAttribute('content', META[l].title);
+  const od = document.querySelector('meta[property="og:description"]'); if(od) od.setAttribute('content', META[l].desc);
+  document.getElementById('btPT').className = l === 'pt' ? 'on' : '';
+  document.getElementById('btEN').className = l === 'en' ? 'on' : '';
+  document.querySelectorAll('[data-t]').forEach(el => { el.innerHTML = t(el.dataset.t); });
+  loadCart();
+  renderProducts(); renderCart();
+  try{ localStorage.setItem('om_lang', l); }catch(e){}
+}
+
+function renderProducts(){
+  document.getElementById('products').innerHTML = PRODUCTS.map(p=>{
+    const d = p[LANG];
+    if(!S.variant[p.id]) S.variant[p.id] = d.variants[0];
+    if(!d.variants.includes(S.variant[p.id])){
+      const i = p[LANG==='pt'?'en':'pt'].variants.indexOf(S.variant[p.id]);
+      S.variant[p.id] = d.variants[i>=0?i:0];
+    }
+    const specs = Object.entries(d.specs).map(([k,v])=>`<div class="spec"><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+    const chips = d.chips.map(c=>`<span>${c}</span>`).join('');
+    return `<article class="pcard">
+      <div class="pimg">
+        ${d.badge?`<div class="flag">${d.badge}</div>`:''}
+        <img class="pshot" src="${p.shot}" alt="${d.name} ${weightOf(p)}" loading="lazy" width="1200" height="1500"/>
+        <div class="pricetag">${brl(p.price)}</div>
+      </div>
+      <div class="pbody">
+        <h3>${d.name}</h3>
+        <div class="pnotes">${d.notes}</div>
+        <p class="pdesc">${d.desc}</p>
+        <dl class="specs">${specs}</dl>
+        <div class="opts">${d.variants.map(v=>`<button class="opt ${S.variant[p.id]===v?'on':''}" onclick="setVar('${p.id}','${v}')">${v}</button>`).join('')}</div>
+        <div class="fresh">${d.roastLine.replace(/<br\/?>/g,' ')}</div>
+        <div class="prow"><span class="price">${brl(p.price)}</span><span class="per">${weightOf(p)}</span></div>
+      </div>
+      <button class="add" onclick="addToCart('${p.id}')">${t('addBtn')}</button>
+    </article>`;
+  }).join('');
+}
+function setVar(id,v){ S.variant[id]=v; renderProducts(); }
+
+function addToCart(id){
+  const p = PRODUCTS.find(x=>x.id===id), variant = S.variant[id];
+  const f = S.cart.find(i=>i.id===id && i.variant===variant);
+  if(f) f.qty++;
+  else S.cart.push({ id, name:p[LANG].name, weight:weightOf(p), price:p.price, variant, qty:1 });
+  saveCart(); renderCart(); openCart();
+}
+function changeQty(i,d){ S.cart[i].qty+=d; if(S.cart[i].qty<=0) S.cart.splice(i,1); renderCart(); }
+const subtotal = () => S.cart.reduce((s,i)=>s+i.price*i.qty,0);
+
+function renderCart(){
+  document.getElementById('cartCount').textContent = S.cart.reduce((s,i)=>s+i.qty,0);
+  document.getElementById('ditems').innerHTML = S.cart.length ? S.cart.map((i,x)=>`
+    <div class="ci">
+      <div class="cthumb"><div class="om">OM</div></div>
+      <div>
+        <div class="nm">${i.name}</div>
+        <div class="vr">${i.weight} · ${i.variant}</div>
+        <div class="qty"><button onclick="changeQty(${x},-1)">−</button><span>${i.qty}</span><button onclick="changeQty(${x},1)">+</button></div>
+      </div>
+      <div class="pr">${brl(i.price*i.qty)}</div>
+    </div>`).join('')
+    : `<div class="mt"><div class="big">${t('emptyBig')}</div><div style="font-size:14px">${t('emptySm')}</div></div>`;
+  const s = subtotal(), free = FREE_SHIPPING>0 && s>=FREE_SHIPPING && s>0;
+  document.getElementById('sub').textContent = brl(s);
+  document.getElementById('tot').textContent = brl(s);
+  document.getElementById('frete').textContent = free ? t('freteFree') : t('freteCalc');
+  document.getElementById('shipnote').textContent = FREE_SHIPPING>0
+    ? (free ? t('shipFree')
+            : (s>0 ? t('shipMiss').replace('{x}', brl(FREE_SHIPPING-s)) : t('shipAbove').replace('{x}', brl(FREE_SHIPPING))))
+    : t('shipQuote');
+}
+function openCart(){ document.getElementById('drw').classList.add('on'); document.getElementById('ov').classList.add('on'); }
+function closeCart(){ document.getElementById('drw').classList.remove('on'); document.getElementById('ov').classList.remove('on'); }
+
+function checkout(){
+  if(!S.cart.length){ alert(t('alertEmpty')); return; }
+  document.getElementById('coErr').textContent = '';
+  document.getElementById('ovCo').classList.add('on');
+  document.getElementById('co').classList.add('on');
+  setTimeout(()=>document.getElementById('coName').focus(), 60);
+}
+function closeCo(){
+  document.getElementById('ovCo').classList.remove('on');
+  document.getElementById('co').classList.remove('on');
+}
+
+/* ---- order reference: OM-YYMM-nnn, counter kept in localStorage ---- */
+function nextRef(){
+  let n = 1;
+  try{ n = parseInt(localStorage.getItem('om_seq')||'0',10) + 1; localStorage.setItem('om_seq', String(n)); }catch(e){}
+  const d = new Date();
+  const ym = String(d.getFullYear()).slice(2) + String(d.getMonth()+1).padStart(2,'0');
+  return 'OM-' + ym + '-' + String(n).padStart(3,'0');
+}
+
+/* ---- build the order once; every channel reads from this ---- */
+function buildOrder(c){
+  const sub = subtotal();
+  const freeShip = FREE_SHIPPING>0 && sub >= FREE_SHIPPING;
+  return {
+    ref: nextRef(),
+    customer: c,
+    items: S.cart.map(i=>({ ...i, line: i.price*i.qty })),
+    subtotal: sub,
+    shipping: freeShip ? t('waFree') : t('waTbd'),
+    freeShipping: freeShip,
+    lang: LANG,
+    at: new Date().toISOString()
+  };
+}
+
+function orderText(o){
+  let m = t('waHi') + '%0A%0A';
+  m += (LANG==='pt' ? 'Pedido' : 'Order') + ': ' + o.ref + '%0A%0A';
+  o.items.forEach(i=>{ m += `• ${i.qty}x ${i.name} ${i.weight} (${i.variant}) — ${brl(i.line)}%0A`; });
+  m += `%0A${t('waSub')}: ${brl(o.subtotal)}`;
+  m += `%0A${t('waShip')}: ${o.shipping}`;
+  m += `%0A%0A${o.customer.nome}%0A${o.customer.email}%0A${(LANG==='pt'?'CEP':'Postcode')}: ${o.customer.cep}`;
+  return m;
+}
+
+/* ---- keep a written copy of the order out of the chat thread ---- */
+function emailCopy(o){
+  try{
+    const body = new URLSearchParams();
+    body.append('_subject', 'Pedido ' + o.ref + ' — Olga Mae');
+    body.append('_template', 'table');
+    body.append('_captcha', 'false');
+    body.append('Referencia', o.ref);
+    body.append('Nome', o.customer.nome);
+    body.append('Email', o.customer.email);
+    body.append('CEP', o.customer.cep);
+    body.append('Itens', o.items.map(i=>`${i.qty}x ${i.name} ${i.weight} (${i.variant}) = ${brl(i.line)}`).join(' | '));
+    body.append('Subtotal', brl(o.subtotal));
+    body.append('Frete', o.shipping);
+    fetch('https://formsubmit.co/ajax/info@olgamae.com', {
+      method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body
+    }).catch(()=>{});
+  }catch(e){}
+}
+
+/* ---- the only place that knows about WhatsApp. Swap this for Mercado Pago later. ---- */
+function sendOrder(o){
+  window.open(`https://wa.me/${WHATSAPP}?text=${orderText(o)}`, '_blank');
+}
+
+function submitOrder(ev){
+  ev.preventDefault();
+  const nome  = document.getElementById('coName').value.trim();
+  const email = document.getElementById('coEmail').value.trim();
+  const cep   = document.getElementById('coCep').value.trim();
+  const err   = document.getElementById('coErr');
+  const bad   = [];
+  if(nome.length < 2) bad.push('coName');
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(email)) bad.push('coEmail');
+  if(!/^\d{5}-?\d{3}$/.test(cep)) bad.push('coCep');
+  ['coName','coEmail','coCep'].forEach(id=>document.getElementById(id).classList.remove('bad'));
+  if(bad.length){
+    bad.forEach(id=>document.getElementById(id).classList.add('bad'));
+    err.textContent = t('coErr');
+    document.getElementById(bad[0]).focus();
+    return false;
+  }
+  err.textContent = '';
+  const o = buildOrder({ nome, email, cep });
+  emailCopy(o);
+  sendOrder(o);
+  closeCo();
+  S.cart = []; saveCart(); renderCart();
+  return false;
+}
+
+/* ---- basket survives a reload ---- */
+function saveCart(){ try{ localStorage.setItem('om_cart', JSON.stringify(S.cart)); }catch(e){} }
+function loadCart(){
+  try{
+    const r = JSON.parse(localStorage.getItem('om_cart')||'[]');
+    if(Array.isArray(r)) S.cart = r.filter(i=>PRODUCTS.some(p=>p.id===i.id));
+  }catch(e){}
+}
+
+document.getElementById('yr').textContent = new Date().getFullYear();
+let saved = 'pt';
+try{ saved = localStorage.getItem('om_lang') || 'pt'; }catch(e){}
+setLang(saved === 'en' ? 'en' : 'pt');
+</script>
+</body>
+</html>
