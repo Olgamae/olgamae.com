@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Olga Mae | Brazilian Arabica Coffee from Sul de Minas</title>
+<meta name="description" content="Arabica producers and sourcing partners in Sul de Minas, Brazil. Commercial to specialty, FOB Santos. Samples on request."/>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<link rel="canonical" href="https://olgamae.com/"/>
+<!-- All seven languages are served from this one URL via the switcher -->
+<link rel="alternate" hreflang="en" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="ar" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="pt" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="fr" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="tr" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="hi" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="de" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="zh" href="https://olgamae.com/"/>
+<link rel="alternate" hreflang="x-default" href="https://olgamae.com/"/>
+<!-- Link preview: controls the card shown when olgamae.com is shared in
+     WhatsApp, LinkedIn, email or anywhere else. No social account needed. -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://olgamae.com/"/>
+<meta property="og:site_name" content="Olga Mae"/>
+<meta property="og:title" content="Olga Mae | Brazilian Arabica Coffee Sourcing"/>
+<meta property="og:description" content="Arabica producers and sourcing partners in Sul de Minas, Brazil. Commercial to specialty, FOB Santos. Samples on request."/>
+<meta property="og:image" content="https://olgamae.com/share-card.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="en_GB"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Olga Mae | Brazilian Arabica Coffee Sourcing"/>
+<meta name="twitter:description" content="Arabica producers and sourcing partners in Sul de Minas, Brazil. Commercial to specialty, FOB Santos. Samples on request."/>
+<meta name="twitter:image" content="https://olgamae.com/share-card.jpg"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Olga Mae",
+"url":"https://olgamae.com/","logo":"https://olgamae.com/favicon.svg",
+"image":"https://olgamae.com/share-card.jpg",
+"description":"Coffee producers and sourcing partners based in Sul de Minas, Minas Gerais. We farm our own Arabica and source from partner producers for international buyers.",
+"email":"info@olgamae.com","telephone":"+5535992120259",
+"address":{"@type":"PostalAddress","addressRegion":"Minas Gerais","addressCountry":"BR"},
+"areaServed":["AE","SA","QA","OM","KW","BH","PL","DE","IT","US","CN","IN","TR"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" href="drying-patio.jpg" as="image"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300;1,700&family=Inter:wght@300;400&display=swap" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300;1,700&family=Inter:wght@300;400&display=swap"/></noscript>
+<style>
+:root{
+ --forest:#2f3b2e;
+ --forest-soft:#3d4a3b;
+ --cream:#f7f4ec;
+ --cream-deep:#efeade;
+ --brass:#bd9f6e;
+ --brass-ink:#776445;
+ --sage:#a6b49a;
+ --charcoal:#333;
+ --muted:#6b6f66;
+ --line:rgba(47,59,46,0.14);
+ --serif:'Cormorant Garamond',Georgia,serif;
+ --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+.skip{
+ position:absolute;left:-9999px;top:0;z-index:1000;
+ background:var(--forest);color:var(--cream);padding:12px 20px;
+ font-size:0.8rem;letter-spacing:0.08em;
+}
+.skip:focus{left:12px;top:12px}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+ .about-bg,.band,.sun-dark,.contact{background-attachment:scroll!important}
+}
+html{scroll-behavior:smooth}
+body{
+ font-family:var(--sans);font-weight:300;
+ background:var(--cream);color:var(--charcoal);
+ line-height:1.75;font-size:16px;
+ -webkit-font-smoothing:antialiased;
+ overflow-x:hidden;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+
+/* ---------- TYPE ---------- */
+.label{
+ font-family:var(--sans);font-size:0.66rem;font-weight:400;
+ letter-spacing:0.22em;text-transform:uppercase;
+ color:var(--brass-ink);margin-bottom:24px;
+}
+h1,h2,h3{font-family:var(--serif);font-weight:300;line-height:1.12;letter-spacing:-0.005em}
+h1{font-size:clamp(2.85rem,6.2vw,5.2rem)}
+h2{font-size:clamp(2.05rem,4vw,3.2rem)}
+h2 em,h1 em{font-style:italic;color:var(--brass-ink)}
+.lede{
+ font-size:clamp(1rem,1.5vw,1.12rem);color:var(--muted);
+ max-width:56ch;line-height:1.82;font-weight:300;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+section{padding:clamp(80px,9vw,130px) 0}
+
+/* ---------- NAV ---------- */
+nav{
+ position:fixed;top:0;left:0;right:0;z-index:900;
+ padding:22px 40px;display:flex;align-items:center;justify-content:space-between;
+ transition:background .35s ease,padding .35s ease,box-shadow .35s ease;
+}
+nav.solid{background:rgba(34,35,32,0.94);backdrop-filter:blur(14px);padding:15px 40px;box-shadow:0 1px 0 rgba(247,244,236,0.10)}
+.brand{font-family:var(--serif);font-size:1.5rem;font-weight:700;letter-spacing:0.035em;color:#fff;transition:color .35s}
+.brand em{font-style:italic;font-weight:700;color:#fff}
+nav.solid .brand{color:#fff}
+.nav-right{display:flex;align-items:center;gap:34px}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{
+ font-size:0.79rem;letter-spacing:0.08em;color:rgba(247,244,236,0.9);
+ padding-bottom:3px;border-bottom:1px solid transparent;transition:.3s;
+}
+nav.solid .nav-links a{color:rgba(247,244,236,0.9)}
+.nav-links a:hover{border-bottom-color:var(--brass);color:var(--brass)}
+/* the section you are currently reading */
+.nav-links a.current{border-bottom-color:var(--brass);color:var(--brass)}
+nav.solid .nav-links a.current{color:var(--brass)}
+
+/* language */
+.lang{position:relative}
+.lang-btn{
+ display:flex;align-items:center;gap:7px;background:none;border:1px solid rgba(247,244,236,0.35);
+ color:rgba(247,244,236,0.92);padding:6px 13px;border-radius:2px;cursor:pointer;
+ font-family:var(--sans);font-size:0.72rem;letter-spacing:0.1em;transition:.3s;
+}
+nav.solid .lang-btn{border-color:rgba(247,244,236,0.35);color:rgba(247,244,236,0.92)}
+.lang-btn:hover{border-color:var(--brass);color:var(--brass)}
+.lang-menu{
+ position:absolute;top:calc(100% + 10px);right:0;background:var(--cream);
+ border:1px solid var(--line);border-radius:2px;overflow:hidden;
+ opacity:0;visibility:hidden;transform:translateY(-6px);transition:.25s;min-width:132px;
+ box-shadow:0 14px 40px rgba(47,59,46,0.12);
+}
+.lang.open .lang-menu{opacity:1;visibility:visible;transform:translateY(0)}
+.lang-opt{
+ display:flex;align-items:center;gap:9px;width:100%;background:none;border:none;
+ padding:10px 15px;cursor:pointer;font-family:var(--sans);font-size:0.78rem;
+ color:var(--charcoal);text-align:left;transition:.2s;
+}
+.lang-opt:hover,.lang-opt.active{background:var(--cream-deep);color:var(--forest)}
+
+.ham{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}
+.ham span{width:23px;height:1px;background:var(--cream);transition:.3s}
+nav.solid .ham span{background:var(--cream)}
+.ham.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.ham.open span:nth-child(2){opacity:0}
+.ham.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* ---------- BUTTONS ---------- */
+.btn{
+ display:inline-block;padding:15px 34px;font-family:var(--sans);
+ font-size:0.76rem;letter-spacing:0.13em;text-transform:uppercase;
+ border:1px solid transparent;border-radius:2px;cursor:pointer;transition:.32s;
+}
+.btn-solid{background:var(--brass);color:#fff;border-color:var(--brass)}
+.btn-solid:hover{background:transparent;color:var(--brass)}
+.btn-line{border-color:rgba(247,244,236,0.45);color:var(--cream)}
+.btn-line:hover{border-color:var(--cream);background:rgba(247,244,236,0.08)}
+.btn-dark{border-color:var(--forest);color:var(--forest)}
+.btn-dark:hover{background:var(--forest);color:var(--cream)}
+
+/* ---------- HERO ---------- */
+.hero{
+ min-height:100vh;display:flex;align-items:center;position:relative;padding:0;
+ background:linear-gradient(rgba(30,38,29,0.52),rgba(30,38,29,0.62)),url("drying-patio.jpg") center/cover no-repeat;
+}
+.hero-inner{max-width:1180px;margin:0 auto;padding:130px 40px 90px;width:100%}
+.hero .label{color:var(--sage)}
+.hero h1{color:var(--cream);max-width:16ch;margin-bottom:30px}
+.hero h1 em{color:var(--sage)}
+.hero-sub{
+ font-size:clamp(0.98rem,1.5vw,1.1rem);color:rgba(247,244,236,0.86);
+ max-width:52ch;line-height:1.85;margin-bottom:42px;font-weight:300;
+}
+.hero-cta{display:flex;gap:15px;flex-wrap:wrap}
+
+/* ---------- ABOUT ---------- */
+.about-bg{
+ position:relative;
+ background:
+  linear-gradient(rgba(40,41,38,0.88),rgba(34,35,32,0.92)),
+  url("drying-patio.jpg") center/cover fixed no-repeat;
+}
+.about-bg h2{color:var(--cream)}
+.about-bg .lede{color:rgba(247,244,236,0.74)}
+.about-bg .quote{color:var(--cream);border-left-color:var(--brass)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(44px,6vw,84px);align-items:center;position:relative;z-index:1}
+.split-text h2{margin-bottom:26px}
+.split-text .lede+.lede{margin-top:18px}
+.figure{position:relative}
+.figure img{width:100%;height:clamp(330px,40vw,480px);object-fit:cover;border-radius:2px}
+.figure-note{
+ position:absolute;bottom:22px;left:22px;
+ background:rgba(38,48,36,0.72);backdrop-filter:blur(6px);
+ padding:13px 20px;border-left:2px solid var(--brass);
+ font-size:0.7rem;letter-spacing:0.13em;text-transform:uppercase;
+ color:rgba(247,244,236,0.92);
+}
+.quote{
+ margin-top:38px;padding-left:24px;border-left:1px solid var(--brass);
+ font-family:var(--serif);font-style:italic;font-size:1.32rem;
+ line-height:1.55;color:var(--forest);
+}
+
+/* ---------- REGION (dark) ---------- */
+/* stands on its own: exactly one screen, content centred vertically */
+.region{
+ background:var(--forest);color:var(--cream);
+ min-height:100vh;display:flex;align-items:center;
+ padding:clamp(64px,7vw,100px) 0;
+}
+.region > .wrap{width:100%}
+.region .label{color:var(--sage)}
+.region h2{color:var(--cream);margin-bottom:26px;max-width:14ch}
+.region .lede{color:rgba(247,244,236,0.75);max-width:60ch}
+.region-head{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end;margin-bottom:clamp(48px,6vw,76px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(247,244,236,0.14)}
+.stat{background:var(--forest);padding:34px 24px}
+.stat-k{
+ font-family:var(--serif);font-size:2.05rem;color:var(--sage);
+ line-height:1.05;margin-bottom:11px;
+}
+.stat-v{font-size:0.76rem;letter-spacing:0.09em;color:rgba(247,244,236,0.62);line-height:1.6;margin-top:auto}
+
+/* ---------- BACKDROPS ---------- */
+/* 5  What We Source: dark charcoal over the sunset showing through */
+.sun-dark{
+ background:
+  linear-gradient(rgba(40,41,38,0.87),rgba(34,35,32,0.91)),
+  url("sunset.jpg") center/cover fixed no-repeat;
+}
+#sourcing{padding:clamp(56px,6vw,86px) 0}
+#sourcing .source-head{margin-bottom:clamp(28px,3.2vw,42px)}
+.sun-dark .label,.sun-dark h2 em,.sun-dark .row-n,
+.charcoal .fact-l,.region .label,.region h2 em,
+.about-bg .label,.about-bg h2 em,.contact .label,.contact h2 em{color:var(--brass)}
+.sun-dark h2,.sun-dark .row-t{color:var(--cream)}
+.sun-dark .lede,.sun-dark .row-d{color:rgba(247,244,236,0.72)}
+.sun-dark .rows .row{border-top-color:rgba(247,244,236,0.16)}
+.sun-dark .row{border-bottom-color:rgba(247,244,236,0.16)}
+
+/* 6  Specification: flat dark charcoal, no photograph */
+.charcoal{background:#2a2b27}
+.charcoal .fact-v{color:var(--cream)}
+.charcoal .facts{border-top-color:rgba(247,244,236,0.16)}
+.charcoal .btn-dark{border-color:rgba(247,244,236,0.45);color:var(--cream)}
+.charcoal .btn-dark:hover{background:var(--cream);color:var(--forest);border-color:var(--cream)}
+
+/* ---------- SOURCING (editorial rows, no boxes) ---------- */
+.source-head{margin-bottom:clamp(44px,5.5vw,66px);max-width:64ch}
+.source-head h2{margin-bottom:24px}
+/* two columns so all eight sit on one screen */
+.rows{display:grid;grid-template-columns:1fr 1fr;column-gap:clamp(34px,4.5vw,68px)}
+.row{
+ display:grid;grid-template-columns:34px 1fr;gap:5px 14px;
+ padding:clamp(15px,1.7vw,21px) 0;border-bottom:1px solid var(--line);
+ transition:padding-left .4s cubic-bezier(.2,.7,.3,1);
+}
+.rows .row:nth-child(1),.rows .row:nth-child(2){border-top:1px solid var(--line)}
+.row:hover{padding-left:8px}
+.row-n{font-size:0.66rem;letter-spacing:0.18em;color:var(--brass-ink);padding-top:6px}
+.row-t{grid-column:2;font-family:var(--serif);font-size:clamp(1.18rem,1.6vw,1.42rem);color:var(--forest);line-height:1.22}
+.row-d{grid-column:2;font-size:0.85rem;color:var(--muted);line-height:1.65}
+
+/* full-bleed photo band, fixed so it scrolls behind */
+.band{
+ position:relative;width:100%;height:clamp(300px,40vw,500px);
+ background-size:cover;background-position:center;background-attachment:fixed;
+ margin:0;
+}
+
+/* facts: no fills, no cells */
+.facts{
+ display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(28px,3.6vw,44px) 34px;
+ padding-top:clamp(38px,4.5vw,52px);border-top:1px solid var(--line);
+}
+.fact-l{font-size:0.63rem;letter-spacing:0.19em;text-transform:uppercase;color:var(--brass-ink);margin-bottom:9px}
+.fact-v{font-size:0.95rem;color:var(--forest);line-height:1.55}
+.source-cta{margin-top:clamp(46px,5.5vw,68px)}
+
+/* ---------- WHY: plain white, no photograph ---------- */
+.why{background:#fff}
+.why-head{margin-bottom:clamp(44px,5.5vw,68px);max-width:60ch}
+.why-head h2{margin-bottom:22px}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px 30px}
+.why-i{padding-top:22px;border-top:1px solid var(--brass)}
+.why-t{font-family:var(--serif);font-size:1.3rem;color:var(--forest);line-height:1.3;margin-bottom:9px}
+.why-d{font-size:0.85rem;color:var(--muted);line-height:1.7}
+
+/* ---------- HOW IT WORKS ---------- */
+.how{background:var(--forest);color:var(--cream)}
+.how .label{color:var(--brass)}
+.how h2{color:var(--cream)}
+.how h2 em{color:var(--brass)}
+.how .lede{color:rgba(247,244,236,0.74)}
+.how-head{margin-bottom:clamp(40px,5vw,62px);max-width:58ch}
+.how-head h2{margin-bottom:18px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0}
+.step{padding:0 clamp(14px,1.8vw,24px);position:relative}
+.step:first-child{padding-left:0}
+.step:last-child{padding-right:0}
+/* hairline rule linking the steps */
+.step::before{
+ content:'';position:absolute;top:13px;left:0;right:0;height:1px;
+ background:rgba(247,244,236,0.18);
+}
+.step:first-child::before{left:0}
+.step:last-child::before{right:0}
+.step-n{
+ position:relative;display:inline-flex;align-items:center;justify-content:center;
+ width:27px;height:27px;margin-bottom:20px;border-radius:50%;
+ background:var(--forest);border:1px solid var(--brass);
+ font-size:0.64rem;letter-spacing:0.04em;color:var(--brass);
+}
+.step-t{font-family:var(--serif);font-size:clamp(1.1rem,1.5vw,1.32rem);line-height:1.24;margin-bottom:9px}
+.step-d{font-size:0.83rem;color:rgba(247,244,236,0.62);line-height:1.65}
+
+/* ---------- GALLERY ---------- */
+.gal-head{margin-bottom:clamp(38px,4.5vw,58px);max-width:56ch}
+.gal-head h2{margin-bottom:20px}
+/* Four identical square tiles. Each photo fills its tile from the centre. */
+.gal-wide{max-width:1500px;margin:0 auto;padding:0 40px}
+.gal{display:flex;gap:16px;align-items:stretch}
+.gal-i{
+ flex:1 1 0;min-width:0;aspect-ratio:1/1;
+ overflow:hidden;border-radius:2px;background:var(--cream-deep);position:relative;
+}
+.gal-i img{
+ width:100%;height:100%;object-fit:cover;object-position:center;display:block;
+ transition:transform .8s cubic-bezier(.2,.7,.3,1);
+}
+.gal-i:hover img{transform:scale(1.04)}
+.gal-note{margin-top:28px;font-size:0.82rem;color:var(--muted);font-style:italic}
+
+/* ---------- CONTACT ---------- */
+/* full-bleed sunset behind, dark wash over it, outlined cards */
+.contact{
+ background:
+  linear-gradient(rgba(28,32,26,0.80),rgba(22,26,21,0.87)),
+  url("sunset.jpg") center/cover fixed no-repeat;
+ color:var(--cream);text-align:center;
+}
+.contact .label{color:var(--brass)}
+.contact h2{color:var(--cream);margin-bottom:18px}
+#contact{padding:clamp(56px,6vw,84px) 0 0}
+.contact .lede{color:rgba(247,244,236,0.80);margin:0 auto 34px;max-width:58ch;text-align:center}
+.contact-inner{max-width:1000px;margin:0 auto;padding:0 40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:34px}
+.card{
+ background:rgba(247,244,236,0.055);
+ border:1px solid rgba(247,244,236,0.20);
+ border-radius:3px;padding:24px 20px;transition:border-color .35s,background .35s;
+}
+.card:hover{border-color:rgba(184,155,107,0.55);background:rgba(247,244,236,0.09)}
+.card-l{font-size:0.65rem;letter-spacing:0.19em;text-transform:uppercase;color:var(--brass);margin-bottom:13px}
+.card-v{font-size:0.98rem;color:var(--cream);line-height:1.6;transition:color .3s}
+a.card-v:hover{color:var(--brass)}
+.promise{
+ margin-top:32px;font-family:var(--serif);font-style:italic;
+ font-size:1.1rem;color:rgba(247,244,236,0.66);max-width:54ch;margin-inline:auto;
+}
+
+/* ---------- ENQUIRY FORM ---------- */
+.form{max-width:720px;margin:0 auto 34px;text-align:left}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.field{display:flex;flex-direction:column}
+.field.full{grid-column:1 / -1}
+.field label{
+ font-size:0.62rem;letter-spacing:0.17em;text-transform:uppercase;
+ color:var(--brass);margin-bottom:7px;
+}
+.field input,.field textarea{
+ font-family:var(--sans);font-size:0.92rem;font-weight:300;color:var(--cream);
+ background:rgba(247,244,236,0.06);
+ border:1px solid rgba(247,244,236,0.20);border-radius:3px;
+ padding:11px 13px;width:100%;transition:border-color .3s,background .3s;
+}
+.field textarea{resize:vertical;min-height:96px;line-height:1.6}
+.field input::placeholder,.field textarea::placeholder{color:rgba(247,244,236,0.52)}
+.field input:focus,.field textarea:focus{
+ outline:none;border-color:var(--brass);background:rgba(247,244,236,0.10);
+}
+.form .btn{width:100%;border:none;font-family:var(--sans)}
+.form-note{
+ margin-top:12px;font-size:0.74rem;color:rgba(247,244,236,0.45);
+ text-align:center;line-height:1.6;
+}
+.or{
+ display:flex;align-items:center;gap:16px;max-width:720px;
+ margin:0 auto 30px;color:rgba(247,244,236,0.40);
+ font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;
+}
+.or::before,.or::after{content:'';flex:1;height:1px;background:rgba(247,244,236,0.16)}
+
+/* ---------- FOOTER ---------- */
+footer{
+ background:transparent;color:rgba(247,244,236,0.55);
+ padding:24px 40px 34px;text-align:center;
+ margin-top:clamp(34px,4vw,52px);
+ border-top:1px solid rgba(247,244,236,0.14);
+}
+.f-brand{font-family:var(--serif);font-size:1.3rem;font-weight:700;letter-spacing:0.035em;color:#fff;margin-bottom:8px}
+.f-brand em{font-style:italic;font-weight:700;color:#fff}
+footer div:last-child{font-size:0.76rem;letter-spacing:0.04em}
+
+/* ---------- RTL ---------- */
+body.rtl{direction:rtl}
+body.rtl .hero-inner,body.rtl .wrap{text-align:right}
+body.rtl .quote{padding-left:0;padding-right:24px;border-left:none;border-right:1px solid var(--brass)}
+body.rtl .figure-note{left:auto;right:22px;border-left:none;border-right:2px solid var(--brass)}
+body.rtl .contact,body.rtl .contact-inner{text-align:center}
+body.rtl .form{text-align:right}
+body.rtl .field input,body.rtl .field textarea{text-align:right}
+body.rtl .skip{left:auto;right:-9999px}
+body.rtl .skip:focus{right:12px;left:auto}
+body.rtl .row:hover{padding-left:0;padding-right:8px}
+body.rtl .why-i,body.rtl .facts>div,body.rtl .source-head,
+body.rtl .why-head,body.rtl .gal-head,body.rtl .split-text{text-align:right}
+body.rtl .region-head{text-align:right}
+body.rtl .how-head,body.rtl .step{text-align:right}
+body.rtl .step:first-child{padding-right:0;padding-left:clamp(14px,1.8vw,24px)}
+body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:1000px){
+ .facts,.why-grid{grid-template-columns:repeat(2,1fr)}
+ .steps{grid-template-columns:repeat(3,1fr);gap:34px 0}
+ .step{padding:0 16px}
+ .step:nth-child(4){padding-left:0}
+ .rows{grid-template-columns:1fr}
+ .rows .row:nth-child(2){border-top:none}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .split,.region-head{grid-template-columns:1fr;gap:36px}
+ .region-head{align-items:start}
+ .gal{flex-wrap:wrap}
+ .gal-i{flex:1 1 calc(50% - 8px)}
+}
+@media(max-width:760px){
+ nav,nav.solid{padding:16px 22px}
+ .wrap,.hero-inner,.contact-inner{padding-left:22px;padding-right:22px}
+ .ham{display:flex}
+ .nav-links{
+  position:fixed;top:0;right:-100%;width:78%;max-width:320px;height:100vh;
+  background:var(--forest);flex-direction:column;justify-content:center;
+  gap:26px;padding:60px 34px;transition:right .4s cubic-bezier(.4,0,.2,1);
+ }
+ .nav-links.open{right:0}
+ .nav-links a,nav.solid .nav-links a{color:var(--cream);font-size:1.05rem;padding:12px 0}
+ /* iOS zooms the page when an input font is under 16px */
+ .field input,.field textarea{font-size:16px;padding:13px 14px}
+ .form .btn{padding:16px 30px}
+ .nav-right{gap:14px}
+ .cards{grid-template-columns:1fr}
+ .form-grid{grid-template-columns:1fr}
+ .gal-i{flex:1 1 calc(50% - 6px)}
+ .gal{gap:12px}
+ .gal-wide{padding:0 22px}
+ .facts,.stats{grid-template-columns:1fr}
+ .steps{grid-template-columns:1fr;gap:26px}
+ .step,.step:first-child,.step:nth-child(4){padding:0 0 0 0}
+ .step::before{display:none}
+ .step-n{margin-bottom:12px}
+ .why-grid{grid-template-columns:repeat(2,1fr)}
+ .hero{min-height:92vh}
+ .region{min-height:0}
+ .figure img{height:320px}
+ .band{margin:0}
+}
+@media(max-height:700px){
+ .region{min-height:0}
+}
+
+/* iOS and Android ignore background-attachment:fixed, so fall back to scroll */
+@media(hover:none),(max-width:900px){
+ .about-bg,.band,.sun-dark,.contact{background-attachment:scroll}
+}
+/* Touch targets: Apple and WCAG both ask for 44px minimum. */
+@media(hover:none){
+ .lang-opt{padding:13px 16px}
+ .lang-btn{padding:10px 14px}
+ .nav-links a{padding-top:10px;padding-bottom:10px}
+ .field input,.field textarea{font-size:16px;padding:13px 14px}
+}
+</style>
+</head>
+<body>
+
+<a href="#about" class="skip">Skip to content</a>
+
+<!-- NAV -->
+<nav id="nav">
+ <a href="/" class="brand" id="brandLink"><em>Olga</em> Mae</a>
+ <div class="nav-right">
+  <ul class="nav-links" id="navLinks">
+   <li><a href="#about" data-i18n="n_about" onclick="closeMenu()">About</a></li>
+   <li><a href="#region" data-i18n="n_region" onclick="closeMenu()">Origin</a></li>
+   <li><a href="#sourcing" data-i18n="n_sourcing" onclick="closeMenu()">Sourcing</a></li>
+   <li><a href="#process" data-i18n="n_process" onclick="closeMenu()">Process</a></li>
+   <li><a href="#gallery" data-i18n="n_gallery" onclick="closeMenu()">Gallery</a></li>
+   <li><a href="#contact" data-i18n="n_contact" onclick="closeMenu()">Contact</a></li>
+  </ul>
+  <div class="lang" id="lw">
+   <button class="lang-btn" onclick="toggleLang()" aria-label="Select language" aria-expanded="false" aria-haspopup="true"><span id="lf">🇬🇧</span><span id="ll">EN</span></button>
+   <div class="lang-menu" role="menu">
+    <button class="lang-opt active" role="menuitem" onclick="setLang('en')">🇬🇧 English</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('ar')">🇦🇪 العربية</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('pt')">🇧🇷 Português</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('fr')">🇫🇷 Français</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('tr')">🇹🇷 Türkçe</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('hi')">🇮🇳 हिन्दी</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('de')">🇩🇪 Deutsch</button>
+    <button class="lang-opt" role="menuitem" onclick="setLang('zh')">🇨🇳 中文</button>
+   </div>
+  </div>
+  <button class="ham" id="ham" onclick="toggleMenu()" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+ </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+ <div class="hero-inner">
+  <div class="label" data-i18n="h_eyebrow">Olga Mae · Minas Gerais, Brazil</div>
+  <h1 data-i18n="h_title">Brazilian Arabica,<br/><em>sourced at origin.</em></h1>
+  <p class="hero-sub" data-i18n="h_sub">We farm in Sul de Minas and source across the region, helping international buyers secure Arabica from the largest Arabica-producing region in the world. Commercial to specialty, with professional export execution.</p>
+  <div class="hero-cta">
+   <a href="#sourcing" class="btn btn-solid" data-i18n="h_btn1">What We Source</a>
+   <a href="#contact" class="btn btn-line" data-i18n="h_btn2">Request a Sample</a>
+  </div>
+ </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="about-bg">
+ <div class="wrap split">
+  <div class="split-text">
+   <div class="label" data-i18n="a_label">Who We Are</div>
+   <h2 data-i18n="a_title">Coffee producers and<br/><em>sourcing partners.</em></h2>
+   <p class="lede" data-i18n="a_p1">Olga Mae is based in Minas Gerais. We farm our own coffee in Sul de Minas, and we source from partner producers across the region, so we can match what international buyers actually require: by profile, by grade, by volume.</p>
+   <p class="lede" data-i18n="a_p2">We coordinate the sourcing process at origin. Experienced export partners execute the logistics, documentation and shipping. Buyers get access to a broad portfolio of Brazilian coffees, with a professional export process behind every shipment.</p>
+   <p class="quote" data-i18n="a_quote">"We know the region, we know the producers, and we know what buyers need. That is the work."</p>
+  </div>
+  <div class="figure">
+   <img src="producer.jpg" width="1300" height="867" alt="Coffee producer in the plantation, Sul de Minas, Minas Gerais" loading="lazy"/>
+   <div class="figure-note" data-i18n="a_note">Sul de Minas · Minas Gerais</div>
+  </div>
+ </div>
+</section>
+
+<!-- REGION -->
+<section class="region" id="region">
+ <div class="wrap">
+  <div class="region-head">
+   <div>
+    <div class="label" data-i18n="r_label">Origin</div>
+    <h2 data-i18n="r_title">Sul de Minas,<br/><em>Minas Gerais.</em></h2>
+   </div>
+   <p class="lede" data-i18n="r_sub">Minas Gerais is the largest producer of Arabica coffee in the world, and Sul de Minas sits at its centre. Climate, soil and generations of production knowledge make it one of the most consistent and respected origins in the trade.</p>
+  </div>
+  <div class="stats">
+   <div class="stat"><div class="stat-k" data-i18n="r_k1">Minas Gerais</div><div class="stat-v" data-i18n="r_v1">Largest Arabica producing region in the world</div></div>
+   <div class="stat"><div class="stat-k" data-i18n="r_k2">Sul de Minas</div><div class="stat-v" data-i18n="r_v2">Our sourcing base and producing community</div></div>
+   <div class="stat"><div class="stat-k" data-i18n="r_k3">Commercial to Specialty</div><div class="stat-v" data-i18n="r_v3">Full range of grades and cup profiles</div></div>
+   <div class="stat"><div class="stat-k" data-i18n="r_k4">Professional Export</div><div class="stat-v" data-i18n="r_v4">Documentation and logistics handled properly</div></div>
+  </div>
+ </div>
+</section>
+
+<!-- SOURCING -->
+<!-- 4  SUNSET -->
+<div class="band" style="background-image:url('sunset.jpg')" role="img" aria-label="Sunset over the lake, Sul de Minas, Minas Gerais"></div>
+
+<!-- 5  WHAT WE SOURCE -->
+<section id="sourcing" class="sun-dark">
+ <div class="wrap">
+  <div class="source-head">
+   <div class="label" data-i18n="s_label">What We Source</div>
+   <h2 data-i18n="s_title">We do not sell one coffee.<br/><em>We source to your requirement.</em></h2>
+   <p class="lede" data-i18n="s_sub">Every buyer has a different specification. We work across grades, processing methods and cup profiles, and build the lot around what you need rather than what we happen to hold.</p>
+  </div>
+
+  <div class="rows">
+   <div class="row"><div class="row-n">01</div><div class="row-t" data-i18n="c1t">Commercial Arabica</div><p class="row-d" data-i18n="c1d">Consistent, blend-ready lots for roasters working at volume.</p></div>
+   <div class="row"><div class="row-n">02</div><div class="row-t" data-i18n="c2t">Premium Arabica</div><p class="row-d" data-i18n="c2d">A step up in cup quality and screen consistency for signature blends.</p></div>
+   <div class="row"><div class="row-n">03</div><div class="row-t" data-i18n="c3t">Specialty Arabica</div><p class="row-d" data-i18n="c3d">Higher-scoring lots for roasters building a specialty programme.</p></div>
+   <div class="row"><div class="row-n">04</div><div class="row-t" data-i18n="c4t">Processing Methods</div><p class="row-d" data-i18n="c4d">Natural, washed and honey, depending on the profile you are after.</p></div>
+   <div class="row"><div class="row-n">05</div><div class="row-t" data-i18n="c5t">Cup Profiles</div><p class="row-d" data-i18n="c5d">From classic chocolate and nut through to sweeter, fruit-forward lots.</p></div>
+   <div class="row"><div class="row-n">06</div><div class="row-t" data-i18n="c6t">Flexible Volumes</div><p class="row-d" data-i18n="c6d">From a single container to a recurring seasonal programme.</p></div>
+   <div class="row"><div class="row-n">07</div><div class="row-t" data-i18n="c7t">Custom Sourcing</div><p class="row-d" data-i18n="c7d">Send us the specification and we will source against it.</p></div>
+   <div class="row"><div class="row-n">08</div><div class="row-t" data-i18n="c8t">Samples</div><p class="row-d" data-i18n="c8d">Available on request. Cup before you commit to anything.</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 6  SPECIFICATION -->
+<section class="charcoal">
+ <div class="wrap">
+  <div class="facts">
+   <div><div class="fact-l" data-i18n="sl1">Origin</div><div class="fact-v" data-i18n="sv1">Sul de Minas, Minas Gerais, Brazil</div></div>
+   <div><div class="fact-l" data-i18n="sl2">Form</div><div class="fact-v" data-i18n="sv2">Green beans</div></div>
+   <div><div class="fact-l" data-i18n="sl3">Range</div><div class="fact-v" data-i18n="sv3">Commercial to specialty grade</div></div>
+   <div><div class="fact-l" data-i18n="sl4">Processing</div><div class="fact-v" data-i18n="sv4">Natural · Washed · Honey</div></div>
+   <div><div class="fact-l" data-i18n="sl5">Trade Basis</div><div class="fact-v" data-i18n="sv5">FOB Santos · Against differential or outright</div></div>
+   <div><div class="fact-l" data-i18n="sl6">Minimum Order</div><div class="fact-v" data-i18n="sv6">1 × 20ft container</div></div>
+   <div><div class="fact-l" data-i18n="sl7">Payment</div><div class="fact-v" data-i18n="sv7">NCAD · T/T · L/C</div></div>
+   <div><div class="fact-l" data-i18n="sl8">Samples</div><div class="fact-v" data-i18n="sv8">Available on request</div></div>
+  </div>
+  <div class="source-cta">
+   <a href="#contact" class="btn btn-dark" data-i18n="s_cta">Send Us Your Specification</a>
+  </div>
+ </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+ <div class="wrap">
+  <div class="why-head">
+   <div class="label" data-i18n="w_label">Why Work With Us</div>
+   <h2 data-i18n="w_title">Sourcing handled properly.</h2>
+  </div>
+  <div class="why-grid">
+   <div class="why-i"><div class="why-t" data-i18n="w1t">Coffee at Origin</div><p class="why-d" data-i18n="w1d">We are in the producing region, not trading from a warehouse abroad.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w2t">Reliable Sourcing</div><p class="why-d" data-i18n="w2d">We know the producers and the region, so supply holds up season to season.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w3t">Different Profiles</div><p class="why-d" data-i18n="w3d">Access across grades, processes and cup characteristics.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w4t">Professional Export</div><p class="why-d" data-i18n="w4d">Documentation, logistics and shipping executed by experienced partners.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w5t">Traceability</div><p class="why-d" data-i18n="w5d">Every lot documented: region, harvest, processing method.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w6t">Samples Available</div><p class="why-d" data-i18n="w6d">Cup before you commit. We would rather you were sure.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w7t">Consistent Supply</div><p class="why-d" data-i18n="w7d">Built for repeat programmes, not one-off transactions.</p></div>
+   <div class="why-i"><div class="why-t" data-i18n="w8t">Clear Communication</div><p class="why-d" data-i18n="w8d">Direct answers, quickly, in your language and on your terms.</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="process">
+ <div class="wrap">
+  <div class="how-head">
+   <div class="label" data-i18n="hw_label">How It Works</div>
+   <h2 data-i18n="hw_title">From enquiry to <em>shipment.</em></h2>
+   <p class="lede" data-i18n="hw_sub">A clear sequence, with no surprises. You know what happens at each stage and what is expected of both sides.</p>
+  </div>
+  <div class="steps">
+   <div class="step">
+    <div class="step-n">01</div>
+    <div class="step-t" data-i18n="hw1t">Send your specification</div>
+    <p class="step-d" data-i18n="hw1d">Grade, cup profile, processing method, volume and destination port.</p>
+   </div>
+   <div class="step">
+    <div class="step-n">02</div>
+    <div class="step-t" data-i18n="hw2t">We source and quote</div>
+    <p class="step-d" data-i18n="hw2d">We match your specification against available lots and come back with a firm offer.</p>
+   </div>
+   <div class="step">
+    <div class="step-n">03</div>
+    <div class="step-t" data-i18n="hw3t">Sample and approval</div>
+    <p class="step-d" data-i18n="hw3d">We ship samples for cupping. Nothing moves until you have approved the coffee.</p>
+   </div>
+   <div class="step">
+    <div class="step-n">04</div>
+    <div class="step-t" data-i18n="hw4t">Contract and terms</div>
+    <p class="step-d" data-i18n="hw4d">Quantity, price, incoterms and payment agreed in writing before shipment.</p>
+   </div>
+   <div class="step">
+    <div class="step-n">05</div>
+    <div class="step-t" data-i18n="hw5t">Documentation and shipment</div>
+    <p class="step-d" data-i18n="hw5d">Export documentation and logistics handled by our partners, with tracking shared throughout.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+ <div class="wrap">
+  <div class="gal-head">
+   <div class="label" data-i18n="g_label">At Origin</div>
+   <h2 data-i18n="g_title">From the producing region.</h2>
+   <p class="lede" data-i18n="g_sub">Sul de Minas, during harvest and processing.</p>
+  </div>
+ </div>
+ <div class="gal-wide">
+  <div class="gal">
+   <div class="gal-i"><img src="producer.jpg" width="1300" height="867" alt="Coffee producer in the plantation, Sul de Minas" loading="lazy"/></div>
+   <div class="gal-i"><img src="blossom.jpg" width="1200" height="1200" alt="Coffee trees in flower across the plantation, Sul de Minas, Minas Gerais" loading="lazy"/></div>
+   <div class="gal-i"><img src="cherries.jpg" width="1125" height="1500" alt="Ripening coffee cherries on the branch, Sul de Minas" loading="lazy"/></div>
+   <div class="gal-i"><img src="drying-patio.jpg" width="1200" height="1024" alt="Coffee drying patio, Sul de Minas, Minas Gerais" loading="lazy"/></div>
+  </div>
+ </div>
+ <div class="wrap">
+  <p class="gal-note" data-i18n="g_note">Original photography from the region, added through the season.</p>
+ </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+ <div class="contact-inner">
+  <div class="label" data-i18n="ct_label">Contact</div>
+  <h2 data-i18n="ct_title">Tell us what you need.</h2>
+  <p class="lede" data-i18n="ct_lead">Send us your specification (grade, profile, volume and destination) and we will come back with an offer. Samples are available before any commitment.</p>
+  <form class="form" action="https://formsubmit.co/info@olgamae.com" method="POST">
+   <input type="hidden" name="_subject" value="New enquiry from olgamae.com"/>
+   <input type="hidden" name="_template" value="table"/>
+   <input type="hidden" name="_captcha" value="false"/>
+   <input type="hidden" name="_next" value="https://olgamae.com/thanks.html"/>
+   <input type="text" name="_honey" style="display:none"/>
+   <div class="form-grid">
+    <div class="field">
+     <label for="f-name" data-i18n="f_name">Name</label>
+     <input id="f-name" type="text" name="Name" required/>
+    </div>
+    <div class="field">
+     <label for="f-company" data-i18n="f_company">Company</label>
+     <input id="f-company" type="text" name="Company" required/>
+    </div>
+    <div class="field">
+     <label for="f-email" data-i18n="f_email">Email</label>
+     <input id="f-email" type="email" name="Email" required/>
+    </div>
+    <div class="field">
+     <label for="f-country" data-i18n="f_country">Country / destination port</label>
+     <input id="f-country" type="text" name="Country / Destination"/>
+    </div>
+    <div class="field full">
+     <label for="f-msg" data-i18n="f_msg">Your requirement</label>
+     <textarea id="f-msg" name="Requirement" data-i18n-ph="f_msg_ph" placeholder="Grade, processing method, volume, shipment window, and anything else we should know." required></textarea>
+    </div>
+   </div>
+   <button type="submit" class="btn btn-solid" data-i18n="f_send">Send Enquiry</button>
+   <p class="form-note" data-i18n="f_note">We reply to every enquiry, usually within a few hours.</p>
+  </form>
+
+  <div class="or"><span data-i18n="f_or">Or reach us directly</span></div>
+
+  <div class="cards">
+   <div class="card">
+    <div class="card-l" data-i18n="cc1">Email</div>
+    <a href="mailto:info@olgamae.com" class="card-v">info@olgamae.com</a>
+   </div>
+   <div class="card">
+    <div class="card-l" data-i18n="cc2">WhatsApp</div>
+    <a href="https://wa.me/5535992120259" target="_blank" rel="noopener" class="card-v">+55 35 99212-0259</a>
+   </div>
+   <div class="card">
+    <div class="card-l" data-i18n="cc3">Location</div>
+    <span class="card-v" data-i18n="cc3v">Sul de Minas, Minas Gerais<br/>Brazil</span>
+   </div>
+  </div>
+  <a href="https://wa.me/5535992120259" target="_blank" rel="noopener" class="btn btn-solid" data-i18n="ct_btn">Message Us on WhatsApp</a>
+  <p class="promise" data-i18n="ct_promise">"We answer every enquiry directly and professionally, usually within a few hours."</p>
+ </div>
+ <footer>
+  <div class="f-brand"><em>Olga</em> Mae</div>
+  <div data-i18n="ft">© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brazil · All rights reserved</div>
+ </footer>
+</section>
+
+<script>
+/* Always open at the hero on reload; #hash deep links still work. */
+if('scrollRestoration' in history){history.scrollRestoration='manual';}
+/* Tidy URL: drop a bare "#" left over from an old logo click. */
+if(location.hash==='' && location.href.endsWith('#')){
+  history.replaceState(null,'',location.pathname+location.search);
+}
+/* Logo scrolls to the top instead of navigating, and keeps the URL clean. */
+document.addEventListener('DOMContentLoaded',function(){
+  var bl=document.getElementById('brandLink');
+  if(bl){bl.addEventListener('click',function(e){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    history.replaceState(null,'',location.pathname+location.search);
+  });}
+});
+const T = {
+ en:{code:'EN',rtl:false,
+  n_about:'About',n_region:'Origin',n_sourcing:'Sourcing',n_process:'Process',n_gallery:'Gallery',n_contact:'Contact',
+  h_eyebrow:'Olga Mae · Minas Gerais, Brazil',
+  h_title:'Brazilian Arabica,<br/><em>sourced at origin.</em>',
+  h_sub:'We farm in Sul de Minas and source across the region, helping international buyers secure Arabica from the largest Arabica-producing region in the world. Commercial to specialty, with professional export execution.',
+  h_btn1:'What We Source',h_btn2:'Request a Sample',
+  a_label:'Who We Are',a_title:'Coffee producers and<br/><em>sourcing partners.</em>',
+  a_p1:'Olga Mae is based in Minas Gerais. We farm our own coffee in Sul de Minas, and we source from partner producers across the region, so we can match what international buyers actually require: by profile, by grade, by volume.',
+  a_p2:'We coordinate the sourcing process at origin. Experienced export partners execute the logistics, documentation and shipping. Buyers get access to a broad portfolio of Brazilian coffees, with a professional export process behind every shipment.',
+  a_quote:'"We know the region, we know the producers, and we know what buyers need. That is the work."',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'Origin',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Minas Gerais is the largest producer of Arabica coffee in the world, and Sul de Minas sits at its centre. Climate, soil and generations of production knowledge make it one of the most consistent and respected origins in the trade.',
+  r_k1:'Minas Gerais',r_v1:'Largest Arabica producing region in the world',
+  r_k2:'Sul de Minas',r_v2:'Our sourcing base and producing community',
+  r_k3:'Commercial to Specialty',r_v3:'Full range of grades and cup profiles',
+  r_k4:'Professional Export',r_v4:'Documentation and logistics handled properly',
+  s_label:'What We Source',s_title:'We do not sell one coffee.<br/><em>We source to your requirement.</em>',
+  s_sub:'Every buyer has a different specification. We work across grades, processing methods and cup profiles, and build the lot around what you need rather than what we happen to hold.',
+  c1t:'Commercial Arabica',c1d:'Consistent, blend-ready lots for roasters working at volume.',
+  c2t:'Premium Arabica',c2d:'A step up in cup quality and screen consistency for signature blends.',
+  c3t:'Specialty Arabica',c3d:'Higher-scoring lots for roasters building a specialty programme.',
+  c4t:'Processing Methods',c4d:'Natural, washed and honey, depending on the profile you are after.',
+  c5t:'Cup Profiles',c5d:'From classic chocolate and nut through to sweeter, fruit-forward lots.',
+  c6t:'Flexible Volumes',c6d:'From a single container to a recurring seasonal programme.',
+  c7t:'Custom Sourcing',c7d:'Send us the specification and we will source against it.',
+  c8t:'Samples',c8d:'Available on request. Cup before you commit to anything.',
+  sl1:'Origin',sv1:'Sul de Minas, Minas Gerais, Brazil',
+  sl2:'Form',sv2:'Green beans',
+  sl3:'Range',sv3:'Commercial to specialty grade',
+  sl4:'Processing',sv4:'Natural · Washed · Honey',
+  sl5:'Trade Basis',sv5:'FOB Santos · Against differential or outright',
+  sl6:'Minimum Order',sv6:'1 × 20ft container',
+  sl7:'Payment',sv7:'NCAD · T/T · L/C',
+  sl8:'Samples',sv8:'Available on request',
+  s_cta:'Send Us Your Specification',
+  w_label:'Why Work With Us',w_title:'Sourcing handled properly.',
+  w1t:'Coffee at Origin',w1d:'We are in the producing region, not trading from a warehouse abroad.',
+  w2t:'Reliable Sourcing',w2d:'We know the producers and the region, so supply holds up season to season.',
+  w3t:'Different Profiles',w3d:'Access across grades, processes and cup characteristics.',
+  w4t:'Professional Export',w4d:'Documentation, logistics and shipping executed by experienced partners.',
+  w5t:'Traceability',w5d:'Every lot documented: region, harvest, processing method.',
+  w6t:'Samples Available',w6d:'Cup before you commit. We would rather you were sure.',
+  w7t:'Consistent Supply',w7d:'Built for repeat programmes, not one-off transactions.',
+  w8t:'Clear Communication',w8d:'Direct answers, quickly, in your language and on your terms.',
+  g_label:'At Origin',g_title:'From the producing region.',g_sub:'Sul de Minas, during harvest and processing.',
+  g_note:'Original photography from the region, added through the season.',
+  ct_label:'Contact',ct_title:'Tell us what you need.',
+  ct_lead:'Send us your specification (grade, profile, volume and destination) and we will come back with an offer. Samples are available before any commitment.',
+  cc1:'Email',cc2:'WhatsApp',cc3:'Location',cc3v:'Sul de Minas, Minas Gerais<br/>Brazil',
+  ct_btn:'Message Us on WhatsApp',
+  ct_promise:'"We answer every enquiry directly and professionally, usually within a few hours."',
+  f_name:'Name',
+  f_company:'Company',
+  f_email:'Email',
+  f_country:'Country / destination port',
+  f_msg:'Your requirement',
+  f_msg_ph:'Grade, processing method, volume, shipment window, and anything else we should know.',
+  f_send:'Send Enquiry',
+  f_note:'We reply to every enquiry, usually within a few hours.',
+  f_or:'Or reach us directly',
+  hw_label:'How It Works',
+  hw_title:'From enquiry to <em>shipment.</em>',
+  hw_sub:'A clear sequence, with no surprises. You know what happens at each stage and what is expected of both sides.',
+  hw1t:'Send your specification',
+  hw1d:'Grade, cup profile, processing method, volume and destination port.',
+  hw2t:'We source and quote',
+  hw2d:'We match your specification against available lots and come back with a firm offer.',
+  hw3t:'Sample and approval',
+  hw3d:'We ship samples for cupping. Nothing moves until you have approved the coffee.',
+  hw4t:'Contract and terms',
+  hw4d:'Quantity, price, incoterms and payment agreed in writing before shipment.',
+  hw5t:'Documentation and shipment',
+  hw5d:'Export documentation and logistics handled by our partners, with tracking shared throughout.',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brazil · All rights reserved'
+ },
+ ar:{code:'AR',rtl:true,
+  n_about:'من نحن',n_region:'المنشأ',n_sourcing:'التوريد',n_process:'كيف نعمل',n_gallery:'معرض الصور',n_contact:'اتصل بنا',
+  h_eyebrow:'أولغا ماي · ميناس جيرايس، البرازيل',
+  h_title:'أرابيكا برازيلية،<br/><em>من المنشأ مباشرة.</em>',
+  h_sub:'نزرع القهوة في سول دي ميناس ونورّد من جميع أنحاء المنطقة، لنساعد المشترين الدوليين على الحصول على الأرابيكا من أكبر منطقة منتجة للأرابيكا في العالم. من التجاري إلى المتخصص، مع تنفيذ احترافي للتصدير.',
+  h_btn1:'ما نوفره',h_btn2:'طلب عينة',
+  a_label:'من نحن',a_title:'منتجون للقهوة<br/><em>وشركاء توريد.</em>',
+  a_p1:'تتخذ أولغا ماي من ميناس جيرايس مقراً لها. نزرع قهوتنا بأنفسنا في سول دي ميناس، ونورّد من منتجين شركاء في جميع أنحاء المنطقة، لنطابق ما يحتاجه المشترون الدوليون فعلياً: حسب النكهة والدرجة والكمية.',
+  a_p2:'ننسّق عملية التوريد في المنشأ. ويتولى شركاء تصدير ذوو خبرة تنفيذ الخدمات اللوجستية والوثائق والشحن. يحصل المشترون على محفظة واسعة من القهوة البرازيلية، مع عملية تصدير احترافية وراء كل شحنة.',
+  a_quote:'"نعرف المنطقة، ونعرف المنتجين، ونعرف ما يحتاجه المشترون. هذا هو عملنا."',
+  a_note:'سول دي ميناس · ميناس جيرايس',
+  r_label:'المنشأ',r_title:'سول دي ميناس،<br/><em>ميناس جيرايس.</em>',
+  r_sub:'ميناس جيرايس هي أكبر منتج لقهوة الأرابيكا في العالم، وسول دي ميناس تقع في قلبها. المناخ والتربة وأجيال من المعرفة الإنتاجية تجعلها من أكثر مناطق المنشأ ثباتاً واحتراماً في التجارة.',
+  r_k1:'ميناس جيرايس',r_v1:'أكبر منطقة منتجة للأرابيكا في العالم',
+  r_k2:'سول دي ميناس',r_v2:'قاعدة التوريد ومجتمع الإنتاج لدينا',
+  r_k3:'من التجاري إلى المتخصص',r_v3:'نطاق كامل من الدرجات وملفات النكهة',
+  r_k4:'تصدير احترافي',r_v4:'إدارة الوثائق والخدمات اللوجستية بشكل صحيح',
+  s_label:'ما نوفره',s_title:'لا نبيع قهوة واحدة.<br/><em>نوفّر حسب متطلباتك.</em>',
+  s_sub:'لكل مشترٍ مواصفات مختلفة. نعمل عبر درجات وطرق معالجة وملفات نكهة متعددة، ونبني الدفعة وفق ما تحتاجه أنت.',
+  c1t:'أرابيكا تجارية',c1d:'دفعات ثابتة جاهزة للخلط للمحامص التي تعمل بكميات كبيرة.',
+  c2t:'أرابيكا ممتازة',c2d:'مستوى أعلى في جودة الكوب وانتظام حجم الحبة.',
+  c3t:'أرابيكا متخصصة',c3d:'دفعات بدرجات تقييم أعلى للمحامص التي تبني برنامجاً متخصصاً.',
+  c4t:'طرق المعالجة',c4d:'طبيعي ومغسول وهاني، حسب النكهة المطلوبة.',
+  c5t:'ملفات النكهة',c5d:'من الشوكولاتة والمكسرات الكلاسيكية إلى دفعات أحلى وأكثر فاكهية.',
+  c6t:'كميات مرنة',c6d:'من حاوية واحدة إلى برنامج موسمي متكرر.',
+  c7t:'توريد حسب الطلب',c7d:'أرسل لنا المواصفات وسنوفّر ما يطابقها.',
+  c8t:'العينات',c8d:'متاحة عند الطلب. تذوّق قبل أي التزام.',
+  sl1:'المنشأ',sv1:'سول دي ميناس، ميناس جيرايس، البرازيل',
+  sl2:'الشكل',sv2:'حبوب خضراء',
+  sl3:'النطاق',sv3:'من التجاري إلى المتخصص',
+  sl4:'المعالجة',sv4:'طبيعي · مغسول · هاني',
+  sl5:'أساس التداول',sv5:'FOB Santos · على أساس الفرق أو سعر ثابت',
+  sl6:'الحد الأدنى للطلب',sv6:'1 × حاوية 20 قدم',
+  sl7:'الدفع',sv7:'NCAD · T/T · L/C',
+  sl8:'العينات',sv8:'متاحة عند الطلب',
+  s_cta:'أرسل لنا مواصفاتك',
+  w_label:'لماذا تعمل معنا',w_title:'توريد يُدار باحترافية.',
+  w1t:'قهوة من المنشأ',w1d:'نحن في المنطقة المنتجة، لا نتاجر من مستودع في الخارج.',
+  w2t:'توريد موثوق',w2d:'نعرف المنتجين والمنطقة، لذا يستمر التوريد موسماً بعد موسم.',
+  w3t:'ملفات متنوعة',w3d:'وصول إلى درجات وطرق معالجة وخصائص كوب مختلفة.',
+  w4t:'تصدير احترافي',w4d:'الوثائق والخدمات اللوجستية والشحن ينفذها شركاء ذوو خبرة.',
+  w5t:'إمكانية التتبع',w5d:'كل دفعة موثقة: المنطقة والحصاد وطريقة المعالجة.',
+  w6t:'عينات متاحة',w6d:'تذوّق قبل الالتزام. نفضّل أن تكون على يقين.',
+  w7t:'توريد ثابت',w7d:'مصمم للبرامج المتكررة، لا للصفقات الفردية.',
+  w8t:'تواصل واضح',w8d:'إجابات مباشرة وسريعة، بلغتك ووفق شروطك.',
+  g_label:'في المنشأ',g_title:'من المنطقة المنتجة.',g_sub:'سول دي ميناس، خلال الحصاد والمعالجة.',
+  g_note:'صور أصلية من المنطقة، تُضاف على مدار الموسم.',
+  ct_label:'اتصل بنا',ct_title:'أخبرنا بما تحتاجه.',
+  ct_lead:'أرسل لنا مواصفاتك (الدرجة والنكهة والكمية والوجهة) وسنعود إليك بعرض. العينات متاحة قبل أي التزام.',
+  cc1:'البريد الإلكتروني',cc2:'واتساب',cc3:'الموقع',cc3v:'سول دي ميناس، ميناس جيرايس<br/>البرازيل',
+  ct_btn:'راسلنا عبر واتساب',
+  ct_promise:'"نرد على كل استفسار بشكل مباشر واحترافي، عادة في غضون ساعات قليلة."',
+  f_name:'الاسم',
+  f_company:'الشركة',
+  f_email:'البريد الإلكتروني',
+  f_country:'الدولة / ميناء الوصول',
+  f_msg:'متطلباتك',
+  f_msg_ph:'الدرجة، طريقة المعالجة، الكمية، موعد الشحن، وأي تفاصيل أخرى.',
+  f_send:'إرسال الطلب',
+  f_note:'نرد على كل استفسار، عادة في غضون ساعات قليلة.',
+  f_or:'أو تواصل معنا مباشرة',
+  hw_label:'كيف نعمل',
+  hw_title:'من الاستفسار إلى <em>الشحن.</em>',
+  hw_sub:'تسلسل واضح بلا مفاجآت. تعرف ما يحدث في كل مرحلة وما هو متوقع من الطرفين.',
+  hw1t:'أرسل مواصفاتك',
+  hw1d:'الدرجة، ملف النكهة، طريقة المعالجة، الكمية وميناء الوصول.',
+  hw2t:'نوفّر ونسعّر',
+  hw2d:'نطابق مواصفاتك مع الدفعات المتاحة ونعود إليك بعرض ثابت.',
+  hw3t:'العينة والموافقة',
+  hw3d:'نرسل عينات للتذوق. لا شيء يتحرك قبل موافقتك على القهوة.',
+  hw4t:'العقد والشروط',
+  hw4d:'الكمية والسعر وشروط التسليم والدفع، متفق عليها كتابياً قبل الشحن.',
+  hw5t:'الوثائق والشحن',
+  hw5d:'وثائق التصدير والخدمات اللوجستية يتولاها شركاؤنا، مع مشاركة التتبع طوال الوقت.',
+  ft:'© 2026 أولغا ماي · سول دي ميناس، ميناس جيرايس، البرازيل · جميع الحقوق محفوظة'
+ },
+ pt:{code:'PT',rtl:false,
+  n_about:'Sobre',n_region:'Origem',n_sourcing:'Sourcing',n_process:'Processo',n_gallery:'Galeria',n_contact:'Contato',
+  h_eyebrow:'Olga Mae · Minas Gerais, Brasil',
+  h_title:'Arábica brasileiro,<br/><em>na origem.</em>',
+  h_sub:'Produzimos café no Sul de Minas e buscamos em toda a região, ajudando compradores internacionais a garantir arábica da maior região produtora de arábica do mundo. Do comercial ao especial, com execução profissional de exportação.',
+  h_btn1:'O Que Fornecemos',h_btn2:'Solicitar Amostra',
+  a_label:'Quem Somos',a_title:'Produtores de café e<br/><em>parceiros de sourcing.</em>',
+  a_p1:'A Olga Mae está sediada em Minas Gerais. Produzimos nosso próprio café no Sul de Minas e buscamos junto a produtores parceiros em toda a região, para atender ao que compradores internacionais realmente precisam: por perfil, por grau, por volume.',
+  a_p2:'Coordenamos o processo de sourcing na origem. Parceiros de exportação experientes executam a logística, a documentação e o embarque. Os compradores acessam um portfólio amplo de cafés brasileiros, com um processo de exportação profissional por trás de cada embarque.',
+  a_quote:'"Conhecemos a região, conhecemos os produtores e sabemos o que os compradores precisam. Esse é o trabalho."',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'Origem',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Minas Gerais é a maior produtora de café arábica do mundo, e o Sul de Minas está no seu centro. Clima, solo e gerações de conhecimento produtivo fazem dela uma das origens mais consistentes e respeitadas do mercado.',
+  r_k1:'Minas Gerais',r_v1:'Maior região produtora de arábica do mundo',
+  r_k2:'Sul de Minas',r_v2:'Nossa base de sourcing e comunidade produtora',
+  r_k3:'Comercial ao Especial',r_v3:'Gama completa de graus e perfis de xícara',
+  r_k4:'Exportação Profissional',r_v4:'Documentação e logística conduzidas corretamente',
+  s_label:'O Que Fornecemos',s_title:'Não vendemos um único café.<br/><em>Fornecemos conforme sua necessidade.</em>',
+  s_sub:'Cada comprador tem uma especificação diferente. Trabalhamos com diferentes graus, métodos de processamento e perfis de xícara, montando o lote conforme o que você precisa.',
+  c1t:'Arábica Comercial',c1d:'Lotes consistentes, prontos para blend, para torrefadores de volume.',
+  c2t:'Arábica Premium',c2d:'Um passo acima em qualidade de xícara e uniformidade de peneira.',
+  c3t:'Arábica Especial',c3d:'Lotes de pontuação mais alta para programas de cafés especiais.',
+  c4t:'Métodos de Processo',c4d:'Natural, lavado e honey, conforme o perfil desejado.',
+  c5t:'Perfis de Xícara',c5d:'Do clássico chocolate e nozes a lotes mais doces e frutados.',
+  c6t:'Volumes Flexíveis',c6d:'De um único contêiner a um programa sazonal recorrente.',
+  c7t:'Sourcing Sob Medida',c7d:'Envie a especificação e buscamos o café correspondente.',
+  c8t:'Amostras',c8d:'Disponíveis mediante solicitação. Prove antes de assumir compromisso.',
+  sl1:'Origem',sv1:'Sul de Minas, Minas Gerais, Brasil',
+  sl2:'Forma',sv2:'Grãos verdes',
+  sl3:'Faixa',sv3:'Do comercial ao especial',
+  sl4:'Processamento',sv4:'Natural · Lavado · Honey',
+  sl5:'Base de Negociação',sv5:'FOB Santos · Contra diferencial ou preço fixo',
+  sl6:'Pedido Mínimo',sv6:'1 × contêiner 20ft',
+  sl7:'Pagamento',sv7:'NCAD · T/T · L/C',
+  sl8:'Amostras',sv8:'Disponíveis sob solicitação',
+  s_cta:'Envie Sua Especificação',
+  w_label:'Por Que Trabalhar Conosco',w_title:'Sourcing conduzido corretamente.',
+  w1t:'Café na Origem',w1d:'Estamos na região produtora, não operando de um armazém no exterior.',
+  w2t:'Sourcing Confiável',w2d:'Conhecemos os produtores e a região, então o fornecimento se sustenta safra após safra.',
+  w3t:'Perfis Diversos',w3d:'Acesso a diferentes graus, processos e características de xícara.',
+  w4t:'Exportação Profissional',w4d:'Documentação, logística e embarque executados por parceiros experientes.',
+  w5t:'Rastreabilidade',w5d:'Cada lote documentado: região, safra, método de processamento.',
+  w6t:'Amostras Disponíveis',w6d:'Prove antes de fechar. Preferimos que você tenha certeza.',
+  w7t:'Fornecimento Consistente',w7d:'Feito para programas recorrentes, não para transações isoladas.',
+  w8t:'Comunicação Clara',w8d:'Respostas diretas, rápidas, no seu idioma e nos seus termos.',
+  g_label:'Na Origem',g_title:'Da região produtora.',g_sub:'Sul de Minas, durante a colheita e o processamento.',
+  g_note:'Fotografia original da região, adicionada ao longo da safra.',
+  ct_label:'Contato',ct_title:'Diga o que você precisa.',
+  ct_lead:'Envie sua especificação (grau, perfil, volume e destino) e retornamos com uma oferta. Amostras disponíveis antes de qualquer compromisso.',
+  cc1:'E-mail',cc2:'WhatsApp',cc3:'Localização',cc3v:'Sul de Minas, Minas Gerais<br/>Brasil',
+  ct_btn:'Fale Conosco no WhatsApp',
+  ct_promise:'"Respondemos a cada consulta de forma direta e profissional, geralmente em poucas horas."',
+  f_name:'Nome',
+  f_company:'Empresa',
+  f_email:'E-mail',
+  f_country:'País / porto de destino',
+  f_msg:'Sua necessidade',
+  f_msg_ph:'Grau, método de processamento, volume, janela de embarque e qualquer outro detalhe.',
+  f_send:'Enviar Consulta',
+  f_note:'Respondemos a cada consulta, geralmente em poucas horas.',
+  f_or:'Ou fale conosco diretamente',
+  hw_label:'Como Funciona',
+  hw_title:'Da consulta ao <em>embarque.</em>',
+  hw_sub:'Uma sequência clara, sem surpresas. Você sabe o que acontece em cada etapa e o que se espera de cada lado.',
+  hw1t:'Envie sua especificação',
+  hw1d:'Grau, perfil de xícara, método de processamento, volume e porto de destino.',
+  hw2t:'Buscamos e cotamos',
+  hw2d:'Comparamos sua especificação com os lotes disponíveis e retornamos com uma oferta firme.',
+  hw3t:'Amostra e aprovação',
+  hw3d:'Enviamos amostras para prova. Nada avança até você aprovar o café.',
+  hw4t:'Contrato e condições',
+  hw4d:'Quantidade, preço, incoterms e pagamento acordados por escrito antes do embarque.',
+  hw5t:'Documentação e embarque',
+  hw5d:'Documentação de exportação e logística conduzidas por nossos parceiros, com rastreamento compartilhado.',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brasil · Todos os direitos reservados'
+ },
+ fr:{code:'FR',rtl:false,
+  n_about:'À Propos',n_region:'Origine',n_sourcing:'Sourcing',n_process:'Processus',n_gallery:'Galerie',n_contact:'Contact',
+  h_eyebrow:'Olga Mae · Minas Gerais, Brésil',
+  h_title:'Arabica brésilien,<br/><em>sourcé à l\'origine.</em>',
+  h_sub:'Nous cultivons dans le Sul de Minas et sourçons dans toute la région, aidant les acheteurs internationaux à se procurer de l\'arabica dans la plus grande région productrice d\'arabica au monde. Du commercial au spécialité, avec une exécution export professionnelle.',
+  h_btn1:'Ce Que Nous Sourçons',h_btn2:'Demander un Échantillon',
+  a_label:'Qui Sommes-Nous',a_title:'Producteurs de café et<br/><em>partenaires de sourcing.</em>',
+  a_p1:'Olga Mae est basée dans le Minas Gerais. Nous cultivons notre propre café dans le Sul de Minas et sourçons auprès de producteurs partenaires dans toute la région, afin de répondre aux besoins réels des acheteurs internationaux : par profil, par grade, par volume.',
+  a_p2:'Nous coordonnons le sourcing à l\'origine. Des partenaires export expérimentés assurent la logistique, la documentation et l\'expédition. Les acheteurs accèdent à un large portefeuille de cafés brésiliens, avec un processus d\'exportation professionnel derrière chaque expédition.',
+  a_quote:'"Nous connaissons la région, nous connaissons les producteurs, et nous savons ce dont les acheteurs ont besoin. C\'est notre métier."',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'Origine',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Le Minas Gerais est le premier producteur d\'arabica au monde, et le Sul de Minas en est le cœur. Climat, sol et générations de savoir-faire en font l\'une des origines les plus constantes et les plus respectées du marché.',
+  r_k1:'Minas Gerais',r_v1:'Première région productrice d\'arabica au monde',
+  r_k2:'Sul de Minas',r_v2:'Notre base de sourcing et communauté productrice',
+  r_k3:'Commercial à Spécialité',r_v3:'Gamme complète de grades et profils de tasse',
+  r_k4:'Export Professionnel',r_v4:'Documentation et logistique gérées correctement',
+  s_label:'Ce Que Nous Sourçons',s_title:'Nous ne vendons pas un seul café.<br/><em>Nous sourçons selon votre besoin.</em>',
+  s_sub:'Chaque acheteur a un cahier des charges différent. Nous travaillons sur plusieurs grades, méthodes de traitement et profils de tasse, et construisons le lot autour de vos besoins.',
+  c1t:'Arabica Commercial',c1d:'Lots constants, prêts pour l\'assemblage, pour les torréfacteurs en volume.',
+  c2t:'Arabica Premium',c2d:'Un cran au-dessus en qualité de tasse et régularité de calibre.',
+  c3t:'Arabica Spécialité',c3d:'Lots mieux notés pour les torréfacteurs bâtissant une gamme spécialité.',
+  c4t:'Méthodes de Traitement',c4d:'Naturel, lavé et honey, selon le profil recherché.',
+  c5t:'Profils de Tasse',c5d:'Du chocolat et noix classiques aux lots plus doux et fruités.',
+  c6t:'Volumes Flexibles',c6d:'D\'un seul conteneur à un programme saisonnier récurrent.',
+  c7t:'Sourcing Sur Mesure',c7d:'Envoyez-nous le cahier des charges et nous sourçons en conséquence.',
+  c8t:'Échantillons',c8d:'Disponibles sur demande. Dégustez avant de vous engager.',
+  sl1:'Origine',sv1:'Sul de Minas, Minas Gerais, Brésil',
+  sl2:'Forme',sv2:'Grains verts',
+  sl3:'Gamme',sv3:'Du commercial au spécialité',
+  sl4:'Traitement',sv4:'Naturel · Lavé · Honey',
+  sl5:'Base de Cotation',sv5:'FOB Santos · Contre différentiel ou prix ferme',
+  sl6:'Commande Minimum',sv6:'1 × conteneur 20ft',
+  sl7:'Paiement',sv7:'NCAD · T/T · L/C',
+  sl8:'Échantillons',sv8:'Disponibles sur demande',
+  s_cta:'Envoyez-Nous Votre Cahier des Charges',
+  w_label:'Pourquoi Travailler Avec Nous',w_title:'Un sourcing mené correctement.',
+  w1t:'Café à l\'Origine',w1d:'Nous sommes dans la région productrice, pas dans un entrepôt à l\'étranger.',
+  w2t:'Sourcing Fiable',w2d:'Nous connaissons les producteurs et la région, l\'approvisionnement tient saison après saison.',
+  w3t:'Profils Variés',w3d:'Accès à différents grades, traitements et caractéristiques de tasse.',
+  w4t:'Export Professionnel',w4d:'Documentation, logistique et expédition assurées par des partenaires expérimentés.',
+  w5t:'Traçabilité',w5d:'Chaque lot documenté : région, récolte, méthode de traitement.',
+  w6t:'Échantillons Disponibles',w6d:'Dégustez avant de vous engager. Nous préférons que vous soyez sûr.',
+  w7t:'Approvisionnement Constant',w7d:'Conçu pour des programmes récurrents, pas des transactions isolées.',
+  w8t:'Communication Claire',w8d:'Des réponses directes, rapides, dans votre langue et selon vos termes.',
+  g_label:'À l\'Origine',g_title:'De la région productrice.',g_sub:'Sul de Minas, pendant la récolte et le traitement.',
+  g_note:'Photographies originales de la région, ajoutées au fil de la saison.',
+  ct_label:'Contact',ct_title:'Dites-nous ce qu\'il vous faut.',
+  ct_lead:'Envoyez-nous votre cahier des charges (grade, profil, volume et destination) et nous reviendrons avec une offre. Échantillons disponibles avant tout engagement.',
+  cc1:'E-mail',cc2:'WhatsApp',cc3:'Localisation',cc3v:'Sul de Minas, Minas Gerais<br/>Brésil',
+  ct_btn:'Écrivez-Nous sur WhatsApp',
+  ct_promise:'"Nous répondons à chaque demande de manière directe et professionnelle, généralement en quelques heures."',
+  f_name:'Nom',
+  f_company:'Société',
+  f_email:'E-mail',
+  f_country:'Pays / port de destination',
+  f_msg:'Votre besoin',
+  f_msg_ph:'Grade, méthode de traitement, volume, fenêtre d\'expédition et tout autre détail.',
+  f_send:'Envoyer la Demande',
+  f_note:'Nous répondons à chaque demande, généralement en quelques heures.',
+  f_or:'Ou contactez-nous directement',
+  hw_label:'Comment Nous Travaillons',
+  hw_title:'De la demande à <em>l\'expédition.</em>',
+  hw_sub:'Une séquence claire, sans surprises. Vous savez ce qui se passe à chaque étape et ce qui est attendu de part et d\'autre.',
+  hw1t:'Envoyez votre cahier des charges',
+  hw1d:'Grade, profil de tasse, méthode de traitement, volume et port de destination.',
+  hw2t:'Nous sourçons et chiffrons',
+  hw2d:'Nous comparons votre demande aux lots disponibles et revenons avec une offre ferme.',
+  hw3t:'Échantillon et validation',
+  hw3d:'Nous envoyons des échantillons à déguster. Rien ne bouge avant votre accord.',
+  hw4t:'Contrat et conditions',
+  hw4d:'Quantité, prix, incoterms et paiement convenus par écrit avant expédition.',
+  hw5t:'Documentation et expédition',
+  hw5d:'Documentation export et logistique assurées par nos partenaires, avec suivi partagé.',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brésil · Tous droits réservés'
+ },
+ tr:{code:'TR',rtl:false,
+  n_about:'Hakkımızda',n_region:'Menşe',n_sourcing:'Tedarik',n_process:'Süreç',n_gallery:'Galeri',n_contact:'İletişim',
+  h_eyebrow:'Olga Mae · Minas Gerais, Brezilya',
+  h_title:'Brezilya Arabica\'sı,<br/><em>menşeinden tedarik.</em>',
+  h_sub:'Sul de Minas\'ta kendimiz kahve yetiştiriyor ve bölge genelinden tedarik ediyoruz; uluslararası alıcıların dünyanın en büyük Arabica üretim bölgesinden kahve temin etmesine yardımcı oluyoruz. Ticariden spesiyaliteye, profesyonel ihracat yürütmesiyle.',
+  h_btn1:'Ne Tedarik Ediyoruz',h_btn2:'Numune Talep Et',
+  a_label:'Biz Kimiz',a_title:'Kahve üreticisi ve<br/><em>tedarik ortağı.</em>',
+  a_p1:'Olga Mae, Minas Gerais merkezlidir. Sul de Minas\'ta kendi kahvemizi yetiştiriyor, ayrıca bölge genelindeki ortak üreticilerden tedarik ediyoruz; böylece uluslararası alıcıların gerçekten ihtiyaç duyduğunu karşılıyoruz: profil, sınıf ve hacim bazında.',
+  a_p2:'Tedarik sürecini menşeinde koordine ediyoruz. Lojistik, belgelendirme ve sevkiyatı deneyimli ihracat ortakları yürütüyor. Alıcılar, her sevkiyatın arkasında profesyonel bir ihracat süreciyle geniş bir Brezilya kahvesi portföyüne erişiyor.',
+  a_quote:'"Bölgeyi biliyoruz, üreticileri tanıyoruz ve alıcıların neye ihtiyacı olduğunu biliyoruz. İş bu."',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'Menşe',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Minas Gerais dünyanın en büyük Arabica üreticisidir ve Sul de Minas onun merkezinde yer alır. İklim, toprak ve nesiller boyu üretim bilgisi, burayı ticaretin en istikrarlı ve saygın menşelerinden biri yapar.',
+  r_k1:'Minas Gerais',r_v1:'Dünyanın en büyük Arabica üretim bölgesi',
+  r_k2:'Sul de Minas',r_v2:'Tedarik üssümüz ve üretici topluluğumuz',
+  r_k3:'Ticariden Spesiyaliteye',r_v3:'Tam sınıf ve fincan profili yelpazesi',
+  r_k4:'Profesyonel İhracat',r_v4:'Belgelendirme ve lojistik doğru şekilde yürütülür',
+  s_label:'Ne Tedarik Ediyoruz',s_title:'Tek bir kahve satmıyoruz.<br/><em>İhtiyacınıza göre tedarik ediyoruz.</em>',
+  s_sub:'Her alıcının farklı bir spesifikasyonu var. Farklı sınıflar, işleme yöntemleri ve fincan profilleriyle çalışıyor, lotu elimizde olana göre değil ihtiyacınıza göre kuruyoruz.',
+  c1t:'Ticari Arabica',c1d:'Hacimli çalışan kavurmacılar için tutarlı, harmana hazır lotlar.',
+  c2t:'Premium Arabica',c2d:'Fincan kalitesi ve elek tutarlılığında bir üst seviye.',
+  c3t:'Spesiyalite Arabica',c3d:'Spesiyalite programı kuran kavurmacılar için yüksek puanlı lotlar.',
+  c4t:'İşleme Yöntemleri',c4d:'Aradığınız profile göre doğal, yıkanmış ve honey.',
+  c5t:'Fincan Profilleri',c5d:'Klasik çikolata ve fındıktan daha tatlı, meyveli lotlara.',
+  c6t:'Esnek Hacimler',c6d:'Tek konteynerden düzenli sezonluk programa.',
+  c7t:'Özel Tedarik',c7d:'Spesifikasyonu gönderin, ona göre tedarik edelim.',
+  c8t:'Numuneler',c8d:'Talep üzerine mevcut. Taahhüt öncesi tadın.',
+  sl1:'Menşe',sv1:'Sul de Minas, Minas Gerais, Brezilya',
+  sl2:'Form',sv2:'Yeşil çekirdek',
+  sl3:'Aralık',sv3:'Ticariden spesiyalite sınıfına',
+  sl4:'İşleme',sv4:'Doğal · Yıkanmış · Honey',
+  sl5:'Ticaret Esası',sv5:'FOB Santos · Diferansiyel veya sabit fiyat',
+  sl6:'Minimum Sipariş',sv6:'1 × 20ft konteyner',
+  sl7:'Ödeme',sv7:'NCAD · T/T · L/C',
+  sl8:'Numuneler',sv8:'Talep üzerine mevcut',
+  s_cta:'Spesifikasyonunuzu Gönderin',
+  w_label:'Neden Bizimle Çalışmalısınız',w_title:'Düzgün yürütülen tedarik.',
+  w1t:'Menşede Kahve',w1d:'Üretim bölgesindeyiz, yurt dışındaki bir depodan ticaret yapmıyoruz.',
+  w2t:'Güvenilir Tedarik',w2d:'Üreticileri ve bölgeyi tanıyoruz, arz sezondan sezona sürüyor.',
+  w3t:'Farklı Profiller',w3d:'Farklı sınıf, işlem ve fincan özelliklerine erişim.',
+  w4t:'Profesyonel İhracat',w4d:'Belgelendirme, lojistik ve sevkiyat deneyimli ortaklarca yürütülür.',
+  w5t:'İzlenebilirlik',w5d:'Her lot belgelenir: bölge, hasat, işleme yöntemi.',
+  w6t:'Numune Mevcut',w6d:'Taahhüt öncesi tadın. Emin olmanızı tercih ederiz.',
+  w7t:'İstikrarlı Arz',w7d:'Tekrarlayan programlar için kuruldu, tek seferlik işlemler için değil.',
+  w8t:'Net İletişim',w8d:'Doğrudan yanıtlar, hızlıca, kendi dilinizde.',
+  g_label:'Menşede',g_title:'Üretim bölgesinden.',g_sub:'Sul de Minas, hasat ve işleme döneminde.',
+  g_note:'Bölgeden özgün fotoğraflar, sezon boyunca ekleniyor.',
+  ct_label:'İletişim',ct_title:'Ne gerektiğini söyleyin.',
+  ct_lead:'Spesifikasyonunuzu gönderin (sınıf, profil, hacim ve varış noktası), size bir teklifle dönelim. Herhangi bir taahhüt öncesi numune mevcuttur.',
+  cc1:'E-posta',cc2:'WhatsApp',cc3:'Konum',cc3v:'Sul de Minas, Minas Gerais<br/>Brezilya',
+  ct_btn:'WhatsApp\'tan Yazın',
+  ct_promise:'"Her soruya doğrudan ve profesyonelce yanıt veriyoruz, genellikle birkaç saat içinde."',
+  f_name:'Ad Soyad',
+  f_company:'Şirket',
+  f_email:'E-posta',
+  f_country:'Ülke / varış limanı',
+  f_msg:'Talebiniz',
+  f_msg_ph:'Sınıf, işleme yöntemi, hacim, sevkiyat dönemi ve diğer detaylar.',
+  f_send:'Talebi Gönder',
+  f_note:'Her talebe yanıt veriyoruz, genellikle birkaç saat içinde.',
+  f_or:'Veya doğrudan ulaşın',
+  hw_label:'Nasıl Çalışıyoruz',
+  hw_title:'Talepten <em>sevkiyata.</em>',
+  hw_sub:'Net bir sıra, sürpriz yok. Her aşamada ne olacağını ve iki taraftan ne beklendiğini bilirsiniz.',
+  hw1t:'Spesifikasyonunuzu gönderin',
+  hw1d:'Sınıf, fincan profili, işleme yöntemi, hacim ve varış limanı.',
+  hw2t:'Tedarik eder ve fiyatlarız',
+  hw2d:'Spesifikasyonunuzu mevcut lotlarla eşleştirir, kesin teklifle döneriz.',
+  hw3t:'Numune ve onay',
+  hw3d:'Tatmanız için numune gönderiyoruz. Siz onaylamadan hiçbir şey ilerlemez.',
+  hw4t:'Sözleşme ve şartlar',
+  hw4d:'Miktar, fiyat, teslim şekli ve ödeme sevkiyattan önce yazılı olarak anlaşılır.',
+  hw5t:'Belgeler ve sevkiyat',
+  hw5d:'İhracat belgeleri ve lojistik ortaklarımızca yürütülür, takip bilgisi paylaşılır.',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brezilya · Tüm hakları saklıdır'
+ },
+ hi:{code:'HI',rtl:false,
+  n_about:'हमारे बारे में',n_region:'उत्पत्ति',n_sourcing:'सोर्सिंग',n_process:'प्रक्रिया',n_gallery:'गैलरी',n_contact:'संपर्क',
+  h_eyebrow:'Olga Mae · Minas Gerais, ब्राज़ील',
+  h_title:'ब्राज़ीलियाई अरेबिका,<br/><em>उत्पत्ति से सीधे।</em>',
+  h_sub:'हम Sul de Minas में स्वयं कॉफी उगाते हैं और पूरे क्षेत्र से सोर्स करते हैं, जिससे अंतर्राष्ट्रीय खरीदार दुनिया के सबसे बड़े अरेबिका उत्पादक क्षेत्र से कॉफी प्राप्त कर सकें। कमर्शियल से स्पेशलिटी तक, पेशेवर निर्यात निष्पादन के साथ।',
+  h_btn1:'हम क्या सोर्स करते हैं',h_btn2:'सैंपल मांगें',
+  a_label:'हम कौन हैं',a_title:'कॉफी उत्पादक और<br/><em>सोर्सिंग पार्टनर।</em>',
+  a_p1:'Olga Mae का आधार Minas Gerais में है। हम Sul de Minas में अपनी कॉफी स्वयं उगाते हैं, और पूरे क्षेत्र के साझेदार उत्पादकों से भी सोर्स करते हैं, ताकि अंतर्राष्ट्रीय खरीदारों की वास्तविक आवश्यकता पूरी कर सकें: प्रोफाइल, ग्रेड और मात्रा के अनुसार।',
+  a_p2:'हम उत्पत्ति स्थल पर सोर्सिंग प्रक्रिया का समन्वय करते हैं। अनुभवी निर्यात साझेदार लॉजिस्टिक्स, दस्तावेज़ीकरण और शिपिंग संभालते हैं। खरीदारों को ब्राज़ीलियाई कॉफी का व्यापक पोर्टफोलियो मिलता है, और हर शिपमेंट के पीछे एक पेशेवर निर्यात प्रक्रिया होती है।',
+  a_quote:'"हम क्षेत्र जानते हैं, उत्पादकों को जानते हैं, और जानते हैं कि खरीदारों को क्या चाहिए। यही हमारा काम है।"',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'उत्पत्ति',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Minas Gerais दुनिया का सबसे बड़ा अरेबिका कॉफी उत्पादक है, और Sul de Minas उसके केंद्र में है। जलवायु, मिट्टी और पीढ़ियों का उत्पादन ज्ञान इसे व्यापार की सबसे सुसंगत और सम्मानित उत्पत्तियों में से एक बनाते हैं।',
+  r_k1:'Minas Gerais',r_v1:'दुनिया का सबसे बड़ा अरेबिका उत्पादक क्षेत्र',
+  r_k2:'Sul de Minas',r_v2:'हमारा सोर्सिंग आधार और उत्पादक समुदाय',
+  r_k3:'कमर्शियल से स्पेशलिटी',r_v3:'ग्रेड और कप प्रोफाइल की पूरी रेंज',
+  r_k4:'पेशेवर निर्यात',r_v4:'दस्तावेज़ीकरण और लॉजिस्टिक्स सही ढंग से संभाले जाते हैं',
+  s_label:'हम क्या सोर्स करते हैं',s_title:'हम एक ही कॉफी नहीं बेचते।<br/><em>हम आपकी आवश्यकता अनुसार सोर्स करते हैं।</em>',
+  s_sub:'हर खरीदार की अलग स्पेसिफिकेशन होती है। हम विभिन्न ग्रेड, प्रोसेसिंग विधियों और कप प्रोफाइल पर काम करते हैं, और लॉट आपकी ज़रूरत के अनुसार तैयार करते हैं।',
+  c1t:'कमर्शियल अरेबिका',c1d:'बड़ी मात्रा में काम करने वाले रोस्टर्स के लिए सुसंगत, ब्लेंड-रेडी लॉट।',
+  c2t:'प्रीमियम अरेबिका',c2d:'कप गुणवत्ता और स्क्रीन एकरूपता में एक कदम ऊपर।',
+  c3t:'स्पेशलिटी अरेबिका',c3d:'स्पेशलिटी प्रोग्राम बनाने वाले रोस्टर्स के लिए उच्च स्कोर वाले लॉट।',
+  c4t:'प्रोसेसिंग विधियाँ',c4d:'आपकी वांछित प्रोफाइल के अनुसार नेचुरल, वॉश्ड और हनी।',
+  c5t:'कप प्रोफाइल',c5d:'क्लासिक चॉकलेट और नट्स से लेकर मीठे, फल-प्रधान लॉट तक।',
+  c6t:'लचीली मात्रा',c6d:'एक कंटेनर से लेकर नियमित मौसमी कार्यक्रम तक।',
+  c7t:'कस्टम सोर्सिंग',c7d:'हमें स्पेसिफिकेशन भेजें, हम उसी के अनुसार सोर्स करेंगे।',
+  c8t:'सैंपल',c8d:'अनुरोध पर उपलब्ध। प्रतिबद्धता से पहले चखें।',
+  sl1:'उत्पत्ति',sv1:'Sul de Minas, Minas Gerais, ब्राज़ील',
+  sl2:'रूप',sv2:'हरे बीन्स',
+  sl3:'रेंज',sv3:'कमर्शियल से स्पेशलिटी ग्रेड',
+  sl4:'प्रोसेसिंग',sv4:'नेचुरल · वॉश्ड · हनी',
+  sl5:'व्यापार आधार',sv5:'FOB Santos · डिफरेंशियल या आउटराइट',
+  sl6:'न्यूनतम ऑर्डर',sv6:'1 × 20ft कंटेनर',
+  sl7:'भुगतान',sv7:'NCAD · T/T · L/C',
+  sl8:'सैंपल',sv8:'अनुरोध पर उपलब्ध',
+  s_cta:'अपनी स्पेसिफिकेशन भेजें',
+  w_label:'हमारे साथ क्यों काम करें',w_title:'सोर्सिंग, सही ढंग से।',
+  w1t:'उत्पत्ति पर कॉफी',w1d:'हम उत्पादक क्षेत्र में हैं, विदेश के किसी गोदाम से व्यापार नहीं कर रहे।',
+  w2t:'विश्वसनीय सोर्सिंग',w2d:'हम उत्पादकों और क्षेत्र को जानते हैं, इसलिए आपूर्ति हर सीज़न टिकती है।',
+  w3t:'विविध प्रोफाइल',w3d:'विभिन्न ग्रेड, प्रक्रियाओं और कप विशेषताओं तक पहुंच।',
+  w4t:'पेशेवर निर्यात',w4d:'दस्तावेज़ीकरण, लॉजिस्टिक्स और शिपिंग अनुभवी साझेदारों द्वारा।',
+  w5t:'ट्रेसेबिलिटी',w5d:'हर लॉट दर्ज: क्षेत्र, फसल, प्रोसेसिंग विधि।',
+  w6t:'सैंपल उपलब्ध',w6d:'प्रतिबद्धता से पहले चखें। हम चाहते हैं कि आप निश्चिंत हों।',
+  w7t:'सुसंगत आपूर्ति',w7d:'दोहराए जाने वाले कार्यक्रमों के लिए, एकबारगी सौदों के लिए नहीं।',
+  w8t:'स्पष्ट संवाद',w8d:'सीधे जवाब, तेज़ी से, आपकी भाषा में।',
+  g_label:'उत्पत्ति पर',g_title:'उत्पादक क्षेत्र से।',g_sub:'Sul de Minas, फसल और प्रोसेसिंग के दौरान।',
+  g_note:'क्षेत्र से मूल तस्वीरें, सीज़न के दौरान जोड़ी जा रही हैं।',
+  ct_label:'संपर्क',ct_title:'बताइए आपको क्या चाहिए।',
+  ct_lead:'हमें अपनी स्पेसिफिकेशन भेजें (ग्रेड, प्रोफाइल, मात्रा और गंतव्य), हम एक ऑफर के साथ वापस आएंगे। किसी भी प्रतिबद्धता से पहले सैंपल उपलब्ध हैं।',
+  cc1:'ईमेल',cc2:'WhatsApp',cc3:'स्थान',cc3v:'Sul de Minas, Minas Gerais<br/>ब्राज़ील',
+  ct_btn:'WhatsApp पर संदेश भेजें',
+  ct_promise:'"हम हर पूछताछ का सीधे और पेशेवर तरीके से जवाब देते हैं, आमतौर पर कुछ घंटों के भीतर।"',
+  f_name:'नाम',
+  f_company:'कंपनी',
+  f_email:'ईमेल',
+  f_country:'देश / गंतव्य बंदरगाह',
+  f_msg:'आपकी आवश्यकता',
+  f_msg_ph:'ग्रेड, प्रोसेसिंग विधि, मात्रा, शिपमेंट अवधि और अन्य विवरण।',
+  f_send:'पूछताछ भेजें',
+  f_note:'हम हर पूछताछ का जवाब देते हैं, आमतौर पर कुछ घंटों में।',
+  f_or:'या सीधे संपर्क करें',
+  hw_label:'यह कैसे काम करता है',
+  hw_title:'पूछताछ से <em>शिपमेंट तक।</em>',
+  hw_sub:'एक स्पष्ट क्रम, बिना किसी आश्चर्य के। आप जानते हैं कि हर चरण में क्या होता है और दोनों पक्षों से क्या अपेक्षित है।',
+  hw1t:'अपनी स्पेसिफिकेशन भेजें',
+  hw1d:'ग्रेड, कप प्रोफाइल, प्रोसेसिंग विधि, मात्रा और गंतव्य बंदरगाह।',
+  hw2t:'हम सोर्स और कोट करते हैं',
+  hw2d:'हम आपकी स्पेसिफिकेशन को उपलब्ध लॉट से मिलाते हैं और पक्का ऑफर देते हैं।',
+  hw3t:'सैंपल और अनुमोदन',
+  hw3d:'हम चखने के लिए सैंपल भेजते हैं। आपकी मंजूरी से पहले कुछ आगे नहीं बढ़ता।',
+  hw4t:'अनुबंध और शर्तें',
+  hw4d:'मात्रा, कीमत, इनकोटर्म्स और भुगतान शिपमेंट से पहले लिखित रूप में तय।',
+  hw5t:'दस्तावेज़ीकरण और शिपमेंट',
+  hw5d:'निर्यात दस्तावेज़ और लॉजिस्टिक्स हमारे साझेदार संभालते हैं, ट्रैकिंग साझा की जाती है।',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, ब्राज़ील · सर्वाधिकार सुरक्षित'
+ },
+ de:{code:'DE',rtl:false,
+  n_about:'Über uns',n_region:'Herkunft',n_sourcing:'Beschaffung',n_process:'Ablauf',n_gallery:'Galerie',n_contact:'Kontakt',
+  h_eyebrow:'Olga Mae · Minas Gerais, Brasilien',
+  h_title:'Brasilianischer Arabica,<br/><em>direkt vom Ursprung.</em>',
+  h_sub:'Wir bauen in Sul de Minas selbst an und beschaffen in der gesamten Region. So erhalten internationale Käufer Arabica aus dem größten Arabica-Anbaugebiet der Welt. Von Commercial bis Specialty, mit professioneller Exportabwicklung.',
+  h_btn1:'Unser Angebot',h_btn2:'Muster anfordern',
+  a_label:'Wer wir sind',a_title:'Kaffeeproduzenten und<br/><em>Beschaffungspartner.</em>',
+  a_p1:'Olga Mae hat seinen Sitz in Minas Gerais. Wir bauen unseren eigenen Kaffee in Sul de Minas an und beschaffen zusätzlich bei Partnerproduzenten in der Region. So treffen wir genau das, was internationale Käufer tatsächlich brauchen: nach Profil, nach Qualität, nach Menge.',
+  a_p2:'Wir koordinieren die Beschaffung am Ursprung. Erfahrene Exportpartner übernehmen Logistik, Dokumentation und Verschiffung. Käufer erhalten Zugang zu einem breiten Portfolio brasilianischer Kaffees, mit einem professionellen Exportprozess hinter jeder Verschiffung.',
+  a_quote:'„Wir kennen die Region, wir kennen die Produzenten, und wir wissen, was Käufer brauchen. Das ist die Arbeit.“',
+  a_note:'Sul de Minas · Minas Gerais',
+  r_label:'Herkunft',r_title:'Sul de Minas,<br/><em>Minas Gerais.</em>',
+  r_sub:'Minas Gerais ist das größte Anbaugebiet für Arabica-Kaffee weltweit, und Sul de Minas liegt in seinem Zentrum. Klima, Böden und Generationen von Anbauwissen machen es zu einem der beständigsten und angesehensten Ursprünge im Handel.',
+  r_k1:'Minas Gerais',r_v1:'Größtes Arabica-Anbaugebiet der Welt',
+  r_k2:'Sul de Minas',r_v2:'Unsere Beschaffungsbasis und Produzentengemeinschaft',
+  r_k3:'Commercial bis Specialty',r_v3:'Gesamte Bandbreite an Qualitäten und Tassenprofilen',
+  r_k4:'Professioneller Export',r_v4:'Dokumentation und Logistik sauber abgewickelt',
+  s_label:'Unser Angebot',s_title:'Wir verkaufen nicht nur einen Kaffee.<br/><em>Wir beschaffen nach Ihrer Spezifikation.</em>',
+  s_sub:'Jeder Käufer hat eine andere Spezifikation. Wir arbeiten über Qualitäten, Aufbereitungsarten und Tassenprofile hinweg und stellen die Partie nach Ihrem Bedarf zusammen, nicht nach dem, was wir zufällig vorrätig haben.',
+  c1t:'Commercial Arabica',c1d:'Gleichbleibende Partien für Blends, für Röster mit Volumen.',
+  c2t:'Premium Arabica',c2d:'Eine Stufe höher in Tassenqualität und gleichmäßiger Siebung, für Signature-Blends.',
+  c3t:'Specialty Arabica',c3d:'Höher bewertete Partien für Röster mit einem Specialty-Programm.',
+  c4t:'Aufbereitungsarten',c4d:'Natural, gewaschen und Honey, je nach gewünschtem Profil.',
+  c5t:'Tassenprofile',c5d:'Von klassisch schokoladig-nussig bis süßer und fruchtbetont.',
+  c6t:'Flexible Mengen',c6d:'Vom einzelnen Container bis zum wiederkehrenden Saisonprogramm.',
+  c7t:'Individuelle Beschaffung',c7d:'Senden Sie uns die Spezifikation, wir beschaffen danach.',
+  c8t:'Muster',c8d:'Auf Anfrage erhältlich. Verkosten Sie, bevor Sie sich festlegen.',
+  sl1:'Herkunft',sv1:'Sul de Minas, Minas Gerais, Brasilien',
+  sl2:'Form',sv2:'Rohkaffee',
+  sl3:'Bandbreite',sv3:'Commercial bis Specialty',
+  sl4:'Aufbereitung',sv4:'Natural · Gewaschen · Honey',
+  sl5:'Handelsbasis',sv5:'FOB Santos · Differential oder Festpreis',
+  sl6:'Mindestabnahme',sv6:'1 × 20ft Container',
+  sl7:'Zahlung',sv7:'NCAD · T/T · L/C',
+  sl8:'Muster',sv8:'Auf Anfrage',
+  s_cta:'Senden Sie uns Ihre Spezifikation',
+  w_label:'Warum mit uns arbeiten',w_title:'Beschaffung, professionell abgewickelt.',
+  w1t:'Kaffee am Ursprung',w1d:'Wir sind im Anbaugebiet, nicht Händler aus einem Lager im Ausland.',
+  w2t:'Verlässliche Beschaffung',w2d:'Wir kennen die Produzenten und die Region, daher hält die Versorgung Saison für Saison.',
+  w3t:'Unterschiedliche Profile',w3d:'Zugang über Qualitäten, Aufbereitungen und Tassenmerkmale hinweg.',
+  w4t:'Professioneller Export',w4d:'Dokumentation, Logistik und Verschiffung durch erfahrene Partner.',
+  w5t:'Rückverfolgbarkeit',w5d:'Jede Partie dokumentiert: Region, Ernte, Aufbereitungsart.',
+  w6t:'Muster verfügbar',w6d:'Verkosten Sie, bevor Sie sich festlegen. Uns ist wichtig, dass Sie sicher sind.',
+  w7t:'Beständige Versorgung',w7d:'Ausgelegt auf wiederkehrende Programme, nicht auf Einzelgeschäfte.',
+  w8t:'Klare Kommunikation',w8d:'Direkte Antworten, schnell, in Ihrer Sprache und zu Ihren Bedingungen.',
+  g_label:'Am Ursprung',g_title:'Aus dem Anbaugebiet.',g_sub:'Sul de Minas, während Ernte und Aufbereitung.',
+  g_note:'Eigene Aufnahmen aus der Region, im Lauf der Saison ergänzt.',
+  ct_label:'Kontakt',ct_title:'Sagen Sie uns, was Sie brauchen.',
+  ct_lead:'Senden Sie uns Ihre Spezifikation (Qualität, Profil, Menge und Bestimmungshafen) und wir kommen mit einem Angebot zurück. Muster sind vor jeder Verpflichtung erhältlich.',
+  cc1:'E-Mail',cc2:'WhatsApp',cc3:'Standort',cc3v:'Sul de Minas, Minas Gerais<br/>Brasilien',
+  ct_btn:'Schreiben Sie uns auf WhatsApp',
+  ct_promise:'„Wir beantworten jede Anfrage direkt und professionell, in der Regel innerhalb weniger Stunden.“',
+  f_name:'Name',
+  f_company:'Unternehmen',
+  f_email:'E-Mail',
+  f_country:'Land / Bestimmungshafen',
+  f_msg:'Ihr Bedarf',
+  f_msg_ph:'Qualität, Aufbereitungsart, Menge, Verschiffungszeitraum und alles Weitere, was wir wissen sollten.',
+  f_send:'Anfrage senden',
+  f_note:'Wir beantworten jede Anfrage, in der Regel innerhalb weniger Stunden.',
+  f_or:'Oder direkt erreichen',
+  hw_label:'So läuft es ab',
+  hw_title:'Von der Anfrage bis zur <em>Verschiffung.</em>',
+  hw_sub:'Eine klare Abfolge, ohne Überraschungen. Sie wissen, was in jeder Phase passiert und was von beiden Seiten erwartet wird.',
+  hw1t:'Spezifikation senden',
+  hw1d:'Qualität, Tassenprofil, Aufbereitungsart, Menge und Bestimmungshafen.',
+  hw2t:'Wir beschaffen und quotieren',
+  hw2d:'Wir gleichen Ihre Spezifikation mit verfügbaren Partien ab und kommen mit einem festen Angebot zurück.',
+  hw3t:'Muster und Freigabe',
+  hw3d:'Wir versenden Muster zur Verkostung. Nichts bewegt sich, bevor Sie den Kaffee freigegeben haben.',
+  hw4t:'Vertrag und Konditionen',
+  hw4d:'Menge, Preis, Incoterms und Zahlung vor der Verschiffung schriftlich vereinbart.',
+  hw5t:'Dokumentation und Verschiffung',
+  hw5d:'Exportdokumentation und Logistik durch unsere Partner, mit durchgehender Sendungsverfolgung.',
+  ft:'© 2026 Olga Mae · Sul de Minas, Minas Gerais, Brasilien · Alle Rechte vorbehalten'
+ },
+ zh:{code:'ZH',rtl:false,
+  n_about:'关于我们',n_region:'产区',n_sourcing:'采购',n_process:'流程',n_gallery:'图库',n_contact:'联系我们',
+  h_eyebrow:'Olga Mae · 米纳斯吉拉斯，巴西',
+  h_title:'巴西阿拉比卡，<br/><em>产地直采。</em>',
+  h_sub:'我们在苏尔德米纳斯自有种植，并在整个产区采购，协助国际买家从世界最大的阿拉比卡产区获取咖啡。从商业级到精品级，配套专业的出口执行。',
+  h_btn1:'我们采购什么',h_btn2:'申请样品',
+  a_label:'关于我们',a_title:'咖啡种植者<br/><em>与采购伙伴。</em>',
+  a_p1:'Olga Mae 总部位于米纳斯吉拉斯州。我们在苏尔德米纳斯拥有自己的种植，同时向整个产区的合作种植者采购，按照风味、等级与数量，满足国际买家的真实需求。',
+  a_p2:'我们在产地统筹采购流程，由经验丰富的出口合作伙伴负责物流、单证与装运。买家因此可以接触到广泛的巴西咖啡组合，并且每一批装运背后都有专业的出口流程支撑。',
+  a_quote:'"我们了解产区，认识生产者，也清楚买家需要什么。这就是我们的工作。"',
+  a_note:'苏尔德米纳斯 · 米纳斯吉拉斯',
+  r_label:'产区',r_title:'苏尔德米纳斯，<br/><em>米纳斯吉拉斯。</em>',
+  r_sub:'米纳斯吉拉斯是世界最大的阿拉比卡咖啡产区，苏尔德米纳斯正处于其核心地带。气候、土壤与世代积累的生产经验，使其成为业内最稳定、最受认可的产区之一。',
+  r_k1:'米纳斯吉拉斯',r_v1:'世界最大的阿拉比卡产区',
+  r_k2:'苏尔德米纳斯',r_v2:'我们的采购基地与生产者社群',
+  r_k3:'商业级至精品级',r_v3:'完整的等级与风味谱系',
+  r_k4:'专业出口',r_v4:'单证与物流规范执行',
+  s_label:'我们采购什么',s_title:'我们不只卖一款咖啡。<br/><em>我们按您的需求采购。</em>',
+  s_sub:'每位买家的规格都不同。我们涵盖不同等级、处理方式与风味类型，按照您的需求组建批次，而不是推销手上现有的货。',
+  c1t:'商业级阿拉比卡',c1d:'品质稳定、适合拼配的批次，服务大批量烘焙商。',
+  c2t:'优质阿拉比卡',c2d:'在杯测品质与目数一致性上更进一步。',
+  c3t:'精品级阿拉比卡',c3d:'为建立精品产品线的烘焙商提供高分批次。',
+  c4t:'处理方式',c4d:'日晒、水洗与蜜处理，视您所需风味而定。',
+  c5t:'风味类型',c5d:'从经典的巧克力坚果，到更甜、果香突出的批次。',
+  c6t:'灵活数量',c6d:'从单柜起订，到长期的季节性采购计划。',
+  c7t:'定制采购',c7d:'把规格发给我们，我们据此采购。',
+  c8t:'样品',c8d:'可按需提供。下单前先杯测。',
+  sl1:'产区',sv1:'苏尔德米纳斯，米纳斯吉拉斯，巴西',
+  sl2:'形态',sv2:'生豆',
+  sl3:'范围',sv3:'商业级至精品级',
+  sl4:'处理方式',sv4:'日晒 · 水洗 · 蜜处理',
+  sl5:'交易基准',sv5:'FOB Santos · 点价或一口价',
+  sl6:'最小订量',sv6:'1 × 20英尺集装箱',
+  sl7:'付款方式',sv7:'NCAD · T/T · L/C',
+  sl8:'样品',sv8:'可按需提供',
+  s_cta:'发送您的采购规格',
+  w_label:'为何与我们合作',w_title:'规范执行的采购。',
+  w1t:'产地采购',w1d:'我们身处产区，而非在海外仓库做转手贸易。',
+  w2t:'可靠货源',w2d:'我们熟悉生产者与产区，供应可以逐季稳定延续。',
+  w3t:'多样风味',w3d:'覆盖不同等级、处理方式与杯测特征。',
+  w4t:'专业出口',w4d:'单证、物流与装运由经验丰富的合作伙伴执行。',
+  w5t:'可溯源',w5d:'每一批次均有记录：产区、采收季、处理方式。',
+  w6t:'提供样品',w6d:'下单前先杯测。我们希望您有把握。',
+  w7t:'稳定供应',w7d:'为长期采购计划而设，而非一次性交易。',
+  w8t:'沟通清晰',w8d:'用您的语言，快速给出明确答复。',
+  g_label:'在产地',g_title:'来自产区。',g_sub:'苏尔德米纳斯，采收与处理期间。',
+  g_note:'来自产区的原创照片，将于本季陆续增加。',
+  ct_label:'联系我们',ct_title:'告诉我们您的需求。',
+  ct_lead:'把您的规格发给我们（等级、风味、数量与目的港），我们会回复报价。任何承诺之前均可提供样品。',
+  cc1:'邮箱',cc2:'WhatsApp',cc3:'地点',cc3v:'苏尔德米纳斯，米纳斯吉拉斯<br/>巴西',
+  ct_btn:'通过 WhatsApp 联系',
+  ct_promise:'"我们直接、专业地回应每一项询问，通常在数小时内。"',
+  f_name:'姓名',
+  f_company:'公司',
+  f_email:'邮箱',
+  f_country:'国家 / 目的港',
+  f_msg:'您的需求',
+  f_msg_ph:'等级、处理方式、数量、装运期，以及其他需要说明的信息。',
+  f_send:'发送询价',
+  f_note:'我们回复每一项询问，通常在数小时内。',
+  f_or:'或直接联系我们',
+  hw_label:'合作流程',
+  hw_title:'从询价到<em>装运。</em>',
+  hw_sub:'流程清晰，没有意外。您清楚每个阶段会发生什么，以及双方各自需要做什么。',
+  hw1t:'发送您的规格',
+  hw1d:'等级、风味类型、处理方式、数量与目的港。',
+  hw2t:'我们采购并报价',
+  hw2d:'我们按您的规格匹配现有批次，并回复确定报价。',
+  hw3t:'样品与确认',
+  hw3d:'我们寄送样品供您杯测。未经您确认，不会推进任何环节。',
+  hw4t:'合同与条款',
+  hw4d:'数量、价格、贸易术语与付款方式，装运前以书面形式确认。',
+  hw5t:'单证与装运',
+  hw5d:'出口单证与物流由我们的合作伙伴执行，全程共享追踪信息。',
+  ft:'© 2026 Olga Mae · 苏尔德米纳斯，米纳斯吉拉斯，巴西 · 版权所有'
+ }
+};
+
+function toggleMenu(){
+ const ham=document.getElementById('ham');
+ ham.classList.toggle('open');
+ document.getElementById('navLinks').classList.toggle('open');
+ ham.setAttribute('aria-expanded',ham.classList.contains('open'));
+}
+function closeMenu(){
+ const ham=document.getElementById('ham');
+ ham.classList.remove('open');
+ document.getElementById('navLinks').classList.remove('open');
+ ham.setAttribute('aria-expanded','false');
+}
+document.addEventListener('click',e=>{
+ const nav=document.getElementById('navLinks'),ham=document.getElementById('ham');
+ if(nav.classList.contains('open')&&!nav.contains(e.target)&&!ham.contains(e.target))closeMenu();
+});
+
+function toggleLang(){
+ const lw=document.getElementById('lw');
+ lw.classList.toggle('open');
+ lw.querySelector('.lang-btn').setAttribute('aria-expanded',lw.classList.contains('open'));
+}
+document.addEventListener('click',e=>{
+ const lw=document.getElementById('lw');
+ if(!lw.contains(e.target))lw.classList.remove('open');
+});
+
+const FLAGS={en:'🇬🇧',ar:'🇦🇪',pt:'🇧🇷',fr:'🇫🇷',tr:'🇹🇷',hi:'🇮🇳',de:'🇩🇪',zh:'🇨🇳'};
+let cur='en';
+function setLang(code){
+ const t=T[code];if(!t)return;
+ cur=code;
+ document.querySelectorAll('[data-i18n]').forEach(el=>{
+  const k=el.getAttribute('data-i18n');
+  if(t[k]!==undefined)el.innerHTML=t[k];
+ });
+ document.querySelectorAll('[data-i18n-ph]').forEach(el=>{
+  const k=el.getAttribute('data-i18n-ph');
+  if(t[k]!==undefined)el.setAttribute('placeholder',t[k]);
+ });
+ document.getElementById('lf').textContent=FLAGS[code]||'';
+ document.getElementById('ll').textContent=code.toUpperCase();
+ document.body.classList.toggle('rtl',!!t.rtl);
+ document.documentElement.setAttribute('dir',t.rtl?'rtl':'ltr');
+ document.documentElement.setAttribute('lang',code);
+ document.querySelectorAll('.lang-opt').forEach(b=>
+  b.classList.toggle('active',b.getAttribute('onclick')===`setLang('${code}')`));
+ const lw=document.getElementById('lw');
+ lw.classList.remove('open');
+ lw.querySelector('.lang-btn').setAttribute('aria-expanded','false');
+ saveLang(code);
+ applyTitle();
+}
+
+const nav=document.getElementById('nav');
+const onScroll=()=>nav.classList.toggle('solid',window.scrollY>60);
+window.addEventListener('scroll',onScroll,{passive:true});
+onScroll();
+
+/* ---- Tab title follows the section you are reading ----
+   At the top it shows the full site title. Once you reach a section
+   it becomes "Origin | Olga Mae", and it follows the chosen language. */
+const SECTIONS=[['about','n_about'],['region','n_region'],['sourcing','n_sourcing'],
+                ['process','n_process'],['gallery','n_gallery'],['contact','n_contact']];
+const FULL_TITLE='Olga Mae | Brazilian Arabica Coffee from Sul de Minas';
+let activeSection=null;
+
+function applyTitle(){
+ const t=T[cur]||T.en;
+ if(!activeSection){document.title=FULL_TITLE;return}
+ const pair=SECTIONS.find(s=>s[0]===activeSection);
+ const name=pair&&t[pair[1]]?t[pair[1]].replace(/<[^>]*>/g,''):'';
+ document.title=name?name+' | Olga Mae':FULL_TITLE;
+ document.querySelectorAll('.nav-links a').forEach(a=>
+  a.classList.toggle('current',a.getAttribute('href')==='#'+activeSection));
+}
+
+function initSectionTitles(){
+ if(!('IntersectionObserver' in window))return;
+ const seen=new Map();
+ const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>seen.set(e.target.id,e.intersectionRatio));
+  let best=null,bestRatio=0;
+  seen.forEach((ratio,id)=>{if(ratio>bestRatio){bestRatio=ratio;best=id}});
+  const next=(window.scrollY<200)?null:(bestRatio>0.25?best:activeSection);
+  if(next!==activeSection){activeSection=next;applyTitle()}
+ },{threshold:[0,0.25,0.5,0.75,1]});
+ SECTIONS.forEach(([id])=>{const el=document.getElementById(id);if(el)io.observe(el)});
+ window.addEventListener('scroll',()=>{
+  if(window.scrollY<200&&activeSection!==null){activeSection=null;applyTitle()}
+ },{passive:true});
+}
+initSectionTitles();
+
+/* Remember the visitor's language across refreshes and navigation.
+   First visit falls back to the browser's own language, then English. */
+function saveLang(code){
+ try{localStorage.setItem('olgamae_lang',code)}catch(e){}
+}
+function initLang(){
+ let code=null;
+ try{code=localStorage.getItem('olgamae_lang')}catch(e){}
+ if(!code||!T[code]){
+  const nav=(navigator.languages&&navigator.languages[0])||navigator.language||'en';
+  const base=nav.toLowerCase().split('-')[0];
+  code=T[base]?base:'en';
+ }
+ setLang(code);
+}
+initLang();
+</script>
+</body>
+</html>
