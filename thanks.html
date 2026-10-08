@@ -7,6 +7,8 @@
 <meta name="description" content="Thank you. Your enquiry has reached Olga Mae and we will reply shortly."/>
 <meta name="robots" content="noindex,follow"/>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@300;400;500&display=swap" media="print" onload="this.media='all'"/>
@@ -32,7 +34,7 @@ body{
 .wrap{max-width:620px}
 .brand{
  font-family:var(--serif);font-size:1.5rem;font-weight:700;
- letter-spacing:0.035em;color:#fff;margin-bottom:52px;display:inline-block;
+ letter-spacing:0.035em;color:#fff;margin-bottom:52px;display:inline-block;text-decoration:none;
 }
 .brand em{font-style:italic;font-weight:700}
 .mark{
@@ -83,7 +85,7 @@ p{color:rgba(247,244,236,0.78);max-width:48ch;margin:0 auto 16px}
 
   <div class="label">Enquiry received</div>
   <h1>Thank you.<br/><em>We have your message.</em></h1>
-  <p class="lede">Your enquiry has reached our team in Minas Gerais. We read every message personally and reply directly, usually within a few hours.</p>
+  <p class="lede">Your enquiry has reached our team in Minas Gerais. We read every message personally and reply directly, usually within 24 hours.</p>
 
   <div class="next">
    If your enquiry is urgent, message us on WhatsApp and we will pick it up straight away.
@@ -97,31 +99,35 @@ p{color:rgba(247,244,236,0.78);max-width:48ch;margin:0 auto 16px}
 <script>
 const TT={
  en:{rtl:0,lab:'Enquiry received',h:'Thank you.<br/><em>We have your message.</em>',
-  p:'Your enquiry has reached our team in Minas Gerais. We read every message personally and reply directly, usually within a few hours.',
+  p:'Your enquiry has reached our team in Minas Gerais. We read every message personally and reply directly, usually within 24 hours.',
   n:'If your enquiry is urgent, message us on WhatsApp and we will pick it up straight away.',
   w:'WhatsApp Us',b:'Back to Site',t:'Enquiry received | Olga Mae'},
  ar:{rtl:1,lab:'تم استلام طلبك',h:'شكراً لك.<br/><em>وصلتنا رسالتك.</em>',
-  p:'وصل استفسارك إلى فريقنا في ميناس جيرايس. نقرأ كل رسالة بأنفسنا ونرد مباشرة، عادة في غضون ساعات قليلة.',
+  p:'وصل استفسارك إلى فريقنا في ميناس جيرايس. نقرأ كل رسالة بأنفسنا ونرد مباشرة، عادة في غضون 24 ساعة.',
   n:'إذا كان استفسارك عاجلاً، راسلنا عبر واتساب وسنتابعه فوراً.',
   w:'راسلنا عبر واتساب',b:'العودة للموقع',t:'تم استلام طلبك | أولغا ماي'},
  pt:{rtl:0,lab:'Consulta recebida',h:'Obrigado.<br/><em>Recebemos sua mensagem.</em>',
-  p:'Sua consulta chegou à nossa equipe em Minas Gerais. Lemos cada mensagem pessoalmente e respondemos diretamente, geralmente em poucas horas.',
+  p:'Sua consulta chegou à nossa equipe em Minas Gerais. Lemos cada mensagem pessoalmente e respondemos diretamente, geralmente em até 24 horas.',
   n:'Se for urgente, fale conosco no WhatsApp e responderemos imediatamente.',
   w:'Falar no WhatsApp',b:'Voltar ao Site',t:'Consulta recebida | Olga Mae'},
  fr:{rtl:0,lab:'Demande reçue',h:'Merci.<br/><em>Nous avons votre message.</em>',
-  p:'Votre demande est parvenue à notre équipe au Minas Gerais. Nous lisons chaque message personnellement et répondons directement, généralement en quelques heures.',
+  p:'Votre demande est parvenue à notre équipe au Minas Gerais. Nous lisons chaque message personnellement et répondons directement, généralement sous 24 heures.',
   n:'Si votre demande est urgente, écrivez-nous sur WhatsApp et nous la traiterons aussitôt.',
   w:'Écrire sur WhatsApp',b:'Retour au Site',t:'Demande reçue | Olga Mae'},
  tr:{rtl:0,lab:'Talebiniz alındı',h:'Teşekkürler.<br/><em>Mesajınız bize ulaştı.</em>',
-  p:'Talebiniz Minas Gerais\'teki ekibimize ulaştı. Her mesajı bizzat okuyor ve doğrudan yanıtlıyoruz, genellikle birkaç saat içinde.',
+  p:'Talebiniz Minas Gerais\'teki ekibimize ulaştı. Her mesajı bizzat okuyor ve doğrudan yanıtlıyoruz, genellikle 24 saat içinde.',
   n:'Talebiniz acilse WhatsApp\'tan yazın, hemen ilgilenelim.',
   w:'WhatsApp\'tan Yaz',b:'Siteye Dön',t:'Talebiniz alındı | Olga Mae'},
  hi:{rtl:0,lab:'पूछताछ प्राप्त हुई',h:'धन्यवाद।<br/><em>आपका संदेश हमें मिल गया।</em>',
-  p:'आपकी पूछताछ Minas Gerais में हमारी टीम तक पहुंच गई है। हम हर संदेश स्वयं पढ़ते हैं और सीधे जवाब देते हैं, आमतौर पर कुछ घंटों के भीतर।',
+  p:'आपकी पूछताछ Minas Gerais में हमारी टीम तक पहुंच गई है। हम हर संदेश स्वयं पढ़ते हैं और सीधे जवाब देते हैं, आमतौर पर 24 घंटों के भीतर।',
   n:'यदि आपकी पूछताछ अत्यावश्यक है, तो WhatsApp पर संदेश भेजें।',
   w:'WhatsApp करें',b:'साइट पर वापस',t:'पूछताछ प्राप्त हुई | Olga Mae'},
+ de:{rtl:0,lab:'Anfrage erhalten',h:'Vielen Dank.<br/><em>Ihre Nachricht ist bei uns.</em>',
+  p:'Ihre Anfrage hat unser Team in Minas Gerais erreicht. Wir lesen jede Nachricht persönlich und antworten direkt, in der Regel innerhalb von 24 Stunden.',
+  n:'Wenn Ihre Anfrage dringend ist, schreiben Sie uns auf WhatsApp – wir kümmern uns sofort darum.',
+  w:'Per WhatsApp schreiben',b:'Zurück zur Website',t:'Anfrage erhalten | Olga Mae'},
  zh:{rtl:0,lab:'询价已收到',h:'感谢您。<br/><em>我们已收到您的信息。</em>',
-  p:'您的询价已送达我们在米纳斯吉拉斯的团队。我们会亲自阅读每一条信息并直接回复，通常在数小时内。',
+  p:'您的询价已送达我们在米纳斯吉拉斯的团队。我们会亲自阅读每一条信息并直接回复，通常在24小时内。',
   n:'如果您的询价较为紧急，请通过 WhatsApp 联系我们，我们会立即处理。',
   w:'WhatsApp 联系',b:'返回网站',t:'询价已收到 | Olga Mae'}
 };
