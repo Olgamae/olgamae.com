@@ -1546,41 +1546,30 @@ const FORM_MSG={
  zh:{sending:'正在发送…',fail:'表单暂时无法发送。您的邮件应用将打开，询价内容已填好。您也可以发送邮件至 info@olgamae.com 或通过 WhatsApp +55 35 99212-0259 联系我们。'}
 };
 (function(){
+ /* The form posts the normal way, but into a hidden frame on this page,
+    so the visitor stays on olgamae.com and nothing depends on reading
+    FormSubmit's reply. Then we show our own thank-you page. */
  const form=document.querySelector('form.form');
- if(!form||!window.fetch)return;
+ if(!form)return;
  const btn=form.querySelector('button[type="submit"]');
- const note=form.querySelector('.form-note');
- form.addEventListener('submit',async e=>{
-  e.preventDefault();
+ const frame=document.createElement('iframe');
+ frame.name='fs_frame';frame.title='form';frame.setAttribute('aria-hidden','true');
+ frame.style.cssText='position:absolute;width:1px;height:1px;border:0;left:-9999px;top:0';
+ document.body.appendChild(frame);
+ const cap=form.querySelector('input[name="_captcha"]');if(cap)cap.value='false';
+ let sent=false;
+ form.addEventListener('submit',e=>{
   const hp=form.elements['_honey'];
-  if(hp&&hp.value)return;
+  if(hp&&hp.value){e.preventDefault();return}
+  if(sent){e.preventDefault();return}
+  sent=true;
+  form.target='fs_frame';
   const m=FORM_MSG[cur]||FORM_MSG.en;
-  const label=btn.innerHTML;
   btn.disabled=true;btn.textContent=m.sending;
-  const data={};
-  new FormData(form).forEach((v,k)=>{if(k!=='_next'&&k!=='_captcha'&&k!=='_honey')data[k]=v});
-  const ctrl=('AbortController' in window)?new AbortController():null;
-  const timer=setTimeout(()=>{if(ctrl)ctrl.abort()},20000);
-  try{
-   /* Plain form post in the background. The browser may not let the page read
-      FormSubmit's reply, so if the request reaches FormSubmit we treat it as sent.
-      Only a real network failure (FormSubmit unreachable) goes to the fallback. */
-   const body=new URLSearchParams();
-   Object.keys(data).forEach(k=>body.append(k,data[k]));
-   body.append('_captcha','false');
-   await fetch('https://formsubmit.co/info@olgamae.com',{
-    method:'POST',mode:'no-cors',body:body,
-    signal:ctrl?ctrl.signal:undefined
-   });
-   clearTimeout(timer);
-   window.location.href='thanks.html';return;
-  }catch(err){
-   clearTimeout(timer);
-   btn.disabled=false;btn.innerHTML=label;
-   if(note){note.textContent=m.fail;note.classList.add('form-error')}
-   const body=Object.keys(data).filter(k=>k.charAt(0)!=='_').map(k=>k+': '+data[k]).join('\n');
-   window.location.href='mailto:info@olgamae.com?subject='+encodeURIComponent('Enquiry from olgamae.com')+'&body='+encodeURIComponent(body);
-  }
+  let done=false;
+  const go=()=>{if(done)return;done=true;window.location.href='thanks.html'};
+  frame.addEventListener('load',()=>setTimeout(go,300),{once:true});
+  setTimeout(go,5000);
  });
 })();
 </script>
