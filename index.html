@@ -391,6 +391,8 @@ a.card-v:hover{color:var(--brass)}
  outline:none;border-color:var(--brass);background:rgba(247,244,236,0.10);
 }
 .form .btn{width:100%;border:none;font-family:var(--sans)}
+.form-note.form-error{color:#9b2c2c}
+.form .btn:disabled{opacity:.7;cursor:wait}
 .form-note{
  margin-top:12px;font-size:0.74rem;color:rgba(247,244,236,0.45);
  text-align:center;line-height:1.6;
@@ -731,7 +733,7 @@ body.rtl .step:last-child{padding-left:0;padding-right:clamp(14px,1.8vw,24px)}
   <form class="form" action="https://formsubmit.co/info@olgamae.com" method="POST">
    <input type="hidden" name="_subject" value="New enquiry from olgamae.com"/>
    <input type="hidden" name="_template" value="table"/>
-   <input type="hidden" name="_captcha" value="true"/>
+   <input type="hidden" name="_captcha" value="false"/>
    <input type="hidden" name="_next" value="https://olgamae.com/thanks.html"/>
    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true"/>
    <input type="hidden" name="Site language" id="f-lang" value="English"/>
@@ -1529,6 +1531,56 @@ function initLang(){
  setLang(code);
 }
 initLang();
+
+/* Contact form: send in the background so visitors never leave olgamae.com.
+   If the form service cannot be reached, the visitor's email app opens with
+   the enquiry already written, so no enquiry is ever lost. */
+const FORM_MSG={
+ en:{sending:'Sending…',fail:'We could not send the form right now. Your email app will open with your enquiry ready to send. You can also write to info@olgamae.com or WhatsApp +55 35 99212-0259.'},
+ pt:{sending:'Enviando…',fail:'Não foi possível enviar o formulário agora. Seu aplicativo de e-mail vai abrir com a sua mensagem pronta para enviar. Você também pode escrever para info@olgamae.com ou pelo WhatsApp +55 35 99212-0259.'},
+ ar:{sending:'جارٍ الإرسال…',fail:'تعذّر إرسال النموذج الآن. سيفتح تطبيق البريد لديك ورسالتك جاهزة للإرسال. يمكنك أيضًا مراسلتنا على info@olgamae.com أو عبر واتساب +55 35 99212-0259.'},
+ fr:{sending:'Envoi…',fail:"Nous n'avons pas pu envoyer le formulaire. Votre messagerie va s'ouvrir avec votre demande prête à envoyer. Vous pouvez aussi écrire à info@olgamae.com ou sur WhatsApp +55 35 99212-0259."},
+ tr:{sending:'Gönderiliyor…',fail:'Form şu anda gönderilemedi. E-posta uygulamanız talebiniz hazır şekilde açılacak. Ayrıca info@olgamae.com adresine veya WhatsApp +55 35 99212-0259 numarasına yazabilirsiniz.'},
+ hi:{sending:'भेजा जा रहा है…',fail:'फ़ॉर्म अभी नहीं भेजा जा सका। आपका ईमेल ऐप आपकी पूछताछ के साथ खुलेगा। आप info@olgamae.com पर या WhatsApp +55 35 99212-0259 पर भी लिख सकते हैं।'},
+ de:{sending:'Wird gesendet…',fail:'Das Formular konnte gerade nicht gesendet werden. Ihr E-Mail-Programm öffnet sich mit Ihrer Anfrage. Sie können auch an info@olgamae.com oder per WhatsApp +55 35 99212-0259 schreiben.'},
+ zh:{sending:'正在发送…',fail:'表单暂时无法发送。您的邮件应用将打开，询价内容已填好。您也可以发送邮件至 info@olgamae.com 或通过 WhatsApp +55 35 99212-0259 联系我们。'}
+};
+(function(){
+ const form=document.querySelector('form.form');
+ if(!form||!window.fetch)return;
+ const btn=form.querySelector('button[type="submit"]');
+ const note=form.querySelector('.form-note');
+ form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  const hp=form.elements['_honey'];
+  if(hp&&hp.value)return;
+  const m=FORM_MSG[cur]||FORM_MSG.en;
+  const label=btn.innerHTML;
+  btn.disabled=true;btn.textContent=m.sending;
+  const data={};
+  new FormData(form).forEach((v,k)=>{if(k!=='_next'&&k!=='_captcha'&&k!=='_honey')data[k]=v});
+  const ctrl=('AbortController' in window)?new AbortController():null;
+  const timer=setTimeout(()=>{if(ctrl)ctrl.abort()},20000);
+  try{
+   const r=await fetch('https://formsubmit.co/ajax/info@olgamae.com',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify(data),
+    signal:ctrl?ctrl.signal:undefined
+   });
+   clearTimeout(timer);
+   const j=await r.json().catch(()=>({}));
+   if(r.ok&&(j.success===true||j.success==='true')){window.location.href='thanks.html';return}
+   throw new Error(j.message||('HTTP '+r.status));
+  }catch(err){
+   clearTimeout(timer);
+   btn.disabled=false;btn.innerHTML=label;
+   if(note){note.textContent=m.fail;note.classList.add('form-error')}
+   const body=Object.keys(data).filter(k=>k.charAt(0)!=='_').map(k=>k+': '+data[k]).join('\n');
+   window.location.href='mailto:info@olgamae.com?subject='+encodeURIComponent('Enquiry from olgamae.com')+'&body='+encodeURIComponent(body);
+  }
+ });
+})();
 </script>
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
  <button class="lb-x" type="button" aria-label="Close">&times;</button>
