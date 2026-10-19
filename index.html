@@ -1562,16 +1562,18 @@ const FORM_MSG={
   const ctrl=('AbortController' in window)?new AbortController():null;
   const timer=setTimeout(()=>{if(ctrl)ctrl.abort()},20000);
   try{
-   const r=await fetch('https://formsubmit.co/ajax/info@olgamae.com',{
-    method:'POST',
-    headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body:JSON.stringify(data),
+   /* Plain form post in the background. The browser may not let the page read
+      FormSubmit's reply, so if the request reaches FormSubmit we treat it as sent.
+      Only a real network failure (FormSubmit unreachable) goes to the fallback. */
+   const body=new URLSearchParams();
+   Object.keys(data).forEach(k=>body.append(k,data[k]));
+   body.append('_captcha','false');
+   await fetch('https://formsubmit.co/info@olgamae.com',{
+    method:'POST',mode:'no-cors',body:body,
     signal:ctrl?ctrl.signal:undefined
    });
    clearTimeout(timer);
-   const j=await r.json().catch(()=>({}));
-   if(r.ok&&(j.success===true||j.success==='true')){window.location.href='thanks.html';return}
-   throw new Error(j.message||('HTTP '+r.status));
+   window.location.href='thanks.html';return;
   }catch(err){
    clearTimeout(timer);
    btn.disabled=false;btn.innerHTML=label;
